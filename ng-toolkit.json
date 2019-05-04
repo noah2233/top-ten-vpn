@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "top-ten-vpn",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}
