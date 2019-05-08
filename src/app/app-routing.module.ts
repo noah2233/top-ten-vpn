@@ -8,7 +8,7 @@ import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
 
 const routes: Routes = [
   { path: '', component: TopTenVpnComponent },
-  { path: pages.topTenVpn, component: TopTenVpnComponent },
+  { path: pages.topTenVpn.href, component: TopTenVpnComponent },
   { path: '**', component: TopTenVpnComponent }
 ];
 

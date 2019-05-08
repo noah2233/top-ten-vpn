@@ -14,6 +14,28 @@ header nav {
 header nav .logo {
     background: url('/assets/images/shared/site-header/top10_logo_pink.svg') top center no-repeat;
     background-size: contain;
-    width: 230px;
+    width: 135px;
     height: 35px;
+}
+
+header nav .collapse {
+    justify-content: flex-end;
+}
+
+header nav .navbar-collapse ul {
+    /* font-size: 16px;
+    font-weight: 400; */
+}
+
+header nav .navbar-collapse ul li {
+    margin: 0 20px;
+}
+
+header nav .navbar-collapse ul li a {
+    display: block;
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    padding: 0;
 }
