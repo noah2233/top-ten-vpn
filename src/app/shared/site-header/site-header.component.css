@@ -3,3 +3,17 @@ header {
     height: 60px;
     border-bottom: 1px solid #d5d5d5;
 }
+
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+
+header nav .logo {
+    background: url('/assets/images/shared/site-header/top10_logo_pink.svg') top center no-repeat;
+    background-size: contain;
+    width: 230px;
+    height: 35px;
+}
