@@ -19,11 +19,15 @@ import { ResizableModule } from 'angular-resizable-element';
 import { SiteHeaderComponent } from './shared/site-header/site-header.component';
 import { SiteFooterComponent } from './shared/site-footer/site-footer.component';
 
+// pages
+import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     SiteHeaderComponent,
-    SiteFooterComponent
+    SiteFooterComponent,
+    TopTenVpnComponent
   ],
   imports: [
     CommonModule,
