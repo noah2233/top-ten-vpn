@@ -1,11 +1,31 @@
+/*#region fonts*/
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot');
+    src: url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_thin_macroman/Roboto-Thin-webfont.eot');
+    src: url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_thin_macroman/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff') format('woff'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_thin_macroman/Roboto-Thin-webfont.ttf') format('truetype'), url('/assets/fonts/roboto-fontfacekit/web-fonts/roboto_thin_macroman/Roboto-Thin-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*endregion fonts*/
+
 /*#region general*/
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 ul {
