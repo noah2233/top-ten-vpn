@@ -10,7 +10,8 @@
             <div class="collapse navbar-collapse" id="navbarColor01" [ngbCollapse]="toggleNavbar">
                 <ul class="navbar-nav">
                     <li *ngFor="let navItem of navItems" [ngClass]="{active:isActive(navItem)}">
-                        <a routerLink="{{navItem.link}}" href="javascript:void(0)" class="nav-link">{{navItem.name}}</a>
+                        <a *ngIf="navItem.href" routerLink="{{navItem.href}}" href="javascript:void(0)" class="nav-link">{{navItem.name}}</a>
+                        <span *ngIf="!navItem.href" class="nav-link">{{navItem.name}}</span>
                     </li>
                 </ul>
             </div>

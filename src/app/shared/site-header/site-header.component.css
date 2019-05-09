@@ -31,11 +31,12 @@ header nav .navbar-collapse ul li {
     margin: 0 20px;
 }
 
-header nav .navbar-collapse ul li a {
+header nav .navbar-collapse ul li .nav-link {
     display: block;
     color: #2d2d2d;
     font-size: 15px;
     font-weight: 700;
     position: relative;
     padding: 0;
+    cursor: pointer;
 }
