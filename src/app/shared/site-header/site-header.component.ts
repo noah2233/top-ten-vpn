@@ -15,10 +15,7 @@ export class SiteHeaderComponent implements OnInit {
 
   navItems: NavItem[] = [
     { name: pages.topTenVpn.name, href: '/' },
-    {
-      name: pages.bestVpnFor.name,
-      children: [{ name: pages.bestVpnFor.windows.name }]
-    },
+    { name: pages.bestVpnFor.name },
     { name: pages.vpnReviews.name, href: '/' + pages.vpnReviews.href },
     { name: pages.guides.name },
     { name: pages.learn.name, href: '/' + pages.learn.href }
