@@ -16,7 +16,7 @@ const routes: Routes = [
   {
     path: pages.bestVpnFor.href, component: BestVpnForComponent,
     children: [
-      { path: 'windows', component: WindowsComponent },
+      { path: pages.bestVpnFor.windows.href, component: WindowsComponent },
     ]
   },
   { path: '**', component: TopTenVpnComponent }
