@@ -8,7 +8,7 @@ import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
 
 // best-vpn-for children
-import { WindowsComponent } from './pages/best-vpn-for/windows/windows.component';
+import { WindowsComponent } from './pages/best-vpn-for/devicesOrOs/windows/windows.component';
 
 const routes: Routes = [
   { path: '', component: TopTenVpnComponent },
@@ -16,7 +16,7 @@ const routes: Routes = [
   {
     path: pages.bestVpnFor.href, component: BestVpnForComponent,
     children: [
-      { path: pages.bestVpnFor.windows.href, component: WindowsComponent },
+      { path: pages.bestVpnFor.devicesOrOs.windows.name, component: WindowsComponent },
     ]
   },
   { path: '**', component: TopTenVpnComponent }

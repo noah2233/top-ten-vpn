@@ -22,7 +22,9 @@ import { SiteFooterComponent } from './shared/site-footer/site-footer.component'
 // pages
 import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
-import { WindowsComponent } from './pages/best-vpn-for/windows/windows.component';
+
+// best-vpn-for children
+import { WindowsComponent } from './pages/best-vpn-for/devicesOrOs/windows/windows.component';
 
 @NgModule({
   declarations: [
