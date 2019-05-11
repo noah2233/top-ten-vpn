@@ -14,11 +14,11 @@ export class SiteHeaderComponent implements OnInit {
   public toggleNavbar = true;
 
   navItems: NavItem[] = [
-    { name: pages.topTenVpn.name, href: '/' },
+    { name: pages.topTenVpn.name, href: pages.topTenVpn.href },
     { name: pages.bestVpnFor.name },
-    { name: pages.vpnReviews.name, href: '/' + pages.vpnReviews.href },
+    { name: pages.vpnReviews.name, href: pages.vpnReviews.href },
     { name: pages.guides.name },
-    { name: pages.learn.name, href: '/' + pages.learn.href }
+    { name: pages.learn.name, href: pages.learn.href }
   ];
 
   constructor(private _router: Router) { }
