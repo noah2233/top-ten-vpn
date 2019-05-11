@@ -27,17 +27,17 @@ header nav .collapse {
     height: 100%;
 }
 
-header nav .navbar-collapse ul {
+header nav .navbar-collapse ul.navbar-nav {
     height: 100%;
 }
 
-header nav .navbar-collapse ul li {
+header nav .navbar-collapse ul.navbar-nav li.nav-item {
     height: 100%;
     margin: 0 20px;
     position: relative;
 }
 
-header nav .navbar-collapse ul li .nav-link {
+header nav .navbar-collapse ul.navbar-nav li .nav-link {
     display: block;
     color: #2d2d2d;
     font-size: 15px;
@@ -50,11 +50,11 @@ header nav .navbar-collapse ul li .nav-link {
     align-items: center;
 }
 
-header nav .navbar-collapse ul li:hover .nav-link {
+header nav .navbar-collapse ul.navbar-nav li:hover .nav-link {
     color: #ff4a64;
 }
 
-header nav .navbar-collapse ul li.active:before {
+header nav .navbar-collapse ul.navbar-nav li.active:before {
     content: "";
     display: block;
     position: absolute;
@@ -67,4 +67,47 @@ header nav .navbar-collapse ul li.active:before {
     -webkit-transition: width 0.4s ease;
     -moz-transition: width 0.4s ease;
     -o-transition: width 0.4s ease;
+}
+
+header nav .navbar-collapse ul.navbar-nav li .navItemGroups {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    background: #fff;
+    display: none;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: max-height 0.5s ease-out;
+    -webkit-transition: max-height 0.5s ease-out;
+    -moz-transition: max-height 0.5s ease-out;
+    -o-transition: max-height 0.5s ease-out;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups {
+    display: flex;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup .title {
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup {
+    margin: 0 20px;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li {
+    margin-bottom: 10px;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li:last-of-type {
+    margin-bottom: 0;
+}
+
+header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li a {
+    color: #797979;
+    font-size: 15px;
+    font-weight: 400;
 }

@@ -1,70 +1,70 @@
-export const topTenVpn = { href: 'top-ten-vpn', name: 'Top Ten VPN' };
+export const topTenVpn = { href: 'top-ten-vpn', title: 'Top Ten VPN' };
 export const bestVpnFor = {
     href: 'best-vpn-for',
-    name: 'Best VPN For...',
+    title: 'Best VPN For...',
     devicesOrOs: {
-        name: 'Devices/Os',
-        windows: { href: 'windows', name: 'Windows' },
-        mac: { href: 'mac', name: 'Mac' },
-        chrome: { href: 'chrome', name: 'Chrome' },
-        firefox: { href: 'firefox', name: 'firefox' },
-        android: { href: 'android', name: 'Android' },
-        iphone: { href: 'iphone', name: 'Iphone' },
-        ipadOrTabled: { href: 'ipad-or-tabled', name: 'Ipad / Tabled' },
-        appleTV: { href: 'appleTV', name: 'Apple TV' },
-        smartTV: { href: 'smartTV', name: 'smart TV' },
-        router: { href: 'router', name: 'Router' }
+        title: 'Devices/Os',
+        windows: { href: 'windows', title: 'Windows' },
+        mac: { href: 'mac', title: 'Mac' },
+        chrome: { href: 'chrome', title: 'Chrome' },
+        firefox: { href: 'firefox', title: 'firefox' },
+        android: { href: 'android', title: 'Android' },
+        iphone: { href: 'iphone', title: 'Iphone' },
+        ipadOrTabled: { href: 'ipad-or-tabled', title: 'Ipad / Tabled' },
+        appleTV: { href: 'appleTV', title: 'Apple TV' },
+        smartTV: { href: 'smartTV', title: 'smart TV' },
+        router: { href: 'router', title: 'Router' }
     },
     countries: {
-        name: 'countries',
-        china: { href: 'china', name: 'China' },
-        russia: { href: 'russia', name: 'Russia' },
-        uk: { href: 'uk', name: 'UK' },
-        australia: { href: 'australia', name: 'Australia' },
-        france: { href: 'france', name: 'France' }
+        title: 'countries',
+        china: { href: 'china', title: 'China' },
+        russia: { href: 'russia', title: 'Russia' },
+        uk: { href: 'uk', title: 'UK' },
+        australia: { href: 'australia', title: 'Australia' },
+        france: { href: 'france', title: 'France' }
     },
     popularServices: {
-        name: 'Popular Services',
-        netflix: { href: 'netflix', name: 'Netflix' },
-        kodi: { href: 'kodi', name: 'Kodi' },
-        amazonPrime: { href: 'amazon-prime', name: 'Amazon Prime' },
-        hulu: { href: 'hulu', name: 'Hulu' },
-        bbcIplayer: { href: 'bbcIplayer', name: 'bbcIPlayer' },
-        fobuTV: { href: 'fobuTV', name: 'Fobu TV' },
-        directTVNow: { href: 'directtv-now', name: 'DirectTV Now' }
+        title: 'Popular Services',
+        netflix: { href: 'netflix', title: 'Netflix' },
+        kodi: { href: 'kodi', title: 'Kodi' },
+        amazonPrime: { href: 'amazon-prime', title: 'Amazon Prime' },
+        hulu: { href: 'hulu', title: 'Hulu' },
+        bbcIplayer: { href: 'bbcIplayer', title: 'bbcIPlayer' },
+        fobuTV: { href: 'fobuTV', title: 'Fobu TV' },
+        directTVNow: { href: 'directtv-now', title: 'DirectTV Now' }
     },
     popularUsage: {
-        name: 'Popular Usage',
-        onlineGaming: { href: 'online-gaming', name: 'Online Gaming' },
-        streaming: { href: 'streaming', name: 'Streaming' },
-        torrenting: { href: 'torrenting', name: 'Torrenting' },
-        sports: { href: 'sports', name: 'Sports' },
-        facebook: { href: 'facebook', name: 'Facebook' },
-        twitter: { href: 'twitter', name: 'Twitter' },
-        youtube: { href: 'youtube', name: 'Youtube' },
-        telegram: { href: 'telegram', name: 'Telegram' },
-        businesses: { href: 'businesses', name: 'Businesses' },
+        title: 'Popular Usage',
+        onlineGaming: { href: 'online-gaming', title: 'Online Gaming' },
+        streaming: { href: 'streaming', title: 'Streaming' },
+        torrenting: { href: 'torrenting', title: 'Torrenting' },
+        sports: { href: 'sports', title: 'Sports' },
+        facebook: { href: 'facebook', title: 'Facebook' },
+        twitter: { href: 'twitter', title: 'Twitter' },
+        youtube: { href: 'youtube', title: 'Youtube' },
+        telegram: { href: 'telegram', title: 'Telegram' },
+        businesses: { href: 'businesses', title: 'Businesses' },
     }
 };
 export const vpnReviews = {
-    href: 'vpn-reviews', name: 'VPN Reviews',
+    href: 'vpn-reviews', title: 'VPN Reviews',
     reviews: {
-        cyberGhost: { href: 'cyber-ghost', name: 'Cyber Ghost' },
-        nordVPN: { href: 'nordvpn', name: 'NordVPN' },
-        privateVPN: { href: 'privatevpn', name: 'privateVPN' },
-        surfShark: { href: 'surfshark', name: 'SurfShark' },
-        zenMate: { href: 'zenmate', name: 'ZenMate' }
+        cyberGhost: { href: 'cyber-ghost', title: 'Cyber Ghost' },
+        nordVPN: { href: 'nordvpn', title: 'NordVPN' },
+        privateVPN: { href: 'privatevpn', title: 'privateVPN' },
+        surfShark: { href: 'surfshark', title: 'SurfShark' },
+        zenMate: { href: 'zenmate', title: 'ZenMate' }
     }
 };
 export const guides = {
-    name: 'Guides',
+    title: 'Guides',
     guides: {
-        howToWatchFifaWorldCup2018: { href: 'how-to-watch-fifa-world-cup-2018', name: 'How to Watch FiFA World Cup 2018' },
-        howToChooseAVPN: { href: 'how-to-choose-a-vpn', name: 'How to Choose a VPN' },
-        howToSurfTheWebAnonymously: { href: 'how-to-surf-The-Web-Anonymously', name: 'How to Surf the Web Anonymously' },
-        cheapestVPNs: { href: 'cheapest-vpns', name: 'Cheapest VPNs' },
-        howToBypassVPNBlocks: { href: 'how-to-Bypass-vpn-blocks', name: 'How to Bypass VPN Blocks' },
-        guideToGeoSpoofing: { href: 'guide-To-Geo-Spoofing', name: 'Guide to Geo Spoofing' }
+        howToWatchFifaWorldCup2018: { href: 'how-to-watch-fifa-world-cup-2018', title: 'How to Watch FiFA World Cup 2018' },
+        howToChooseAVPN: { href: 'how-to-choose-a-vpn', title: 'How to Choose a VPN' },
+        howToSurfTheWebAnonymously: { href: 'how-to-surf-The-Web-Anonymously', title: 'How to Surf the Web Anonymously' },
+        cheapestVPNs: { href: 'cheapest-vpns', title: 'Cheapest VPNs' },
+        howToBypassVPNBlocks: { href: 'how-to-Bypass-vpn-blocks', title: 'How to Bypass VPN Blocks' },
+        guideToGeoSpoofing: { href: 'guide-To-Geo-Spoofing', title: 'Guide to Geo Spoofing' }
     }
 };
-export const learn = { href: 'learn', name: 'Learn' };
+export const learn = { href: 'learn', title: 'Learn' };

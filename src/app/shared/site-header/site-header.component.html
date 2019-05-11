@@ -8,26 +8,22 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarColor01" [ngbCollapse]="toggleNavbar">
-                <!-- <ul class="navbar-nav">
-                    <li [ngClass]="{active:isActive(pages.topTenVpn.href)}">
-                        <a (click)="navigate(pages.topTenVpn.href)" href="javascript:void(0)"
-                            class="nav-link">{{pages.topTenVpn.name}}</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item" *ngFor="let navItem of menuItems.NavItems">
+                        <a *ngIf="navItem.href" (click)="navigate(navItem.href)" href="javascript:void(0)"
+                            class="nav-link">{{navItem.title}}</a>
+                        <span *ngIf="!navItem.href" class="nav-link">{{navItem.title}}</span>
+                        <div *ngIf="navItem.NavItemGroups" class="navItemGroups">
+                            <ul *ngFor="let NavItemGroup of navItem.NavItemGroups" class="list-unstyled navItemGroup">
+                                <li class="title">{{NavItemGroup.title}}</li>
+                                <li *ngFor="let subNavItem of NavItemGroup.SubNavItems">
+                                    <a (click)="navigate(subNavItem.href)"
+                                        href="javascript:void(0)">{{subNavItem.title}}</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <span class="nav-link">{{pages.bestVpnFor.name}}</span>
-                    </li>
-                    <li [ngClass]="{active:isActive(pages.vpnReviews.href)}">
-                        <a (click)="navigate(pages.vpnReviews.href)" href="javascript:void(0)"
-                            class="nav-link">{{pages.vpnReviews.name}}</a>
-                    </li>
-                    <li>
-                        <span class="nav-link">{{pages.guides.name}}</span>
-                    </li>
-                    <li [ngClass]="{active:isActive(pages.learn.href)}">
-                        <a (click)="navigate(pages.learn.href)" href="javascript:void(0)"
-                            class="nav-link">{{pages.learn.name}}</a>
-                    </li>
-                </ul> -->
+                </ul>
             </div>
         </div>
     </nav>
