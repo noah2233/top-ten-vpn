@@ -24,7 +24,7 @@ export class SiteHeaderComponent implements OnInit {
     this._router.navigateByUrl(href);
   }
 
-  isActive(href: string) {
-    return this._router.url && href && this._router.url.toLowerCase() === href.toLowerCase() ? true : false;
-  }
+  // isActive(href: string) {
+  //   return this._router.url && href && this._router.url.toLowerCase() === href.toLowerCase() ? true : false;
+  // }
 }
