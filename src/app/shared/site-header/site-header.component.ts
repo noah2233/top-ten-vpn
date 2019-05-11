@@ -26,6 +26,10 @@ export class SiteHeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  navigate(href: string) {
+    this._router.navigateByUrl(href);
+   }
+
   isActive(navItem: NavItem) {
     return this._router.url && navItem.href && this._router.url.toLowerCase() === navItem.href.toLowerCase() ? true : false;
   }

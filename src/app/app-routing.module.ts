@@ -13,7 +13,7 @@ import { LearnComponent } from './pages/learn/learn.component';
 import { WindowsComponent } from './pages/best-vpn-for/devicesOrOs/windows/windows.component';
 
 const routes: Routes = [
-  { path: '', component: TopTenVpnComponent },
+  { path: '', redirectTo: pages.topTenVpn.href, pathMatch: 'full' },
   { path: pages.topTenVpn.href, component: TopTenVpnComponent },
   {
     path: pages.bestVpnFor.href, component: BestVpnForComponent,
@@ -22,8 +22,8 @@ const routes: Routes = [
     ]
   },
   { path: pages.vpnReviews.href, component: VpnReviewsComponent },
-  { path: pages.learn.href, component: LearnComponent},
-  { path: '**', component: TopTenVpnComponent }
+  { path: pages.learn.href, component: LearnComponent },
+  { path: '**', redirectTo: pages.topTenVpn.href, pathMatch: 'full' }
 ];
 
 @NgModule({
