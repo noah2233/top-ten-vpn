@@ -10,7 +10,7 @@ export const bestVpnFor = {
         firefox: { href: 'firefox', name: 'firefox' },
         android: { href: 'android', name: 'Android' },
         iphone: { href: 'iphone', name: 'Iphone' },
-        ipadOrTabled: { href: 'ipadOrTabled', name: 'Ipad / Tabled' },
+        ipadOrTabled: { href: 'ipad-or-tabled', name: 'Ipad / Tabled' },
         appleTV: { href: 'appleTV', name: 'Apple TV' },
         smartTV: { href: 'smartTV', name: 'smart TV' },
         router: { href: 'router', name: 'Router' }
@@ -27,7 +27,7 @@ export const bestVpnFor = {
         name: 'Popular Services',
         netflix: { href: 'netflix', name: 'Netflix' },
         kodi: { href: 'kodi', name: 'Kodi' },
-        amazonPrime: { href: 'amazonPrime', name: 'Amazon Prime' },
+        amazonPrime: { href: 'amazon-prime', name: 'Amazon Prime' },
         hulu: { href: 'hulu', name: 'Hulu' },
         bbcIplayer: { href: 'bbcIplayer', name: 'bbcIPlayer' },
         fobuTV: { href: 'fobuTV', name: 'Fobu TV' },
