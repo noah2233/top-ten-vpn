@@ -14,6 +14,14 @@ export const bestVpnFor = {
         appleTV: { href: 'appleTV', name: 'Apple TV' },
         smartTV: { href: 'smartTV', name: 'smart TV' },
         router: { href: 'router', name: 'Router' }
+    },
+    countries: {
+        name: 'countries',
+        china: { href: 'china', name: 'China' },
+        russia: { href: 'russia', name: 'Russia' },
+        uk: { href: 'uk', name: 'UK' },
+        australia: { href: 'australia', name: 'Australia' },
+        france: { href: 'france', name: 'France' }
     }
 };
 export const vpnReviews = { href: 'vpn-reviews', name: 'VPN Reviews' };
