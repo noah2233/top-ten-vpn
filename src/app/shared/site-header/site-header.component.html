@@ -9,9 +9,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarColor01" [ngbCollapse]="toggleNavbar">
                 <ul class="navbar-nav">
-                    <li *ngFor="let navItem of navItems" [ngClass]="{active:isActive(navItem)}">
-                        <a *ngIf="navItem.href" (click)="navigate(navItem.href)" href="javascript:void(0)" class="nav-link">{{navItem.name}}</a>
-                        <span *ngIf="!navItem.href" class="nav-link">{{navItem.name}}</span>
+                    <li [ngClass]="{active:isActive(pages.topTenVpn.href)}">
+                        <a (click)="navigate(pages.topTenVpn.href)" href="javascript:void(0)"
+                            class="nav-link">{{pages.topTenVpn.name}}</a>
+                    </li>
+                    <li>
+                        <span class="nav-link">{{pages.bestVpnFor.name}}</span>
+                    </li>
+                    <li [ngClass]="{active:isActive(pages.vpnReviews.href)}">
+                        <a (click)="navigate(pages.vpnReviews.href)" href="javascript:void(0)"
+                            class="nav-link">{{pages.vpnReviews.name}}</a>
+                    </li>
+                    <li>
+                        <span class="nav-link">{{pages.guides.name}}</span>
+                    </li>
+                    <li [ngClass]="{active:isActive(pages.learn.href)}">
+                        <a (click)="navigate(pages.learn.href)" href="javascript:void(0)"
+                            class="nav-link">{{pages.learn.name}}</a>
                     </li>
                 </ul>
             </div>

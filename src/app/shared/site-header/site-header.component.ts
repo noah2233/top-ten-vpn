@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import * as pages from '@core/consts/pages';
-
-import { NavItem } from '@core/interface';
+import * as _pages from '@core/consts/pages';
 
 @Component({
   selector: 'site-header',
@@ -13,13 +11,9 @@ import { NavItem } from '@core/interface';
 export class SiteHeaderComponent implements OnInit {
   public toggleNavbar = true;
 
-  navItems: NavItem[] = [
-    { name: pages.topTenVpn.name, href: pages.topTenVpn.href },
-    { name: pages.bestVpnFor.name },
-    { name: pages.vpnReviews.name, href: pages.vpnReviews.href },
-    { name: pages.guides.name },
-    { name: pages.learn.name, href: pages.learn.href }
-  ];
+  get pages() {
+    return _pages;
+  }
 
   constructor(private _router: Router) { }
 
@@ -28,9 +22,9 @@ export class SiteHeaderComponent implements OnInit {
 
   navigate(href: string) {
     this._router.navigateByUrl(href);
-   }
+  }
 
-  isActive(navItem: NavItem) {
-    return this._router.url && navItem.href && this._router.url.toLowerCase() === navItem.href.toLowerCase() ? true : false;
+  isActive(href: string) {
+    return this._router.url && href && this._router.url.toLowerCase() === href.toLowerCase() ? true : false;
   }
 }
