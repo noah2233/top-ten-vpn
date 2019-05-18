@@ -21,23 +21,13 @@ import { SiteFooterComponent } from './shared/site-footer/site-footer.component'
 
 // pages
 import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
-import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
-import { VpnReviewsComponent } from './pages/vpn-reviews/vpn-reviews.component';
-import { LearnComponent } from './pages/learn/learn.component';
-
-// best-vpn-for children
-import { WindowsComponent } from './pages/best-vpn-for/devicesOrOs/windows/windows.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiteHeaderComponent,
     SiteFooterComponent,
-    TopTenVpnComponent,
-    BestVpnForComponent,
-    WindowsComponent,
-    VpnReviewsComponent,
-    LearnComponent
+    TopTenVpnComponent
   ],
   imports: [
     CommonModule,
