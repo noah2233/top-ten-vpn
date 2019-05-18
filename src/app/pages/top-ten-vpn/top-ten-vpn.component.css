@@ -151,7 +151,7 @@ ul.top-ten-vpn-list-menu {
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
     border: solid 1px transparent;
-    padding: 7.5px 5px;
+    padding: 10px 5px;
 }
 
 ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item {
@@ -176,6 +176,15 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     font-size: 11px;
     font-weight: 400;
     color: #000;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item {
+    -webkit-box-shadow: 0 11px 18px #aeacac;
+    -moz-box-shadow: 0 11px 18px #aeacac;
+    box-shadow: 0 11px 18px #aeacac;
+    border: 1px solid #0075ff;
+    background-color: #fff;
+    padding: 20px;
 }
 
 /*#endregion top-ten-vpn-list-section */
