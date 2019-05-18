@@ -112,7 +112,7 @@
 .update-and-advertising-container .advertising-disclosure-text {
     padding: 15px;
     position: absolute;
-    top: 100%;
+    top: -15px;
     right: 0;
     width: 370px;
     background-color: rgb(255, 255, 255);
@@ -201,6 +201,11 @@
     .update-and-advertising-container .update-date {
         display: inline;
     }
+
+    .update-and-advertising-container .advertising-disclosure-text {
+        top: 40px;
+    }
+    
     
 }
 
