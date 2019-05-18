@@ -37,7 +37,8 @@
             <div class="update-and-advertising-container">
                 <div class="update-date">Updated May 4, 2019</div>
                 <div class="advertising-disclosure">
-                    <button (click)="toggleAdvertisingDisclosure()" class="btn btn-link toggle">Advertising Disclosure</button>
+                    <button (click)="toggleAdvertisingDisclosure()" class="btn btn-link toggle">Advertising
+                        Disclosure</button>
                     <div class="advertising-disclosure-text" *ngIf="showAdvertisingDisclosure">
                         <p>
                             This site is a free online resource that strives to offer
@@ -59,12 +60,27 @@
                             information presented on this page are disclaimed. The information, including pricing, which
                             appears on this site is subject to change at any time.
                         </p>
-                        <button (click)="closeToggleAdvertisingDisclosure()" class="btn btn-link close-advertising-disclosure-text">Close X</button>
+                        <button (click)="closeToggleAdvertisingDisclosure()"
+                            class="btn btn-link close-advertising-disclosure-text">Close X</button>
                     </div>
                 </div>
             </div>
-            <ul class="list-unstyled top-ten-vpn-items">
-                <li class="top-ten-vpn-item"></li>
+            <ul class="list-unstyled row top-ten-vpn-list-menu">
+                <li class="top-ten-vpn-list-menu-item col-xl-4">
+                    VPN Service
+                </li>
+                <li class="top-ten-vpn-list-menu-item col-xl-4">
+                    Main Features
+                </li>
+                <li class="top-ten-vpn-list-menu-item col-xl-4 our-score">
+                    <span>Our Score</span>
+                    <span class="our-score-info">
+                        <button class="btn btn-link"></button>
+                    </span>
+                </li>
+            </ul>
+            <ul class="list-unstyled top-ten-vpn-list-items">
+                <li class="top-ten-vpn-list-item"></li>
             </ul>
         </div>
     </section>

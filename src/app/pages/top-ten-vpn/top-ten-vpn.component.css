@@ -145,6 +145,33 @@
 
 /*#region top-ten-vpn-list-section */
 
+ul.top-ten-vpn-list-menu {
+    background-color: #002d61;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+    border: solid 1px transparent;
+    padding: 7.5px 5px;
+}
+
+ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item {
+    font-size: 15px;
+    color: #fff;
+}
+
+ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info {
+    margin-left: 10px;
+}
+
+ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info button {
+    content: '';
+    background: url('/assets/images/pages/top-ten-vpn/info-icon.png') no-repeat;
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    border: 0px;
+}
+
 /*#endregion top-ten-vpn-list-section */
 
 @media screen and (min-width: 768px) {
@@ -197,16 +224,12 @@
     .update-and-advertising-container .advertising-disclosure-text {
         width: 290px;
     }
-
     .update-and-advertising-container .update-date {
         display: inline;
     }
-
     .update-and-advertising-container .advertising-disclosure-text {
         top: 40px;
     }
-    
-    
 }
 
 /* #endregion CSS Media Queries */
