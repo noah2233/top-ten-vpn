@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-ten-vpn.component.css']
 })
 export class TopTenVpnComponent implements OnInit {
+  showAdvertisingDisclosure: boolean;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleAdvertisingDisclosure() {
+    this.showAdvertisingDisclosure = !this.showAdvertisingDisclosure;
+  }
+
+  closeToggleAdvertisingDisclosure() {
+    this.showAdvertisingDisclosure = false;
   }
 
 }

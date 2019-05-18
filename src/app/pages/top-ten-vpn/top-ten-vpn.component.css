@@ -85,6 +85,79 @@
 
 /* #region CSS Media Queries */
 
+.update-and-advertising-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #7f7f80;
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative;
+}
+
+.update-and-advertising-container .update-date {
+    display: none;
+}
+
+/*#region advertising-container */
+
+.update-and-advertising-container .advertising-disclosure button.toggle {
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 0;
+    color: #7f7f80;
+}
+
+.update-and-advertising-container .advertising-disclosure-text {
+    padding: 15px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    opacity: .95;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .25);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.update-and-advertising-container .advertising-disclosure-text p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.update-and-advertising-container .advertising-disclosure-text .close-advertising-disclosure-text {
+    margin-top: 10px;
+    color: #0076ff;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #0076ff;
+    font-weight: 400;
+    margin: 15px auto 0;
+    padding: 0;
+}
+
+/*#endregion advertising-container */
+
+/*#region top-ten-vpn-list-section */
+
+/*#endregion top-ten-vpn-list-section */
+
+@media screen and (min-width: 768px) {
+    .update-and-advertising-container .advertising-disclosure button.toggle {
+        position: absolute;
+        right: 0;
+        top: -50px;
+        color: #fff;
+        background-color: rgba(44, 44, 44, 0.6);
+        padding: 1px 4px;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     .top-ten-vpn-top .container {
         max-width: 100%;
@@ -117,7 +190,18 @@
     }
     .top-ten-vpn-top .compatible {
         display: none;
-    }  
+    }
+    .top-ten-vpn-list-section {
+        background: #e7e7e7;
+    }
+    .update-and-advertising-container .advertising-disclosure-text {
+        width: 290px;
+    }
+
+    .update-and-advertising-container .update-date {
+        display: inline;
+    }
+    
 }
 
 /* #endregion CSS Media Queries */

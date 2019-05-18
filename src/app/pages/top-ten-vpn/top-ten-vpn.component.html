@@ -1,7 +1,7 @@
 <site-header></site-header>
 <main class="site-main">
     <!-- top-ten-vpn-top -->
-    <div class="top-ten-vpn-top">
+    <section class="top-ten-vpn-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8">
@@ -29,7 +29,45 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /.top-ten-vpn-top -->
+    <!-- top-ten-vpn-list-section -->
+    <section class="top-ten-vpn-list-section">
+        <div class="container">
+            <div class="update-and-advertising-container">
+                <div class="update-date">Updated May 4, 2019</div>
+                <div class="advertising-disclosure">
+                    <button (click)="toggleAdvertisingDisclosure()" class="btn btn-link toggle">Advertising Disclosure</button>
+                    <div class="advertising-disclosure-text" *ngIf="showAdvertisingDisclosure">
+                        <p>
+                            This site is a free online resource that strives to offer
+                            helpful content and comparison features
+                            to its visitors. Please be advised that the operator of this site accepts advertising
+                            compensation from companies that appear on the site, and such compensation impacts the
+                            location
+                            and order in which the companies (and/or their products) are presented, and in some cases
+                            may
+                            also impact the rating that is assigned to them. To the extent that ratings appear on this
+                            site,
+                            such rating is determined by our subjective opinion and based on a methodology that
+                            aggregates
+                            our analysis of brand market share and reputation, each brand's conversion rates,
+                            compensation
+                            paid to us and general consumer interest. Company listings on this page DO NOT imply
+                            endorsement. Except as expressly set forth in our <a routerLink="/terms">Terms of Use</a>,
+                            all representations and warranties regarding the
+                            information presented on this page are disclaimed. The information, including pricing, which
+                            appears on this site is subject to change at any time.
+                        </p>
+                        <button (click)="closeToggleAdvertisingDisclosure()" class="btn btn-link close-advertising-disclosure-text">Close X</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled top-ten-vpn-items">
+                <li class="top-ten-vpn-item"></li>
+            </ul>
+        </div>
+    </section>
+    <!-- /.top-ten-vpn-list-section -->
 </main>
 <site-footer></site-footer>
