@@ -1,0 +1,70 @@
+.top-ten-vpn-top {
+    background: url('/assets/images/pages/top-ten-vpn/header-image-2.jpg') no-repeat;
+    height: 280px;
+    padding: 50px 0 0;
+}
+
+.top-ten-vpn-top h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4a4a4a;
+    text-shadow: 0px 0px 20px transparent;
+    width: 350px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.top-ten-vpn-top p.using {
+    width: 510px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4a4a4a;
+    line-height: 1.5;
+}
+
+.top-ten-vpn-top .compatible {
+    display: flex;
+    align-items: center;
+}
+
+.top-ten-vpn-top .compatible span.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-right: 30px;
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items {
+    display: inline-flex;
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item {
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    margin-right: 15px;
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item:last-of-type {
+    margin-right: 0;
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item.windows {
+    background-image: url('/assets/images/pages/top-ten-vpn/compatible/windows-icon.png');
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item.ios {
+    background-image: url('/assets/images/pages/top-ten-vpn/compatible/ios-icon.png');
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item.linux {
+    background-image: url('/assets/images/pages/top-ten-vpn/compatible/Linux-icon.png');
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item.application {
+    background-image: url('/assets/images/pages/top-ten-vpn/compatible/aplication-icon.png');
+}
+
+.top-ten-vpn-top .compatible ul.compatibles-items li.compatibles-item.android {
+    background-image: url('/assets/images/pages/top-ten-vpn/compatible/android-icon.png');
+}

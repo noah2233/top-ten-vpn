@@ -4,14 +4,14 @@ header {
     border-bottom: 1px solid #d5d5d5;
 }
 
+header .container {
+    height: 100%;
+}
+
 header nav {
     display: flex;
     align-items: center;
     padding: 0;
-    height: 100%;
-}
-
-header nav .container {
     height: 100%;
 }
 
@@ -22,7 +22,7 @@ header nav .logo {
     height: 35px;
 }
 
-header nav .collapse {
+/* header nav .collapse {
     justify-content: flex-end;
     height: 100%;
 }
@@ -110,4 +110,4 @@ header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup 
     color: #797979;
     font-size: 15px;
     font-weight: 400;
-}
+} */
