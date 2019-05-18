@@ -48,3 +48,15 @@ router-outlet+* {
 }
 
 /*#endregion general*/
+
+/* #region CSS Media Queries */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 767px) {
+    body {
+        background: #fff;
+    }
+}
+
+/* #endregion CSS Media Queries */

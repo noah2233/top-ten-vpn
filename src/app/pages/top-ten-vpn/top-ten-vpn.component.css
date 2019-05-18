@@ -17,13 +17,21 @@
     margin-bottom: 10px;
 }
 
-.top-ten-vpn-top p.using {
-    width: 510px;
-    max-width: 100%;
+.top-ten-vpn-top p {
     font-size: 15px;
     font-weight: 400;
     color: #4a4a4a;
     line-height: 1.5;
+}
+
+.top-ten-vpn-top p.using {
+    width: 510px;
+    max-width: 100%;
+}
+
+.top-ten-vpn-top p.secure {
+    display: none;
+    text-align: center;
 }
 
 .top-ten-vpn-top .compatible {
@@ -81,6 +89,35 @@
     .top-ten-vpn-top .container {
         max-width: 100%;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .top-ten-vpn-top {
+        background: none;
+        padding: 20px 0;
+        height: auto;
+    }
+    .top-ten-vpn-top h1 {
+        width: 250px;
+        font-size: 23px;
+        text-align: center;
+        color: #2d2d2d;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .top-ten-vpn-top h1 .vpn {
+        color: #1577fb;
+    }
+    .top-ten-vpn-top p.using {
+        display: none;
+    }
+    .top-ten-vpn-top p.secure {
+        display: block;
+        margin-top: 20px;
+    }
+    .top-ten-vpn-top .compatible {
+        display: none;
+    }  
 }
 
 /* #endregion CSS Media Queries */
