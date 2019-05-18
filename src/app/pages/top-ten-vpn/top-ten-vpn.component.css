@@ -172,6 +172,12 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     border: 0px;
 }
 
+:host ::ng-deep ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info .popover-body {
+    font-size: 11px;
+    font-weight: 400;
+    color: #000;
+}
+
 /*#endregion top-ten-vpn-list-section */
 
 @media screen and (min-width: 768px) {
