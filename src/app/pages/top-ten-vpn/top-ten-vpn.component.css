@@ -11,7 +11,7 @@
     font-weight: 700;
     color: #4a4a4a;
     text-shadow: 0px 0px 20px transparent;
-    width: 350px;
+    width: 360px;
     max-width: 100%;
     line-height: 1.2;
     margin-bottom: 10px;
@@ -151,7 +151,7 @@ ul.top-ten-vpn-list-menu {
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
     border: solid 1px transparent;
-    padding: 10px 5px;
+    padding: 10px 0;
 }
 
 ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item {
@@ -193,7 +193,6 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service {
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -209,6 +208,30 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     justify-content: center;
     left: 0;
     top: 0;
+    /* -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    background: #0076FF; */
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon {
+    position: relative;
+    height: 30px;
+    width: 170px;
+    background-color: #0076FF;
+    transform: skew(-18deg);
+    -webkit-transform: skew(-18deg);
+    margin: 0 0 15px 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon .title {
+    font-size: 15px;
+    color: #fff;
+    transform: skew(18deg);
+    -webkit-transform: skew(18deg);
+    display: block;
 }
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .service-image {
