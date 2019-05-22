@@ -200,8 +200,8 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .rank {
     position: absolute;
-    background: url('/assets/images/pages/top-ten-vpn/num.svg') no-repeat;
-    width: 40px;
+    background: #1577fb;
+    width: 30px;
     height: 30px;
     font-size: 16px;
     color: #fff;
@@ -210,9 +210,18 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     justify-content: center;
     left: 0;
     top: 0;
-    /* -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-    background: #0076FF; */
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .rank:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #1577fb;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -10px;
 }
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon {
@@ -239,14 +248,11 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .service-image {
     width: 100px;
     height: 100px;
-    background-image: url('/assets/images/vpn-services/cyberghost.png');
+    background-image: url('/assets/images/vpn-services/desktop/cyberghost.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
 }
-
-/* .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features {
-} */
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features h3.title {
     font-size: 15px;
@@ -404,6 +410,7 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     }
     .top-ten-vpn-list-section {
         background: #e7e7e7;
+        padding-bottom: 20px;
     }
     .update-and-advertising-container .advertising-disclosure-text {
         width: 290px;
@@ -413,6 +420,43 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     }
     .update-and-advertising-container .advertising-disclosure-text {
         top: 40px;
+    }
+    ul.top-ten-vpn-list-menu {
+        display: none;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item {
+        min-height: initial;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features ul {
+        display: none;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .rank {
+        display: none;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon {
+        margin: 0;
+        transform: skew(0deg);
+        -webkit-transform: skew(0deg);
+        position: relative;
+        left: -15px;
+        top: -15px;
+        height: 25px;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon:after {
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 25px solid #1577fb;
+        border-right: 10px solid transparent;
+        position: absolute;
+        top: 0;
+        right: -10px;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .ribon .title {
+        font-size: 14px;
+        transform: skew(0deg);
+        -webkit-transform: skew(0deg);
     }
 }
 
