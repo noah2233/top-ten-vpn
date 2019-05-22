@@ -359,8 +359,12 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 }
 
 @media screen and (max-width: 1199px) {
-    .top-ten-vpn-top .container {
+    .top-ten-vpn-top .container, .top-ten-vpn-list-section .container {
         max-width: 100%;
+    }
+    .top-ten-vpn-list-section .container {
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 
