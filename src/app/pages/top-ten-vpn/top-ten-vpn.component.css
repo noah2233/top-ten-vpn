@@ -247,6 +247,31 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features ul li:before {
+    content: '';
+    background: url('/assets/images/pages/top-ten-vpn/vvv.png') no-repeat;
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .score {
+
 }
 
 /*#endregion top-ten-vpn-list-section */

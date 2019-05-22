@@ -20,5 +20,4 @@ export class TopTenVpnComponent implements OnInit {
   closeToggleAdvertisingDisclosure() {
     this.showAdvertisingDisclosure = false;
   }
-
 }
