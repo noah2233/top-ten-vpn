@@ -458,6 +458,24 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
         transform: skew(0deg);
         -webkit-transform: skew(0deg);
     }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .service-image {
+        width: 150px;
+        height: 30px;
+        background-image: url('/assets/images/vpn-services/mobile/cyberghost.png');
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .score .numaric-value {
+        display: none;
+    }
+
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .score {
+        height: auto;
+    }
+
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features h3.title {
+        font-size: 14px;
+        font-weight: 300;
+        color: #000;
+    }
 }
 
 /* #endregion CSS Media Queries */
