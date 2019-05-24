@@ -190,6 +190,11 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     padding-bottom: 20px;
     position: relative;
     min-height: 265px;
+    margin-bottom: 1px;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item:first-of-type {
+    border: 1px solid #0075ff;
 }
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items {

@@ -12,7 +12,6 @@ import { orderBy } from 'lodash';
 export class TopTenVpnComponent implements OnInit {
   showAdvertisingDisclosure: boolean;
   topTenVpns: topTenVpnService[] = [];
-  // scroeClassArray: string[];
 
   constructor() { }
 
