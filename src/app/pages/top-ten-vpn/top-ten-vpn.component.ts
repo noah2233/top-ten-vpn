@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { topTenVpnService } from '@core/interface';
 
-import { sortBy } from 'lodash';
+import { orderBy } from 'lodash';
 
 @Component({
   selector: 'top-ten-vpn',
@@ -40,7 +40,54 @@ export class TopTenVpnComponent implements OnInit {
       link: 'https://www.cyberghostvpn.com'
     });
 
-    this.topTenVpns = sortBy(topTenVpns, 'score');
+    topTenVpns.push({
+      name: 'nordVPN',
+      mainFeatures:
+      {
+        title: 'Enjoy online privacy and access without restrictions',
+        mainFeaturesList: [
+          'Access to Netflix',
+          '80+ servers in 56 locations',
+          '30-day money-back guarantee'
+        ]
+      },
+      score: 9.5,
+      link: 'https://nordvpn.com'
+    });
+
+    topTenVpns.push({
+      name: 'privateVPN',
+      mainFeatures:
+      {
+        title: 'Get anonymous torrenting and free remote setup',
+        mainFeaturesList: [
+          'Great for small home networks',
+          'No data logs',
+          'Access to Netflix',
+          '80+ servers in 56 locations',
+          '30-day money-back guarantee'
+        ]
+      },
+      score: 9.1,
+      link: 'https://privatevpn.com/'
+    });
+
+    topTenVpns.push({
+      name: 'surfShark',
+      mainFeatures:
+      {
+        title: 'Affordable VPN for all of your devices',
+        mainFeaturesList: [
+          'Unlimited streaming access',
+          '500+ servers in 50 countries',
+          '30-day money-back guarantee'
+        ]
+      },
+      score: 2.5,
+      link: 'https://privatevpn.com/'
+    });
+
+    this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']);
   }
 
   toggleAdvertisingDisclosure() {
@@ -84,7 +131,7 @@ export class TopTenVpnComponent implements OnInit {
 
   getNumberOfStars(topTenVpn: topTenVpnService) {
     if (topTenVpn.score) {
-      return Math.round(topTenVpn.score / 2) + '/' + Math.round(topTenVpn.score / 2);
+      return Math.round(topTenVpn.score / 2) + '/' + 5;
     }
   }
 }
