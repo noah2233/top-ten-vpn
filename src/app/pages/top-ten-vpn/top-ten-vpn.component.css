@@ -260,7 +260,6 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .service-image {
     width: 100px;
     height: 100px;
-    /* background-image: url('/assets/images/vpn-services/desktop/cyberghost.png'); */
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
@@ -509,7 +508,6 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service .service-image {
         width: 150px;
         height: 30px;
-        /* background-image: url('/assets/images/vpn-services/mobile/cyberghost.png'); */
     }
     .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .score .numaric-value {
         display: none;
@@ -530,6 +528,9 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
         background-color: #43ad35;
         border-radius: 25px;
         margin-top: 0;
+    }
+    .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .visit a:hover {
+        background-color: #43ad35;
     }
     .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .our-score {
         display: block;
