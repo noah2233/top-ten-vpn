@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { topTenVpn } from '@core/interface';
+import { topTenVpnService } from '@core/interface';
 
 @Component({
   selector: 'top-ten-vpn',
@@ -9,7 +9,7 @@ import { topTenVpn } from '@core/interface';
 })
 export class TopTenVpnComponent implements OnInit {
   showAdvertisingDisclosure: boolean;
-  topTenVpns: topTenVpn[] =
+  topTenVpns: topTenVpnService[] =
     [
       {
         name: 'cyberGhost',
@@ -40,5 +40,13 @@ export class TopTenVpnComponent implements OnInit {
 
   closeToggleAdvertisingDisclosure() {
     this.showAdvertisingDisclosure = false;
+  }
+
+  getTopTenVpnDesktopImage(topTenVpn: topTenVpnService) {
+    return 'url(/assets/images/vpn-services/desktop/' + topTenVpn.name + '.png)';
+  }
+
+  getTopTenVpnMobileImage(topTenVpn: topTenVpnService) {
+    return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
   }
 }
