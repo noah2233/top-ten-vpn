@@ -95,10 +95,10 @@
                                         Most Popular Choice
                                     </span>
                                 </span>
-                                <span class="service-image desktop"
-                                    [ngStyle]="{'background-image': getTopTenVpnDesktopImage(item)}"></span>
-                                <span class="service-image mobile"
-                                    [ngStyle]="{'background-image': getTopTenVpnMobileImage(item)}"></span>
+                                <a target="_blank" href="{{item.link}}" class="service-image desktop"
+                                    [ngStyle]="{'background-image': getTopTenVpnDesktopImage(item)}"></a>
+                                <a target="_blank" href="{{item.link}}" class="service-image mobile"
+                                    [ngStyle]="{'background-image': getTopTenVpnMobileImage(item)}"></a>
                             </div>
                         </li>
                         <li class="col-lg-4 col-md-5 col-6 top-ten-vpn-item">
@@ -122,7 +122,7 @@
                                         <li class="star {{getScoreClass(item,3)}}"></li>
                                         <li class="star {{getScoreClass(item,4)}}"></li>
                                     </ul>
-                                    <div class="title">5/5 stars</div>
+                                    <div class="title">{{getNumberOfStars(item)}} stars</div>
                                 </div>
                             </div>
                         </li>
@@ -132,7 +132,7 @@
                                 <span class="numaric-value">9.9</span>
                             </div>
                             <div class="visit">
-                                <a href="javascript:void(0)" class="btn">Visit Site »</a>
+                                <a target="_blank" href="{{item.link}}" class="btn">Visit Site »</a>
                             </div>
                         </li>
                     </ul>

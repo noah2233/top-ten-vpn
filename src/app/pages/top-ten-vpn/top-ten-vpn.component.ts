@@ -73,4 +73,10 @@ export class TopTenVpnComponent implements OnInit {
       }
     }
   }
+
+  getNumberOfStars(topTenVpn: topTenVpnService) {
+    if (topTenVpn.score) {
+      return Math.round(topTenVpn.score / 2) + '/' + Math.round(topTenVpn.score / 2);
+    }
+  }
 }
