@@ -184,13 +184,16 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 .top-ten-vpn-list .top-ten-vpn-list-item {
     -webkit-box-shadow: 0 11px 18px #aeacac;
     -moz-box-shadow: 0 11px 18px #aeacac;
-    box-shadow: 0 11px 18px #aeacac;
-    /* border: 1px solid #0075ff; */
+    box-shadow: 0 11px 18px hsl(0, 1%, 68%);
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
     min-height: 265px;
+}
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items {
+    height: 100%;
 }
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .service {
@@ -373,6 +376,13 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     font-size: 25px;
     letter-spacing: 0.4;
 }
+
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .features {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;  
+} 
 
 
 /*#endregion top-ten-vpn-list-section */
