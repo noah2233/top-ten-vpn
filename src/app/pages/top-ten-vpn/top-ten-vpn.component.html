@@ -112,15 +112,15 @@
                         <li class="col-lg-2 col-md-3 col-6 top-ten-vpn-item">
                             <div class="score">
                                 <div class="numaric-value">
-                                    {{item.score}}
+                                    {{item.score.value}}
                                 </div>
                                 <div class="stars-container">
                                     <ul class="list-unstyled stars">
-                                        <li class="star {{getScoreClass(item,0)}}"></li>
-                                        <li class="star {{getScoreClass(item,1)}}"></li>
-                                        <li class="star {{getScoreClass(item,2)}}"></li>
-                                        <li class="star {{getScoreClass(item,3)}}"></li>
-                                        <li class="star {{getScoreClass(item,4)}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[0]}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[1]}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[2]}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[3]}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[4]}}"></li>
                                     </ul>
                                     <div class="title">{{getNumberOfStars(item)}} stars</div>
                                 </div>

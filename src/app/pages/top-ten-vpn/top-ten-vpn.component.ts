@@ -12,7 +12,7 @@ import { orderBy } from 'lodash';
 export class TopTenVpnComponent implements OnInit {
   showAdvertisingDisclosure: boolean;
   topTenVpns: topTenVpnService[] = [];
-  scroeClassArray: string[];
+  // scroeClassArray: string[];
 
   constructor() { }
 
@@ -36,7 +36,7 @@ export class TopTenVpnComponent implements OnInit {
           '45-day money-back guarantee'
         ]
       },
-      score: 9.9,
+      score: { value: 9.9, scroeClassArray: this.initScroeClassArray(9.9) },
       link: 'https://www.cyberghostvpn.com'
     });
 
@@ -51,7 +51,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: 9.5,
+      score: { value: 9.5, scroeClassArray: this.initScroeClassArray(9.5) },
       link: 'https://nordvpn.com'
     });
 
@@ -68,7 +68,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: 9.1,
+      score: { value: 9.1, scroeClassArray: this.initScroeClassArray(9.1) },
       link: 'https://privatevpn.com/'
     });
 
@@ -83,8 +83,8 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: 2.5,
-      link: 'https://privatevpn.com/'
+      score: { value: 8.8, scroeClassArray: this.initScroeClassArray(8.8) },
+      link: 'https://surfshark.com/'
     });
 
     this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']);
@@ -106,32 +106,28 @@ export class TopTenVpnComponent implements OnInit {
     return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
   }
 
-  getScoreClass(topTenVpn: topTenVpnService, position: number) {
-    this.initScroeClassArray(topTenVpn);
+  initScroeClassArray(score: number): string[] {
+    const scroeClassArray = ['', '', '', '', ''];
 
-    return this.scroeClassArray ? this.scroeClassArray[position] : [];
-  }
-
-  initScroeClassArray(topTenVpn: topTenVpnService) {
-    // init only once
-    if (!this.scroeClassArray) {
-      this.scroeClassArray = ['', '', '', '', ''];
-
-      for (let i = 0; i < 5; i++) {
-        if (topTenVpn.score > (i * 2)) {
-          if (topTenVpn.score > ((i * 2) + 1)) {
-            this.scroeClassArray[i] = 'full-star';
-          } else {
-            this.scroeClassArray[i] = 'half-star';
-          }
+    for (let i = 0; i < 5; i++) {
+      if (score > (i * 2)) {
+        if (score > ((i * 2) + 1)) {
+          scroeClassArray[i] = 'full-star';
+        } else {
+          scroeClassArray[i] = 'half-star';
         }
       }
     }
+    return scroeClassArray;
   }
 
   getNumberOfStars(topTenVpn: topTenVpnService) {
     if (topTenVpn.score) {
-      return Math.round(topTenVpn.score / 2) + '/' + 5;
+      if (topTenVpn.score.value === 0) {
+        return '0/5';
+      }
+
+      return Math.round(Math.round(topTenVpn.score.value) / 2) + '/' + 5;
     }
   }
 }
