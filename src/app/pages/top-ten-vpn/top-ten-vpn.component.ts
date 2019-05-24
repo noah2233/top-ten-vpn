@@ -87,6 +87,102 @@ export class TopTenVpnComponent implements OnInit {
       link: 'https://surfshark.com/'
     });
 
+    topTenVpns.push({
+      name: 'zenMate',
+      mainFeatures:
+      {
+        title: 'Easy access to geo-restricted content and secure browsing',
+        mainFeaturesList: [
+          'Access to Netflix',
+          '2,000+ servers in 140 locations',
+          '31-day money back guarantee'
+        ]
+      },
+      score: { value: 8.6, scroeClassArray: this.initScroeClassArray(8.6) },
+      link: 'https://zenmate.com'
+    });
+
+    topTenVpns.push({
+      name: 'pureVPN',
+      mainFeatures:
+      {
+        title: 'Great value with unlimited bandwidth for fast downloads and privacy extras',
+        mainFeaturesList: [
+          'Access to Netflix',
+          '2,000+ servers in 140 locations',
+          '31-day money back guarantee'
+        ]
+      },
+      score: { value: 8.3, scroeClassArray: this.initScroeClassArray(8.3) },
+      link: 'https://www.purevpn.com'
+    });
+
+    topTenVpns.push({
+      name: 'bullGuard',
+      mainFeatures:
+      {
+        title: 'Enjoy total internet privacy & freedom',
+        mainFeaturesList: [
+          'Access to Netflix and Hulu',
+          'Servers in 16 different countries',
+          '100% money-back guarantee'
+        ]
+      },
+      score: { value: 8.1, scroeClassArray: this.initScroeClassArray(8.1) },
+      link: 'https://www.bullguard.com/'
+    });
+
+    topTenVpns.push({
+      name: 'panda',
+      mainFeatures:
+      {
+        title: 'Unlimited bandwidth, eal antivirus protection',
+        mainFeaturesList: [
+          'Access to Netflix',
+          '700 servers in 36 locations',
+          '30-day money-back guarantee'
+        ]
+      },
+      score: { value: 8.0, scroeClassArray: this.initScroeClassArray(8.0) },
+      link: 'https://www.pandasecurity.com'
+    });
+
+    topTenVpns.push({
+      name: 'hideMyAss',
+      mainFeatures:
+      {
+        title: 'Protect sensitive data. Fight malware and spam. Hide your online identity',
+        mainFeaturesList: [
+          'Built-in speed testing tool',
+          '100,000 IP Adresses',
+          'Best for: torrenting',
+          '860 servers in 280 locations',
+          '30-day money-back guarantee',
+          'Access to Netflix'
+        ]
+      },
+      score: { value: 7.8, scroeClassArray: this.initScroeClassArray(7.8) },
+      link: 'https://www.hidemyass.com/'
+    });
+
+    topTenVpns.push({
+      name: 'saferVPN',
+      mainFeatures:
+      {
+        title: 'Access blocked sites and share information securely at high speeds.',
+        mainFeaturesList: [
+          'Smooth, easy-to-use interface',
+          'Compatible with multiple devices',
+          'Best for: personal use',
+          '700 servers in 36 locations',
+          '30-day money-back guarantee',
+          'Access to Netflix'
+        ]
+      },
+      score: { value: 7.5, scroeClassArray: this.initScroeClassArray(7.5) },
+      link: 'https://www.safervpn.com'
+    });
+
     this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']);
   }
 
