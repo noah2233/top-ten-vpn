@@ -1,4 +1,4 @@
-export interface topTenVpnService {
+export interface topTenVpn {
     name: string;
     mainFeatures: { title: string, mainFeaturesList: string[] };
     score: number;
