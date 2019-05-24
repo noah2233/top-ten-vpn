@@ -95,34 +95,32 @@
                                         Most Popular Choice
                                     </span>
                                 </span>
-                                <span class="service-image desktop" [ngStyle]="{'background-image': getTopTenVpnDesktopImage(item)}"></span>
-                                <span class="service-image mobile" [ngStyle]="{'background-image': getTopTenVpnMobileImage(item)}"></span>
+                                <span class="service-image desktop"
+                                    [ngStyle]="{'background-image': getTopTenVpnDesktopImage(item)}"></span>
+                                <span class="service-image mobile"
+                                    [ngStyle]="{'background-image': getTopTenVpnMobileImage(item)}"></span>
                             </div>
                         </li>
                         <li class="col-lg-4 col-md-5 col-6 top-ten-vpn-item">
                             <div class="features">
-                                <h3 class="title">High-speed streaming, browsing, and gaming with complete security</h3>
+                                <h3 class="title">{{item.mainFeatures.title}}</h3>
                                 <ul class="list-unstyled">
-                                    <li>Access Netflix wherever you are</li>
-                                    <li>Access Netflix wherever you are</li>
-                                    <li>Access Netflix wherever you are</li>
-                                    <li>Access Netflix wherever you are</li>
-                                    <li>Access Netflix wherever you are</li>
+                                    <li *ngFor="let feature of item.mainFeatures.mainFeaturesList">{{feature}}</li>
                                 </ul>
                             </div>
                         </li>
                         <li class="col-lg-2 col-md-3 col-6 top-ten-vpn-item">
                             <div class="score">
                                 <div class="numaric-value">
-                                    9.9
+                                    {{item.score}}
                                 </div>
                                 <div class="stars-container">
                                     <ul class="list-unstyled stars">
-                                        <li class="star"></li>
-                                        <li class="star"></li>
-                                        <li class="star"></li>
-                                        <li class="star"></li>
-                                        <li class="star"></li>
+                                        <li class="star {{getScoreClass(item,0)}}"></li>
+                                        <li class="star {{getScoreClass(item,1)}}"></li>
+                                        <li class="star {{getScoreClass(item,2)}}"></li>
+                                        <li class="star {{getScoreClass(item,3)}}"></li>
+                                        <li class="star {{getScoreClass(item,4)}}"></li>
                                     </ul>
                                     <div class="title">5/5 stars</div>
                                 </div>

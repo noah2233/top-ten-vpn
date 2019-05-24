@@ -28,6 +28,7 @@ export class TopTenVpnComponent implements OnInit {
         link: 'https://www.cyberghostvpn.com'
       }
     ];
+  scroeClassArray: string[];
 
   constructor() { }
 
@@ -48,5 +49,28 @@ export class TopTenVpnComponent implements OnInit {
 
   getTopTenVpnMobileImage(topTenVpn: topTenVpnService) {
     return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
+  }
+
+  getScoreClass(topTenVpn: topTenVpnService, position: number) {
+    this.initScroeClassArray(topTenVpn);
+
+    return this.scroeClassArray ? this.scroeClassArray[position] : [];
+  }
+
+  initScroeClassArray(topTenVpn: topTenVpnService) {
+    // init only once
+    if (!this.scroeClassArray) {
+      this.scroeClassArray = ['', '', '', '', ''];
+
+      for (let i = 0; i < 5; i++) {
+        if (topTenVpn.score > (i * 2)) {
+          if (topTenVpn.score > ((i * 2) + 1)) {
+            this.scroeClassArray[i] = 'full-star';
+          } else {
+            this.scroeClassArray[i] = 'half-star';
+          }
+        }
+      }
+    }
   }
 }

@@ -322,11 +322,11 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     height: 18px;
 }
 
-.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .stars-container .stars.half-star {
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .stars-container .stars .star.half-star {
     background-image: url('/assets/images/pages/top-ten-vpn/stars/half-star.png');
 }
 
-.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .stars-container .stars.full-star {
+.top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .stars-container .stars .star.full-star {
     background-image: url('/assets/images/pages/top-ten-vpn/stars/full-star.png');
 }
 
