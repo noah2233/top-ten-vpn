@@ -206,7 +206,7 @@ export class TopTenVpnComponent implements OnInit {
 
     for (let i = 0; i < 5; i++) {
       if (score >= (i * 2)) {
-        if (score > ((i * 2) + 1)) {
+        if (score >= ((i * 2) + 1)) {
           scroeClassArray[i] = 'full-star';
         } else {
           scroeClassArray[i] = 'half-star';
