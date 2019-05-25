@@ -172,12 +172,39 @@
     color: #000;
     font-size: 20px;
     font-weight: 700;
+    margin: 5px 0 5px;
 }
 
 .read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons ul {
     font-weight: 400;
     font-size: 15px;
     color: #2d2d2d;
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons ul li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons ul li:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    margin-right: 10px;
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .pros ul li:before {
+    background-image: url('/assets/images/pages/top-ten-vpn/green-plus.png');
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .cons ul li:before {
+    background-image: url('/assets/images/pages/top-ten-vpn/red-minus.png');
 }
 
 .prosAndCons
@@ -626,10 +653,13 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
     .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .our-score {
         display: block;
     }
+    .read-more-vpn-services .read-more-vpn-services-container h2, .read-more-vpn-services ul.vpn-services {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    .top-ten-vpn-top .container, .top-ten-vpn-list-section .container {
+    .top-ten-vpn-list-section .container {
         padding-left: 0;
         padding-right: 0;
     }
