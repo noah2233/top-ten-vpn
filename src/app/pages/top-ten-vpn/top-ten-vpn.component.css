@@ -153,6 +153,10 @@
     background-image: url('/assets/images/vpn-services/desktop/nordVPN.png');
 }
 
+.read-more-vpn-services ul.vpn-services li.vpn-service.privateVPN .vpn-service-header .vpn-service-header-image {
+    background-image: url('/assets/images/vpn-services/desktop/privateVPN.png');
+}
+
 .read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-header a {
     width: 140px;
     height: 40px;
