@@ -6,6 +6,11 @@ footer {
     font-weight: 400;
 }
 
+footer hr {
+    border-top-color: #fff;
+    display: none;
+}
+
 footer .logo {
     background: url('/assets/images/shared/site-footer/top10-logo-footer.svg') top center no-repeat;
     width: 135px;
@@ -42,3 +47,27 @@ footer .footer-menu .footer-menu-item a {
 footer .footer-menu .footer-menu-item.advertising-disclosure {
     flex: 3;
 }
+
+/* #region CSS Media Queries */
+
+@media screen and (max-width: 1199px) {
+    footer hr {
+        display: block;
+    }
+    footer .footer-menu {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    footer .footer-menu .footer-menu-item {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    footer .footer-menu .footer-menu-item:last-of-type {
+        margin-bottom: 0;
+    }
+    footer .footer-menu .footer-menu-item.advertising-disclosure {
+        flex: 2;
+    }
+}
+
+/* #endregion CSS Media Queries */
