@@ -116,12 +116,34 @@
 
 .read-more-vpn-services .read-more-vpn-services-container h2 {
     padding: 0 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.read-more-vpn-services ul.vpn-services {}
+.read-more-vpn-services ul.vpn-services {
+    padding: 0 15px;
+}
 
 .read-more-vpn-services ul.vpn-services li.vpn-service {
     margin-top: 30px;
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-header .vpn-service-header-image {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center
+}
+
+.read-more-vpn-services ul.vpn-services li.vpn-service.cyberGhost .vpn-service-header .vpn-service-header-image {
+    background-image: url('/assets/images/vpn-services/desktop/cyberGhost.png');
 }
 
 /* #endregion read-more-vpn-services */
