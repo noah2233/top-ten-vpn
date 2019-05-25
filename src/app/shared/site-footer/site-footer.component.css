@@ -1,4 +1,44 @@
 footer {
     background-color: #010233;
     padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .logo {
+    background: url('/assets/images/shared/site-footer/top10-logo-footer.svg') top center no-repeat;
+    width: 135px;
+    height: 33px;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+footer p {
+    line-height: 1.3;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .footer-menu {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+footer .footer-menu .footer-menu-item {
+    flex: 2;
+    text-align: center;
+}
+
+footer .footer-menu .footer-menu-item a {
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer .footer-menu .footer-menu-item.advertising-disclosure {
+    flex: 3;
 }
