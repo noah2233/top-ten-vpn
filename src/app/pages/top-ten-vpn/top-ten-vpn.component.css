@@ -105,6 +105,21 @@
 
 /*#endregion q-and-a*/
 
+/* #region read-more-vpn-services */
+
+.read-more-vpn-services {}
+
+.read-more-vpn-services .read-more-vpn-services-container {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.read-more-vpn-services .read-more-vpn-services-container h2 {
+    padding: 0 15px;
+}
+
+/* #endregion read-more-vpn-services */
+
 /* #region CSS Media Queries */
 
 .update-and-advertising-container {
