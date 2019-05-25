@@ -223,6 +223,19 @@
     margin-top: 30px;
 }
 
+.qs-and-as-tabs .wrapper {
+    display: flex;
+}
+
+:host ::ng-deep .qs-and-as-tabs .nav.nav-tabs {
+    flex-direction: column;
+    flex: 1;
+}
+
+:host ::ng-deep .qs-and-as-tabs .tab-content {
+    flex: 1;
+}
+
 /* #endregion qs-and-as-tabs */
 
 /* #region CSS Media Queries */
