@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { topTenVpnService } from '@core/interface';
+import { TopTenVpnService } from '@core/interface';
 
 import { orderBy } from 'lodash';
 
@@ -11,7 +11,7 @@ import { orderBy } from 'lodash';
 })
 export class TopTenVpnComponent implements OnInit {
   showAdvertisingDisclosure: boolean;
-  topTenVpns: topTenVpnService[] = [];
+  topTenVpns: TopTenVpnService[] = [];
 
   constructor() { }
 
@@ -20,7 +20,7 @@ export class TopTenVpnComponent implements OnInit {
   }
 
   initTopTenVpns() {
-    const topTenVpns: topTenVpnService[] = [];
+    const topTenVpns: TopTenVpnService[] = [];
 
     topTenVpns.push({
       name: 'cyberGhost',
@@ -193,11 +193,11 @@ export class TopTenVpnComponent implements OnInit {
     this.showAdvertisingDisclosure = false;
   }
 
-  getTopTenVpnDesktopImage(topTenVpn: topTenVpnService) {
+  getTopTenVpnDesktopImage(topTenVpn: TopTenVpnService) {
     return 'url(/assets/images/vpn-services/desktop/' + topTenVpn.name + '.png)';
   }
 
-  getTopTenVpnMobileImage(topTenVpn: topTenVpnService) {
+  getTopTenVpnMobileImage(topTenVpn: TopTenVpnService) {
     return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
   }
 
@@ -216,7 +216,7 @@ export class TopTenVpnComponent implements OnInit {
     return scroeClassArray;
   }
 
-  getNumberOfStars(topTenVpn: topTenVpnService) {
+  getNumberOfStars(topTenVpn: TopTenVpnService) {
     if (topTenVpn.score) {
       //
       const score = Math.floor(topTenVpn.score.value) % 2 !== 0 ?
