@@ -205,7 +205,7 @@ export class TopTenVpnComponent implements OnInit {
     const scroeClassArray = ['', '', '', '', ''];
 
     for (let i = 0; i < 5; i++) {
-      if (score > (i * 2)) {
+      if (score >= (i * 2)) {
         if (score > ((i * 2) + 1)) {
           scroeClassArray[i] = 'full-star';
         } else {
@@ -219,7 +219,9 @@ export class TopTenVpnComponent implements OnInit {
   getNumberOfStars(topTenVpn: topTenVpnService) {
     if (topTenVpn.score) {
       //
-      const score = topTenVpn.score.value % 2 > 1 ? Math.ceil(topTenVpn.score.value / 2) : Math.floor(topTenVpn.score.value / 2) + 0.5;
+      const score = Math.floor(topTenVpn.score.value) % 2 !== 0 ?
+        Math.ceil(topTenVpn.score.value / 2) : Math.floor(topTenVpn.score.value / 2) + 0.5;
+
       const numberOfStars: string = score + '/' + 5;
 
       return numberOfStars;
