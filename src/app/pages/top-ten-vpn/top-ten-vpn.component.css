@@ -420,16 +420,6 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .visit a {
     min-width: 160px;
     min-height: 45px;
-    background-color: #ee461a;
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 0.4px;
-    display: flex;
-    padding-top: 0;
-    padding-bottom: 0;
-    align-items: center;
-    justify-content: center;
 }
 
 .top-ten-vpn-list .top-ten-vpn-list-item .top-ten-vpn-items .top-ten-vpn-item .visit a:hover {

@@ -47,6 +47,23 @@ router-outlet+* {
     padding: 0 0 30px;
 }
 
+.btn-prime {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    background-color: #ee461a;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-prime:hover {
+    background-color: #d24824;
+}
+
 /*#endregion general*/
 
 /* #region CSS Media Queries */
