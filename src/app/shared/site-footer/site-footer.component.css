@@ -14,9 +14,9 @@ footer hr {
 footer .logo {
     background: url('/assets/images/shared/site-footer/top10-logo-footer.svg') top center no-repeat;
     width: 135px;
-    height: 33px;
+    height: 35px;
     background-size: contain;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer p {
@@ -29,7 +29,7 @@ footer a {
 
 footer .footer-menu {
     display: flex;
-    margin-bottom: 35px;
+    min-height: 55px;
 }
 
 footer .footer-menu .footer-menu-item {
