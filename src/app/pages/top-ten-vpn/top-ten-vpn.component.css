@@ -223,17 +223,70 @@
     margin-top: 30px;
 }
 
+.qs-and-as-tabs .qs-and-as-tabs-title {
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 .qs-and-as-tabs .wrapper {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 :host ::ng-deep .qs-and-as-tabs .nav.nav-tabs {
     flex-direction: column;
-    flex: 1;
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0;
+}
+
+:host ::ng-deep .qs-and-as-tabs .nav.nav-tabs .nav-item {
+    margin: 0 0 5px;
+}
+
+:host ::ng-deep .qs-and-as-tabs .nav.nav-tabs .nav-item a {
+    border: 0;
+    border-radius: 0;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 700;
+    background: #fff;
+    position: relative;
+}
+
+:host ::ng-deep .qs-and-as-tabs .nav.nav-tabs .nav-item a.active:before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 4px;
+    background-color: #0075ff;
+    top: 0;
+    left: 0;
 }
 
 :host ::ng-deep .qs-and-as-tabs .tab-content {
-    flex: 1;
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+:host ::ng-deep .qs-and-as-tabs .tab-content h3 {
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+:host ::ng-deep .qs-and-as-tabs .tab-content p {
+    line-height: 1.3;
+    font-size: 15px;
 }
 
 /* #endregion qs-and-as-tabs */
@@ -558,6 +611,16 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 @media screen and (max-width: 1199px) {
     .top-ten-vpn-top .container, .top-ten-vpn-list-section .container {
         max-width: 100%;
+    }
+    :host ::ng-deep .qs-and-as-tabs .nav.nav-tabs, :host ::ng-deep .qs-and-as-tabs .tab-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    :host ::ng-deep .qs-and-as-tabs .tab-content h3 {
+        display: none;
+    }
+    :host ::ng-deep .qs-and-as-tabs .nav.nav-tabs .nav-item a {
+        background: #e7e7e7;
     }
 }
 
