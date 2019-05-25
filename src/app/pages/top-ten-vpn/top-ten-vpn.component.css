@@ -215,8 +215,15 @@
     background-image: url('/assets/images/pages/top-ten-vpn/red-minus.png');
 }
 
-.prosAndCons
 /* #endregion read-more-vpn-services */
+
+/* #region qs-and-as-tabs */
+
+.qs-and-as-tabs {
+    margin-top: 30px;
+}
+
+/* #endregion qs-and-as-tabs */
 
 /* #region CSS Media Queries */
 
