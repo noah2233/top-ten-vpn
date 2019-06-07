@@ -195,7 +195,7 @@
     align-items: center;
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons ul li:before {
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons ul li .sign {
     content: '';
     display: inline-block;
     vertical-align: top;
@@ -207,11 +207,11 @@
     margin-right: 10px;
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .pros ul li:before {
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .pros ul li .sign {
     background-image: url('/assets/images/pages/top-ten-vpn/green-plus.png');
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .cons ul li:before {
+.read-more-vpn-services ul.vpn-services li.vpn-service .vpn-service-body .prosAndCons .cons ul li .sign {
     background-image: url('/assets/images/pages/top-ten-vpn/red-minus.png');
 }
 
