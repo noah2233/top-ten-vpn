@@ -9,6 +9,9 @@
       "@core/*": [
         "app/core/*"
       ],
+      "@shared/*": [
+        "app/shared/*"
+      ],
       "@environments/*": [
         "environments/*"
       ]
