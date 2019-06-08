@@ -57,3 +57,6 @@ export const bestVpnFor: Page = {
         }
     ]
 };
+export const vpnReviews: Page = { name: 'VPN Reviews', path: 'vpn-reviews' };
+export const guides: Page = { name: 'Guides', path: 'guides' };
+export const learn: Page = { name: 'Learn' };
