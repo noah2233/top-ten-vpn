@@ -12,3 +12,8 @@ export interface ReadMoreVPNService {
     body: string[];
     prosAndCons: { pros: string[], cons: string[] };
 }
+
+export interface Page {
+    name: string;
+    path: string;
+}
