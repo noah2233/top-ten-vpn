@@ -7,7 +7,6 @@ import * as pages from '@core/consts/pages';
 import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: pages.topTenVpn, pathMatch: 'full' },
   { path: '', component: TopTenVpnComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
