@@ -14,6 +14,7 @@ import { EllipsisModule } from 'ngx-ellipsis';
 import { ResizableModule } from 'angular-resizable-element';
 
 // core
+import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
 
 // shared
 import { SiteHeaderComponent } from '@shared/site-header/site-header.component';
@@ -27,7 +28,8 @@ import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
     AppComponent,
     SiteHeaderComponent,
     SiteFooterComponent,
-    TopTenVpnComponent
+    TopTenVpnComponent,
+    AdvertisingDisclosureComponent
   ],
   imports: [
     CommonModule,
@@ -40,6 +42,7 @@ import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
     EllipsisModule,
     ResizableModule
   ],
+  entryComponents: [AdvertisingDisclosureComponent],
   providers: [],
 })
 export class AppModule {

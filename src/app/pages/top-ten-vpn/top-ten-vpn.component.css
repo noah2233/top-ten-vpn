@@ -309,7 +309,7 @@
 
 /*#region advertising-container */
 
-.update-and-advertising-container .advertising-disclosure button.toggle {
+.update-and-advertising-container .advertising-disclosure button {
     padding: 0;
     font-size: 13px;
     font-weight: 400;
@@ -598,7 +598,7 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 /*#endregion top-ten-vpn-list-section */
 
 @media screen and (min-width: 768px) {
-    .update-and-advertising-container .advertising-disclosure button.toggle {
+    .update-and-advertising-container .advertising-disclosure button {
         position: absolute;
         right: 0;
         top: -50px;

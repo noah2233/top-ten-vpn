@@ -4,13 +4,15 @@ import { TopTenVpnService, ReadMoreVPNService } from '@core/interface';
 
 import { orderBy } from 'lodash';
 
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
+import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
 @Component({
   selector: 'top-ten-vpn',
   templateUrl: './top-ten-vpn.component.html',
   styleUrls: ['./top-ten-vpn.component.css']
 })
 export class TopTenVpnComponent implements OnInit {
-  showAdvertisingDisclosure: boolean;
   topTenVpns: TopTenVpnService[] = [];
   ReadMoreVPNServices: ReadMoreVPNService[] = [
     {
@@ -85,7 +87,7 @@ export class TopTenVpnComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private _ngbModal: NgbModal) { }
 
   ngOnInit() {
     this.initTopTenVpns();
@@ -257,12 +259,8 @@ export class TopTenVpnComponent implements OnInit {
     this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']);
   }
 
-  toggleAdvertisingDisclosure() {
-    this.showAdvertisingDisclosure = !this.showAdvertisingDisclosure;
-  }
-
-  closeToggleAdvertisingDisclosure() {
-    this.showAdvertisingDisclosure = false;
+  openAdvertisingDisclosure() {
+    const modalRef = this._ngbModal.open(AdvertisingDisclosureComponent);
   }
 
   getTopTenVpnDesktopImage(topTenVpn: TopTenVpnService) {
