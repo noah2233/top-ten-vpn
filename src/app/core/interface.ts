@@ -15,5 +15,11 @@ export interface ReadMoreVPNService {
 
 export interface Page {
     name: string;
-    path: string;
+    path?: string;
+    ChildGroupPages?: ChildGroupPage[];
+}
+
+export interface ChildGroupPage {
+    name?: string;
+    pages: Page[];
 }
