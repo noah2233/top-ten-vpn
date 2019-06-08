@@ -297,4 +297,8 @@ export class TopTenVpnComponent implements OnInit {
       return numberOfStars;
     }
   }
+
+  getUpdateDate() {
+    return 'May 4, 2019';
+  }
 }
