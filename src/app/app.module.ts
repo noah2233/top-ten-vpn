@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 
 import { EllipsisModule } from 'ngx-ellipsis';
 import { ResizableModule } from 'angular-resizable-element';
+import { ClickOutsideModule } from 'ng4-click-outside';
 
 // core
 import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
@@ -42,7 +43,8 @@ import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component
     AppRoutingModule,
     NgbModule,
     EllipsisModule,
-    ResizableModule
+    ResizableModule,
+    ClickOutsideModule 
   ],
   entryComponents: [AdvertisingDisclosureComponent],
   providers: [],

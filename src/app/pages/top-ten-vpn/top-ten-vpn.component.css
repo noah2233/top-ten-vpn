@@ -291,8 +291,6 @@
 
 /* #endregion qs-and-as-tabs */
 
-/* #region CSS Media Queries */
-
 .update-and-advertising-container {
     display: flex;
     justify-content: space-between;
@@ -596,6 +594,8 @@ ul.top-ten-vpn-list-menu .top-ten-vpn-list-menu-item.our-score .our-score-info b
 }
 
 /*#endregion top-ten-vpn-list-section */
+
+/* #region CSS Media Queries */
 
 @media screen and (min-width: 768px) {
     .update-and-advertising-container .advertising-disclosure button {

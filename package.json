@@ -45,6 +45,7 @@
     "cors": "~2.8.4",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
+    "ng4-click-outside": "^1.0.1",
     "ngx-ellipsis": "^2.0.1",
     "redux": "^4.0.1",
     "rxjs": "~6.3.3",

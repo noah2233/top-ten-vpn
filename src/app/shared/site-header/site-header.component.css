@@ -82,7 +82,7 @@ header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups {
     -webkit-transition: max-height 0.5s ease-out;
     -moz-transition: max-height 0.5s ease-out;
     -o-transition: max-height 0.5s ease-out;
-    z-index: 1;
+    z-index: 1000;
 }
 
 header nav .navbar-collapse ul.navbar-nav li.nav-item:hover .childGroups {
@@ -114,3 +114,45 @@ header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup u
     font-size: 15px;
     font-weight: 400;
 }
+
+.mobile-navbar-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+}
+
+/* #region CSS Media Queries */
+
+@media screen and (max-width: 1199px) {
+    header nav {
+        position: static;
+    }
+    header nav .collapse {
+        position: fixed;
+        right: 0;
+        top: 0;
+        background: #fff;
+        z-index: 999;
+    }
+    header nav .navbar-collapse ul.navbar-nav li.nav-item {
+        height: initial;
+        margin: 20px 15px;
+    }
+    .mobile-navbar-background {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 375px) {}
+
+/* #endregion CSS Media Queries */

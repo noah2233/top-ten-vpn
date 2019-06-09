@@ -31,4 +31,8 @@ export class SiteHeaderComponent implements OnInit {
     this.pages.push(_pages.learn);
   }
 
+  closeNavbar() {
+    this.toggleNavbar = true;
+  }
+
 }
