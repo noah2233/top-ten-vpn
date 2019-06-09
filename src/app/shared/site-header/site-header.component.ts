@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 
 import * as _pages from '@core/consts/pages';
@@ -13,7 +13,9 @@ export class SiteHeaderComponent implements OnInit {
   public toggleNavbar = true;
   public pages: Page[] = [];
 
-  constructor(private _router: Router) { }
+  constructor(
+    private _router: Router,
+    private _renderer: Renderer2) { }
 
   ngOnInit() {
     this.initNavBar();
@@ -31,8 +33,16 @@ export class SiteHeaderComponent implements OnInit {
     this.pages.push(_pages.learn);
   }
 
+  openNavbar() {
+    this.toggleNavbar = false;
+    // add overflow hidden to body
+    this._renderer.addClass(document.body, 'modal-open');
+  }
+
   closeNavbar() {
     this.toggleNavbar = true;
+    // remove overflow hidden to body
+    this._renderer.removeClass(document.body, 'modal-open');
   }
 
 }
