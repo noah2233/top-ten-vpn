@@ -148,7 +148,7 @@ header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup u
         transition: .75s;
         right: 0;
     }
-    header nav .navbar-collapse ul.navbar-nav{
+    header nav .navbar-collapse ul.navbar-nav {
         height: initial;
     }
     header nav .navbar-collapse ul.navbar-nav li.nav-item {
