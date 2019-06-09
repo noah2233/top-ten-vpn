@@ -102,7 +102,7 @@ header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup .
 }
 
 header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup ul.childPages li.childPage {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup ul.childPages li.childPage:last-of-type {
@@ -155,7 +155,7 @@ header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup u
     }
     header nav .navbar-collapse ul.navbar-nav li.nav-item {
         height: initial;
-        margin: 0 15px 20px;
+        margin: 0 15px 15px;
     }
     .mobile-navbar-background {
         display: block;
