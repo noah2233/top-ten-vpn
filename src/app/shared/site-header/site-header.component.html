@@ -11,7 +11,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item" *ngFor="let page of pages">
                         <a href="javascript:void(0)" class="nav-link">{{page.name}}</a>
-                        <!-- <div class="childGroups" *ngIf="page.ChildGroupPages">
+                        <div class="childGroups" *ngIf="page.ChildGroupPages">
                             <div class="childGroup" *ngFor="let childGroupPage of page.ChildGroupPages">
                                 <div *ngIf="childGroupPage.name" class="title">{{childGroupPage.name}}</div>
                                 <ul class="list-unstyled childPages">
@@ -22,7 +22,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
                     </li>
                 </ul>
             </div>
