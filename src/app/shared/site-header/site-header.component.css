@@ -69,7 +69,7 @@ header nav .navbar-collapse ul.navbar-nav li.active:before {
     -o-transition: width 0.4s ease;
 }
 
-/* header nav .navbar-collapse ul.navbar-nav li .navItemGroups {
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups {
     position: absolute;
     right: 0;
     padding: 15px;
@@ -82,32 +82,35 @@ header nav .navbar-collapse ul.navbar-nav li.active:before {
     -webkit-transition: max-height 0.5s ease-out;
     -moz-transition: max-height 0.5s ease-out;
     -o-transition: max-height 0.5s ease-out;
+    z-index: 1;
 }
 
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups {
+header nav .navbar-collapse ul.navbar-nav li.nav-item:hover .childGroups {
     display: flex;
 }
 
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup .title {
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup {
+    margin: 0 15px;
+    white-space: nowrap;
+}
+
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup .title {
     color: #2d2d2d;
     font-size: 15px;
     font-weight: 700;
-}
-
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup {
-    margin: 0 20px;
-}
-
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li {
     margin-bottom: 10px;
 }
 
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li:last-of-type {
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup ul.childPages li.childPage {
+    margin-bottom: 10px;
+}
+
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup ul.childPages li.childPage:last-of-type {
     margin-bottom: 0;
 }
 
-header nav .navbar-collapse ul.navbar-nav li:hover .navItemGroups .navItemGroup li a {
+header nav .navbar-collapse ul.navbar-nav li.nav-item .childGroups .childGroup ul.childPages li.childPage a {
     color: #797979;
     font-size: 15px;
     font-weight: 400;
-} */
+}
