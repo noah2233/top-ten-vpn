@@ -24,6 +24,7 @@ import { SiteFooterComponent } from '@shared/site-footer/site-footer.component';
 // pages
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
+import { TopRankingComponent } from './core/top-ranking/top-ranking.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component
     SiteFooterComponent,
     TopTenVpnComponent,
     AdvertisingDisclosureComponent,
-    BestVpnForComponent
+    BestVpnForComponent,
+    TopRankingComponent
   ],
   imports: [
     CommonModule,
