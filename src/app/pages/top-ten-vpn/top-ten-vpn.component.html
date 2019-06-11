@@ -88,15 +88,18 @@
                         <li class="col-lg-2 col-md-3 col-6 top-ten-vpn-item">
                             <div class="score">
                                 <div class="numaric-value">
-                                    {{item.score.value| number : '1.1-1'}}
+                                    {{item.score | number : '1.1-1'}}
                                 </div>
                                 <div class="stars-container">
                                     <ul class="list-unstyled stars">
-                                        <li class="star {{item.score.scroeClassArray[0]}}"></li>
+                                        <li class="star {{starClass}}"
+                                            *ngFor="let starClass of initScroeClassArray(item.score); let i = index">
+                                        </li>
+                                        <!-- <li class="star {{item.score.scroeClassArray[0]}}"></li>
                                         <li class="star {{item.score.scroeClassArray[1]}}"></li>
                                         <li class="star {{item.score.scroeClassArray[2]}}"></li>
                                         <li class="star {{item.score.scroeClassArray[3]}}"></li>
-                                        <li class="star {{item.score.scroeClassArray[4]}}"></li>
+                                        <li class="star {{item.score.scroeClassArray[4]}}"></li> -->
                                     </ul>
                                     <div class="title">{{getNumberOfStars(item)}} stars</div>
                                 </div>
@@ -105,7 +108,7 @@
                         <li class="col-lg-3 col-md-12 col-6 top-ten-vpn-item">
                             <div class="our-score mobile">
                                 <span class="title">our score&nbsp;&nbsp;</span>
-                                <span class="numaric-value">{{item.score.value| number : '1.1-1'}}</span>
+                                <span class="numaric-value">{{item.score | number : '1.1-1'}}</span>
                             </div>
                             <div class="visit">
                                 <a target="_blank" href="{{item.link}}" class="btn btn-prime">Visit Site »</a>

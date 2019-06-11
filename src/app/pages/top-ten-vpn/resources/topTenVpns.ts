@@ -13,7 +13,7 @@ const topTenVpns: TopTenVpnService[] = [
                 '45-day money-back guarantee'
             ]
         },
-        score: null,
+        score: 9.9,
         link: 'https://www.cyberghostvpn.com'
     }
 ];

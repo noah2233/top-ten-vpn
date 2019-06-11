@@ -109,7 +109,7 @@ export class TopTenVpnComponent implements OnInit {
           '45-day money-back guarantee'
         ]
       },
-      score: { value: 9.9, scroeClassArray: this.initScroeClassArray(9.9) },
+      score: 9.9,
       link: 'https://www.cyberghostvpn.com'
     });
 
@@ -124,7 +124,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: { value: 9.5, scroeClassArray: this.initScroeClassArray(9.5) },
+      score: 9.5,
       link: 'https://nordvpn.com'
     });
 
@@ -141,7 +141,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: { value: 9.1, scroeClassArray: this.initScroeClassArray(9.1) },
+      score: 9.1,
       link: 'https://privatevpn.com/'
     });
 
@@ -156,7 +156,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: { value: 8.8, scroeClassArray: this.initScroeClassArray(8.8) },
+      score: 8.8,
       link: 'https://surfshark.com/'
     });
 
@@ -171,7 +171,7 @@ export class TopTenVpnComponent implements OnInit {
           '31-day money back guarantee'
         ]
       },
-      score: { value: 8.6, scroeClassArray: this.initScroeClassArray(8.6) },
+      score: 8.6,
       link: 'https://zenmate.com'
     });
 
@@ -186,7 +186,7 @@ export class TopTenVpnComponent implements OnInit {
           '31-day money back guarantee'
         ]
       },
-      score: { value: 8.3, scroeClassArray: this.initScroeClassArray(8.3) },
+      score: 8.3,
       link: 'https://www.purevpn.com'
     });
 
@@ -201,7 +201,7 @@ export class TopTenVpnComponent implements OnInit {
           '100% money-back guarantee'
         ]
       },
-      score: { value: 8.1, scroeClassArray: this.initScroeClassArray(8.1) },
+      score: 8.1,
       link: 'https://www.bullguard.com/'
     });
 
@@ -216,7 +216,7 @@ export class TopTenVpnComponent implements OnInit {
           '30-day money-back guarantee'
         ]
       },
-      score: { value: 8.0, scroeClassArray: this.initScroeClassArray(8.0) },
+      score: 8.0,
       link: 'https://www.pandasecurity.com'
     });
 
@@ -234,7 +234,7 @@ export class TopTenVpnComponent implements OnInit {
           'Access to Netflix'
         ]
       },
-      score: { value: 7.8, scroeClassArray: this.initScroeClassArray(7.8) },
+      score: 7.8,
       link: 'https://www.hidemyass.com/'
     });
 
@@ -252,7 +252,7 @@ export class TopTenVpnComponent implements OnInit {
           'Access to Netflix'
         ]
       },
-      score: { value: 7.5, scroeClassArray: this.initScroeClassArray(7.5) },
+      score: 7.5,
       link: 'https://www.safervpn.com'
     });
 
@@ -289,8 +289,8 @@ export class TopTenVpnComponent implements OnInit {
   getNumberOfStars(topTenVpn: TopTenVpnService) {
     if (topTenVpn.score) {
       //
-      const score = Math.floor(topTenVpn.score.value) % 2 !== 0 ?
-        Math.ceil(topTenVpn.score.value / 2) : Math.floor(topTenVpn.score.value / 2) + 0.5;
+      const score = Math.floor(topTenVpn.score) % 2 !== 0 ?
+        Math.ceil(topTenVpn.score / 2) : Math.floor(topTenVpn.score / 2) + 0.5;
 
       const numberOfStars: string = score + '/' + 5;
 
