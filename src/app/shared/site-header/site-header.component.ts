@@ -28,9 +28,9 @@ export class SiteHeaderComponent implements OnInit {
   initNavBar() {
     this.pages.push(_pages.topTenVpn);
     this.pages.push(_pages.bestVpnFor);
-    this.pages.push(_pages.vpnReviews);
-    this.pages.push(_pages.guides);
-    this.pages.push(_pages.learn);
+    // this.pages.push(_pages.vpnReviews);
+    // this.pages.push(_pages.guides);
+    // this.pages.push(_pages.learn);
   }
 
   openNavbar() {
