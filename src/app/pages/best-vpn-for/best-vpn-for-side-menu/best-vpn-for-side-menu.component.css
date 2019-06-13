@@ -1,0 +1,16 @@
+:host {
+    display: block;
+    padding: 10px 15px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 33px -21px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 0px 33px -21px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 0px 33px -21px rgba(0, 0, 0, 0.56);
+}
+
+h2.main-title {
+    color: #4a4a4a;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d4dcdd;
+}
