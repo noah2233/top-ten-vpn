@@ -1,6 +1,5 @@
 import { ReadMoreVPNService } from '@core/interface';
 
-
 export let ReadMoreVPNServices: ReadMoreVPNService[] = [
     {
         name: 'cyberGhost',

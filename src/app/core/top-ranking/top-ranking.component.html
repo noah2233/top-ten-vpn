@@ -1,9 +1,11 @@
 <div class="wrapper">
   <h2>Top Ranking</h2>
   <ul class="list-unstyled top-ranking-items">
-    <li class="top-ranking-item">
-      <div class="vpn-service-image"></div>
-      <div class="vpn-service-rank-and-link"></div>
+    <li class="top-ranking-item {{topReankingItem.name}}" *ngFor="let topReankingItem of topReankingItems">
+      <div class="top-ranking-item-image">
+        <a target="_blank" href="{{topReankingItem.link}}" [ngStyle]="{'background-image': getTopReankingItemImage(topReankingItem)}"></a>
+      </div>
+      <div class="top-ranking-item-rank-and-link"></div>
     </li>
   </ul>
 </div>

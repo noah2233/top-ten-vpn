@@ -12,3 +12,39 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+ul.top-ranking-items {}
+
+ul.top-ranking-items li.top-ranking-item {
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #d4dcdd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.top-ranking-items li.top-ranking-item:first-of-type {
+    padding-top: 0;
+}
+
+ul.top-ranking-items li.top-ranking-item:last-of-type {
+    padding-bottom: 0;
+    border: 0;
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-image {
+    flex: 1;
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-image a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* width: 215px; */
+    height: 35px;
+    display: block;
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link {
+    flex: 1;
+}
