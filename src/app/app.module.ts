@@ -27,7 +27,8 @@ import { CommonService } from '@services/common.service';
 // pages
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
-import { TopRankingComponent } from './core/top-ranking/top-ranking.component';
+import { TopRankingComponent } from './pages/best-vpn-for/top-ranking/top-ranking.component';
+import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-side-menu/best-vpn-for-side-menu.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TopRankingComponent } from './core/top-ranking/top-ranking.component';
     TopTenVpnComponent,
     AdvertisingDisclosureComponent,
     BestVpnForComponent,
-    TopRankingComponent
+    TopRankingComponent,
+    BestVpnForSideMenuComponent
   ],
   imports: [
     CommonModule,

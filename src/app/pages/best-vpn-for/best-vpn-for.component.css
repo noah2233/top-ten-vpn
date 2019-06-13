@@ -2,6 +2,11 @@
     margin-top: 15px;
 }
 
+.top-ranking {
+    display: block;
+    margin-bottom: 15px;
+}
+
 /* #region CSS Media Queries */
 
 @media screen and (max-width: 1199px) {}
