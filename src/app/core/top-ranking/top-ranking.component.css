@@ -81,14 +81,20 @@ ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link a {
 @media screen and (max-width: 1199px) {}
 
 @media screen and (max-width: 991px) {
+    .wrapper h2 {
+        text-align: center;
+    }
     ul.top-ranking-items li.top-ranking-item {
         display: block;
+    }
+    ul.top-ranking-items li.top-ranking-item .top-ranking-item-image a {
+        background-position: center top;
     }
     ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link {
         margin-top: 15px;
     }
     ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars {
-       justify-content: center;
+        justify-content: center;
     }
 }
 
