@@ -12,12 +12,15 @@
       "@shared/*": [
         "app/shared/*"
       ],
-      "@pages/*": [
-        "app/pages/*"
-      ],
       "@generalDB/*": [
         "app/generalDB/*"
       ],
+      "@services/*": [
+        "app/services/*"
+      ],
+      "@pages/*": [
+        "app/pages/*"
+      ]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

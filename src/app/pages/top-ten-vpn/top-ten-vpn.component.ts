@@ -11,6 +11,7 @@ import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/adv
 import { topTenVpns } from '@generalDB/resources';
 import { ReadMoreVPNServices } from '@pages/top-ten-vpn/db/resources';
 
+import { CommonService } from '@services/common.service';
 @Component({
   selector: 'top-ten-vpn',
   templateUrl: './top-ten-vpn.component.html',
@@ -20,7 +21,9 @@ export class TopTenVpnComponent implements OnInit {
   topTenVpns: TopTenVpnService[] = [];
   ReadMoreVPNServices: ReadMoreVPNService[] = [];
 
-  constructor(private _ngbModal: NgbModal) { }
+  constructor(
+    private _ngbModal: NgbModal,
+    private _commonService: CommonService) { }
 
   ngOnInit() {
     this.initTopTenVpns();
@@ -48,18 +51,7 @@ export class TopTenVpnComponent implements OnInit {
   }
 
   initScroeClassArray(score: number): string[] {
-    const scroeClassArray = ['', '', '', '', ''];
-
-    for (let i = 0; i < 5; i++) {
-      if (score >= (i * 2)) {
-        if (score >= ((i * 2) + 1)) {
-          scroeClassArray[i] = 'full-star';
-        } else {
-          scroeClassArray[i] = 'half-star';
-        }
-      }
-    }
-    return scroeClassArray;
+    return this._commonService.initScroeClassArray(score);
   }
 
   getNumberOfStars(topTenVpn: TopTenVpnService) {

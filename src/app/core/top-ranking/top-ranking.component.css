@@ -48,3 +48,21 @@ ul.top-ranking-items li.top-ranking-item .top-ranking-item-image a {
 ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link {
     flex: 1;
 }
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars {
+    display: flex;
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars .star {
+    background: url('/assets/images/stars/empty-star.png') top center no-repeat;
+    width: 20px;
+    height: 18px;
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars .star.half-star {
+    background-image: url('/assets/images/stars/half-star.png');
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars .star.full-star {
+    background-image: url('/assets/images/stars/full-star.png');
+}

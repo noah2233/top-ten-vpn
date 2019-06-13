@@ -3,9 +3,15 @@
   <ul class="list-unstyled top-ranking-items">
     <li class="top-ranking-item {{topReankingItem.name}}" *ngFor="let topReankingItem of topReankingItems">
       <div class="top-ranking-item-image">
-        <a target="_blank" href="{{topReankingItem.link}}" [ngStyle]="{'background-image': getTopReankingItemImage(topReankingItem)}"></a>
+        <a target="_blank" href="{{topReankingItem.link}}"
+          [ngStyle]="{'background-image': getTopReankingItemImage(topReankingItem)}"></a>
       </div>
-      <div class="top-ranking-item-rank-and-link"></div>
+      <div class="top-ranking-item-rank-and-link">
+        <ul class="list-unstyled stars">
+          <li class="star {{starClass}}"
+            *ngFor="let starClass of initScroeClassArray(topReankingItem.score); let i = index"></li>
+        </ul>
+      </div>
     </li>
   </ul>
 </div>

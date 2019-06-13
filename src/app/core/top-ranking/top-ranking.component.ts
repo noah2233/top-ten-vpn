@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { TopTenVpnService } from '@core/interface';
 
 import { topTenVpns } from '@generalDB/resources';
+
+import { CommonService } from '@services/common.service';
 @Component({
   selector: 'top-ranking',
   templateUrl: './top-ranking.component.html',
@@ -11,7 +13,7 @@ import { topTenVpns } from '@generalDB/resources';
 export class TopRankingComponent implements OnInit {
   topReankingItems: TopTenVpnService[] = [];
 
-  constructor() { }
+  constructor(private _commonService: CommonService) { }
 
   ngOnInit() {
     this.initTopReankingItems();
@@ -23,5 +25,9 @@ export class TopRankingComponent implements OnInit {
 
   getTopReankingItemImage(topReankingItem: TopTenVpnService) {
     return 'url(/assets/images/vpn-services/mobile/' + topReankingItem.name + '.png)';
+  }
+
+  initScroeClassArray(score: number): string[] {
+    return this._commonService.initScroeClassArray(score);
   }
 }

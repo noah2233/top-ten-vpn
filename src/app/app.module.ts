@@ -21,6 +21,9 @@ import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/adv
 import { SiteHeaderComponent } from '@shared/site-header/site-header.component';
 import { SiteFooterComponent } from '@shared/site-footer/site-footer.component';
 
+// services
+import { CommonService } from '@services/common.service';
+
 // pages
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
@@ -46,10 +49,10 @@ import { TopRankingComponent } from './core/top-ranking/top-ranking.component';
     NgbModule,
     EllipsisModule,
     ResizableModule,
-    ClickOutsideModule 
+    ClickOutsideModule
   ],
   entryComponents: [AdvertisingDisclosureComponent],
-  providers: [],
+  providers: [CommonService],
 })
 export class AppModule {
 }
