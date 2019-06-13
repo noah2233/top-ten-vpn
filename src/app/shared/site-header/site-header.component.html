@@ -10,7 +10,9 @@
             <div class="collapse navbar-collapse" id="navbarColor01" [ngbCollapse]="toggleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item" *ngFor="let page of pages">
-                        <a href="javascript:void(0)" class="nav-link" [routerLink]="[page.path]">{{page.name}}</a>
+                        <a href="javascript:void(0)" class="nav-link" *ngIf="page.path"
+                            [routerLink]="[page.path]">{{page.name}}</a>
+                        <a href="javascript:void(0)" class="nav-link" *ngIf="!page.path">{{page.name}}</a>
                         <div class="childGroups" *ngIf="page.ChildGroupPages">
                             <div class="childGroup" *ngFor="let childGroupPage of page.ChildGroupPages">
                                 <div *ngIf="childGroupPage.name" class="title">{{childGroupPage.name}}</div>
