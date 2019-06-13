@@ -8,7 +8,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
 
-import { topTenVpns, ReadMoreVPNServices } from '@pages/top-ten-vpn/resources';
+import { topTenVpns } from '@generalDB/resources';
+import { ReadMoreVPNServices } from '@pages/top-ten-vpn/db/resources';
+
 @Component({
   selector: 'top-ten-vpn',
   templateUrl: './top-ten-vpn.component.html',

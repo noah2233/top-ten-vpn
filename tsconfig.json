@@ -3,8 +3,8 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@pages/*": [
-        "app/pages/*"
+      "@environments/*": [
+        "environments/*"
       ],
       "@core/*": [
         "app/core/*"
@@ -12,9 +12,12 @@
       "@shared/*": [
         "app/shared/*"
       ],
-      "@environments/*": [
-        "environments/*"
-      ]
+      "@pages/*": [
+        "app/pages/*"
+      ],
+      "@generalDB/*": [
+        "app/generalDB/*"
+      ],
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
