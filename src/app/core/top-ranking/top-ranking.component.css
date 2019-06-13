@@ -19,7 +19,6 @@ ul.top-ranking-items li.top-ranking-item {
     padding: 10px 0 10px;
     border-bottom: 1px solid #d4dcdd;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -46,7 +45,8 @@ ul.top-ranking-items li.top-ranking-item .top-ranking-item-image a {
 }
 
 ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars {
@@ -65,4 +65,13 @@ ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars 
 
 ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars .star.full-star {
     background-image: url('/assets/images/stars/full-star.png');
+}
+
+ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link a {
+    display: block;
+    text-align: center;
+    color: #0024ae;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
 }
