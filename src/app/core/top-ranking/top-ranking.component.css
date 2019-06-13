@@ -75,3 +75,25 @@ ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link a {
     font-weight: 400;
     margin-top: 5px;
 }
+
+/* #region CSS Media Queries */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    ul.top-ranking-items li.top-ranking-item {
+        display: block;
+    }
+    ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link {
+        margin-top: 15px;
+    }
+    ul.top-ranking-items li.top-ranking-item .top-ranking-item-rank-and-link .stars {
+       justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 375px) {}
+
+/* #endregion CSS Media Queries */

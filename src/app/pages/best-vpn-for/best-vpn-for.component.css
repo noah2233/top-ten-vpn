@@ -1,3 +1,15 @@
 .container {
     margin-top: 15px;
 }
+
+/* #region CSS Media Queries */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 375px) {}
+
+/* #endregion CSS Media Queries */
