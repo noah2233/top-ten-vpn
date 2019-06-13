@@ -57,34 +57,34 @@ export const bestVpnFor: Page = {
         }
     ]
 };
-export const vpnReviews: Page = {
-    name: 'VPN Reviews',
-    path: 'vpn-reviews',
-    ChildGroupPages: [
-        {
-            pages: [
-                { name: 'Cyber Ghost', path: 'cyber-ghost' },
-                { name: 'NordVPN', path: 'nord-vpn' },
-                { name: 'PrivateVPN', path: 'private-vpn' },
-                { name: 'SurfShark', path: 'surfshark' },
-                { name: 'ZenMate', path: 'zenmate' }
-            ]
-        }
-    ]
-};
-export const guides: Page = {
-    name: 'Guides',
-    path: 'guides',
-    ChildGroupPages: [
-        {
-            pages: [
-                { name: 'How to Choose a VPN', path: 'how-to-choose-a-vpn' },
-                { name: 'How to Surf the Web Anonymously', path: 'how-to-surf-the-web-anonymously' },
-                { name: 'How to Unblock Minecraft', path: 'how-to-unblock-minecraft' },
-                { name: 'How to Bypass VPN Blocks', path: 'how-to-bypass-vpn-blocks' },
-                { name: 'Guide to Geo Spoofing', path: 'guide-to-geo-spoofing' }
-            ]
-        }
-    ]
-};
-export const learn: Page = { name: 'Learn' };
+// export const vpnReviews: Page = {
+//     name: 'VPN Reviews',
+//     path: 'vpn-reviews',
+//     ChildGroupPages: [
+//         {
+//             pages: [
+//                 { name: 'Cyber Ghost', path: 'cyber-ghost' },
+//                 { name: 'NordVPN', path: 'nord-vpn' },
+//                 { name: 'PrivateVPN', path: 'private-vpn' },
+//                 { name: 'SurfShark', path: 'surfshark' },
+//                 { name: 'ZenMate', path: 'zenmate' }
+//             ]
+//         }
+//     ]
+// };
+// export const guides: Page = {
+//     name: 'Guides',
+//     path: 'guides',
+//     ChildGroupPages: [
+//         {
+//             pages: [
+//                 { name: 'How to Choose a VPN', path: 'how-to-choose-a-vpn' },
+//                 { name: 'How to Surf the Web Anonymously', path: 'how-to-surf-the-web-anonymously' },
+//                 { name: 'How to Unblock Minecraft', path: 'how-to-unblock-minecraft' },
+//                 { name: 'How to Bypass VPN Blocks', path: 'how-to-bypass-vpn-blocks' },
+//                 { name: 'Guide to Geo Spoofing', path: 'guide-to-geo-spoofing' }
+//             ]
+//         }
+//     ]
+// };
+// export const learn: Page = { name: 'Learn' };
