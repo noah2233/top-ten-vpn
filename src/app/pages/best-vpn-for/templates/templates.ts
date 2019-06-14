@@ -1,3 +1,4 @@
+declare var require: any;
 const windowsHtml = require('./windows.html');
 
 export const windows = {
