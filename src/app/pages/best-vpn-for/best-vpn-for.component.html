@@ -2,7 +2,9 @@
 <main class="site-main">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">col-xl-7</div>
+      <div class="col-md-7">
+        <div [innerHtml]="content"></div>
+      </div>
       <div class="col-md-5 d-none d-md-block">
         <top-ranking class="top-ranking"></top-ranking>
         <best-vpn-for-side-menu></best-vpn-for-side-menu>

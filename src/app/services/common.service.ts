@@ -21,4 +21,8 @@ export class CommonService {
     }
     return scroeClassArray;
   }
+
+  removeBackSlashFromUrl(url: string) {
+    return url.replace(/\//g, '');
+  }
 }
