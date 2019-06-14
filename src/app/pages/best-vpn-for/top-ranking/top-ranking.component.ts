@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { TopTenVpnService } from '@core/interface';
 
-import { topTenVpns } from '@generalDB/resources';
+import { topTenVpns } from 'app/resources';
 
 import { CommonService } from '@services/common.service';
 @Component({

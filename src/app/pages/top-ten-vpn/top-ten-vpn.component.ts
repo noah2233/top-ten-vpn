@@ -8,7 +8,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
 
-import { topTenVpns } from '@generalDB/resources';
+import { topTenVpns } from 'app/resources';
 import { ReadMoreVPNServices } from '@pages/top-ten-vpn/db/resources';
 
 import { CommonService } from '@services/common.service';
