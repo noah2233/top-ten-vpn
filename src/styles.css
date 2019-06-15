@@ -33,7 +33,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    line-height: 1;
+    line-height: 1.2;
 }
 
 router-outlet+* {
@@ -131,6 +131,28 @@ router-outlet+* {
     color: #3f3f3f;
 }
 
+.content .vpn-list-items .vpn-list-item .try {
+    text-align: center;
+}
+
+.content .vpn-list-items .vpn-list-item .try a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-width: 250px;
+    min-height: 40px;
+    background-color: #7fc600;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.content .vpn-list-items .vpn-list-item .try a:hover {
+    background-color: #397a1b;
+}
+
 /*#endregion content*/
 
 /* #region CSS Media Queries */
@@ -140,6 +162,16 @@ router-outlet+* {
 @media screen and (max-width: 767px) {
     body {
         background: #fff;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content .vpn-list-items .vpn-list-item .vpn-service {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content .vpn-list-items .vpn-list-item .vpn-service .vpn-service-name {
+        margin-bottom: 10px;
     }
 }
 
