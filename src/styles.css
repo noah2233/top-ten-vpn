@@ -114,8 +114,7 @@ router-outlet+* {
 }
 
 .content .vpn-list-items .vpn-list-item:last-of-type {
-    padding-bottom: 0;
-    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .content .vpn-list-items .vpn-list-item .vpn-service {
