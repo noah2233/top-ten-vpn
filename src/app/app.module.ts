@@ -53,7 +53,7 @@ import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-s
     ResizableModule,
     ClickOutsideModule
   ],
-  entryComponents: [AdvertisingDisclosureComponent],
+  entryComponents: [AdvertisingDisclosureComponent, BestVpnForComponent],
   providers: [CommonService],
 })
 export class AppModule {

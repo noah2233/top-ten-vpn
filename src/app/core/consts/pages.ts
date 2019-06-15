@@ -7,7 +7,7 @@ export const bestVpnFor: Page = {
         {
             name: 'Devices/OS',
             pages: [
-                { name: 'Windows', path: 'the-best-vpns-for-windows' },
+                { name: 'Windows', path: 'best-vpns-for-windows' },
                 { name: 'Mac', path: 'best-vpns-for-mac' },
                 { name: 'Chrome', path: 'best-vpns-for-google-chrome' },
                 { name: 'Firefox', path: 'best-vpns-for-firefox' },
