@@ -100,8 +100,30 @@ router-outlet+* {
     line-height: 1.5;
 }
 
-.content img {
+.content img.w100p {
     width: 100%;
+}
+
+.content .vpn-list-items .vpn-list-item {
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+
+.content .vpn-list-items .vpn-list-item:last-of-type {
+    padding-bottom: 0;
+    border-top: 1px solid #eee;
+}
+
+.content .vpn-list-items .vpn-list-item .vpn-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .vpn-list-items .vpn-list-item .vpn-service .vpn-service-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3f3f3f;
 }
 
 /*#endregion content*/
