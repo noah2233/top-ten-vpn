@@ -18,7 +18,7 @@
                                 <div *ngIf="childGroupPage.name" class="title">{{childGroupPage.name}}</div>
                                 <ul class="list-unstyled childPages">
                                     <li class="childPage" *ngFor="let childPage of childGroupPage.pages">
-                                        <a href="javascript:void(0)" [routerLink]="[childPage.path]">
+                                        <a href="javascript:void(0)" [routerLink]="['/' + childPage.path]">
                                             {{childPage.name}}
                                         </a>
                                     </li>
