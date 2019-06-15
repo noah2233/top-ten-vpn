@@ -7,52 +7,52 @@ export const bestVpnFor: Page = {
         {
             name: 'Devices/OS',
             pages: [
-                { name: 'Windows', path: 'best-vpns-for-windows' },
-                { name: 'Mac', path: 'best-vpns-for-mac' },
-                { name: 'Chrome', path: 'best-vpns-for-google-chrome' },
-                { name: 'Firefox', path: 'best-vpns-for-firefox' },
-                { name: 'Android', path: 'best-vpns-for-android' },
-                { name: 'iPhone', path: 'best-vpns-for-iphone' },
-                { name: 'iPad / Tablet', path: 'best-vpns-for-iPad-or-tablet' },
-                { name: 'Apple TV', path: 'best-vpns-for-apple-tv' },
-                { name: 'Smart TV', path: 'best-vpns-for-smart-tv' },
-                { name: 'Router', path: 'the-best-router-vpns' }
+                { name: 'windows', path: 'best-vpns-for-windows' },
+                { name: 'mac', path: 'best-vpns-for-mac' },
+                { name: 'chrome', path: 'best-vpns-for-google-chrome' },
+                { name: 'firefox', path: 'best-vpns-for-firefox' },
+                { name: 'android', path: 'best-vpns-for-android' },
+                { name: 'iphone', path: 'best-vpns-for-iphone' },
+                { name: 'ipadOrTablet', path: 'best-vpns-for-iPad-or-tablet' },
+                { name: 'appletv', path: 'best-vpns-for-apple-tv' },
+                { name: 'smarttv', path: 'best-vpns-for-smart-tv' },
+                { name: 'router', path: 'the-best-router-vpns' }
             ]
         },
         {
             name: 'Countries',
             pages: [
-                { name: 'China', path: 'best-vpns-for-china' },
-                { name: 'Russia', path: 'best-vpns-for-russia' },
-                { name: 'UK', path: 'best-vpns-for-uk' },
-                { name: 'Australia', path: 'best-vpns-for-australia' },
-                { name: 'France', path: 'best-vpns-for-france' },
+                { name: 'china', path: 'best-vpns-for-china' },
+                { name: 'russia', path: 'best-vpns-for-russia' },
+                { name: 'uk', path: 'best-vpns-for-uk' },
+                { name: 'australia', path: 'best-vpns-for-australia' },
+                { name: 'france', path: 'best-vpns-for-france' },
             ]
         },
         {
             name: 'Popular Services',
             pages: [
-                { name: 'Netflix', path: 'best-vpns-for-netflix' },
-                { name: 'Kodi', path: 'best-vpns-for-kodi' },
-                { name: 'Amazon Prime', path: 'best-vpns-for-amazon-prime' },
-                { name: 'Hulu', path: 'best-vpns-for-hulu' },
-                { name: 'BBC iPlayer', path: 'best-vpns-for-bbc-iplayer' },
-                { name: 'FuboTV', path: 'best-vpns-for-fubotv' },
-                { name: 'DirectTV Now', path: 'best-vpns-for-directtv-now' },
+                { name: 'netflix', path: 'best-vpns-for-netflix' },
+                { name: 'kodi', path: 'best-vpns-for-kodi' },
+                { name: 'amazonPrime', path: 'best-vpns-for-amazon-prime' },
+                { name: 'hulu', path: 'best-vpns-for-hulu' },
+                { name: 'bbcIPlayer', path: 'best-vpns-for-bbc-iplayer' },
+                { name: 'fubotv', path: 'best-vpns-for-fubotv' },
+                { name: 'directTvNow', path: 'best-vpns-for-directtv-now' },
             ]
         },
         {
             name: 'Popular Usage',
             pages: [
-                { name: 'Online Gaming', path: 'best-vpns-for-online-gaming' },
-                { name: 'Streaming', path: 'best-vpns-for-streaming' },
-                { name: 'Torrenting', path: 'best-vpns-for-torrenting' },
-                { name: 'Sports', path: 'best-vpns-for-sports' },
-                { name: 'Facebook', path: 'best-vpns-for-facebook' },
-                { name: 'Twitter', path: 'best-vpns-for-twitter' },
-                { name: 'YouTube', path: 'best-vpns-for-youtube' },
-                { name: 'Telegram', path: 'best-vpns-for-telegram' },
-                { name: 'Businesses', path: 'best-vpns-for-businesses' }
+                { name: 'onlineGaming', path: 'best-vpns-for-online-gaming' },
+                { name: 'streaming', path: 'best-vpns-for-streaming' },
+                { name: 'torrenting', path: 'best-vpns-for-torrenting' },
+                { name: 'sports', path: 'best-vpns-for-sports' },
+                { name: 'facebook', path: 'best-vpns-for-facebook' },
+                { name: 'twitter', path: 'best-vpns-for-twitter' },
+                { name: 'youtube', path: 'best-vpns-for-youtube' },
+                { name: 'telegram', path: 'best-vpns-for-telegram' },
+                { name: 'businesses', path: 'best-vpns-for-businesses' }
             ]
         }
     ]

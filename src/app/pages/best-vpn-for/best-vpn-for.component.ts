@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import * as templates from './templates/templates';
+import { forEach } from 'lodash';
 
+import * as templates from './templates/templates';
 import * as pages from '@core/consts/pages';
+import { Page, ChildGroupPage } from '@core/interface';
 
 import { CommonService } from '@services/common.service';
 @Component({
@@ -27,5 +29,25 @@ export class BestVpnForComponent implements OnInit {
         this.content = templates.windows;
         break;
     }
+
+    this.content = templates[this.getTemplateName()];
+  }
+
+  getTemplateName(): string {
+    let templateName = '';
+
+    const that = this;
+    forEach(pages, function (page: Page) {
+      forEach(page.ChildGroupPages, function (childGroupPage: ChildGroupPage) {
+        forEach(childGroupPage.pages, function (childPage: Page) {
+          if (childPage.path === that._commonService.removeBackSlashFromUrl(that._router.url)) {
+            templateName = childPage.name;
+            return false;
+          }
+        });
+      });
+    });
+
+    return templateName;
   }
 }
