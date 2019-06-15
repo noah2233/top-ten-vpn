@@ -13,4 +13,14 @@ h2.main-title {
     font-weight: 400;
     padding-bottom: 30px;
     border-bottom: 1px solid #d4dcdd;
+    margin: 0;
+}
+
+.best-vpn-for-items .best-vpn-for-item {
+    border-bottom: 1px solid #d4dcdd;
+}
+
+.best-vpn-for-items .best-vpn-for-item a {
+    display: block;
+    padding: 20px 0;
 }

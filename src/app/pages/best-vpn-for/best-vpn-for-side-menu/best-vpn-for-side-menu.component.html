@@ -1,6 +1,13 @@
 <h2 class="main-title">Best VPN For...</h2>
-<ul class="list-unstyled">
-    <li *ngFor="let item of bestVPNForItems">
-        {{item.title}}
+<ul class="list-unstyled best-vpn-for-items">
+    <li class="best-vpn-for-item" *ngFor="let item of bestVPNForItems">
+        <a href="javascript:void(0)">
+            <div class="media">
+                <img src="..." class="mr-3" alt="...">
+                <div class="media-body">
+                    {{item.title}}
+                </div>
+            </div>
+        </a>
     </li>
 </ul>
