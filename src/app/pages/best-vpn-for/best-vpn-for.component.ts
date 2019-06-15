@@ -24,7 +24,7 @@ export class BestVpnForComponent implements OnInit {
   initContent() {
     switch (this._commonService.removeBackSlashFromUrl(this._router.url)) {
       case pages.bestVpnFor.ChildGroupPages[0].pages[0].path:
-        this.content = templates.windows.content;
+        this.content = templates.windows;
         break;
     }
   }

@@ -66,6 +66,46 @@ router-outlet+* {
 
 /*#endregion general*/
 
+/*#region content*/
+
+.content {
+    border: solid 1px #ccc;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.content h1.main-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #3f3f3f;
+    margin-bottom: 15px;
+}
+
+.content h2.sub-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #3f3f3f;
+    margin: 15px 0;
+}
+
+.content .date {
+    font-size: 13px;
+    color: #3f3f3f;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #3f3f3f;
+    line-height: 1.5;
+}
+
+.content img {
+    width: 100%;
+}
+
+/*#endregion content*/
+
 /* #region CSS Media Queries */
 
 @media screen and (max-width: 1199px) {}

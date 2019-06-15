@@ -3,7 +3,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <div [innerHtml]="content"></div>
+        <div class="content">
+          <h1 class="main-title" [innerHtml]="content.title"></h1>
+          <div class="date" [innerHtml]="content.date"></div>
+          <div [innerHtml]="content.main"></div>
+        </div>
       </div>
       <div class="col-md-5 d-none d-md-block">
         <top-ranking class="top-ranking"></top-ranking>
