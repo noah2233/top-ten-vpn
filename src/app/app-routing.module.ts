@@ -27,17 +27,12 @@ export class AppRoutingModule {
   createChildRoutes(parent: Page, component: any) {
 
     const that = this;
-    forEach(pages, function (page: Page) {
-      if (page.name === parent.name) {
-        forEach(page.ChildGroupPages, function (childGroupPage: ChildGroupPage) {
-          forEach(childGroupPage.pages, function (childPage: Page) {
-            that._router.config.unshift(
-              { path: childPage.path, component: component },
-            );
-          });
-        });
-      }
+    forEach(parent.ChildGroupPages, function (childGroupPage: ChildGroupPage) {
+      forEach(childGroupPage.pages, function (childPage: Page) {
+        that._router.config.unshift(
+          { path: childPage.path, component: component },
+        );
+      });
     });
-
   }
 }
