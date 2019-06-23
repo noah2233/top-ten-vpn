@@ -61,17 +61,20 @@ export const bestVpnFor: Page = {
                     name: 'chrome',
                     path: 'best-vpns-for-google-chrome',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
-                        date: 'July 1, 2019',
-                        main: chromeHtml
+                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: chromeHtml
                     }
                 },
                 {
                     name: 'firefox',
                     path: 'best-vpns-for-firefox',
-                    template: null
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: firefoxHtml
+                    }
                 },
-                { name: 'android', path: 'best-vpns-for-android' },
+                {
+                    name: 'android',
+                    path: 'best-vpns-for-android'
+                },
                 { name: 'iphone', path: 'best-vpns-for-iphone' },
                 { name: 'ipadOrTablet', path: 'best-vpns-for-iPad-or-tablet' },
                 { name: 'appletv', path: 'best-vpns-for-apple-tv' },
