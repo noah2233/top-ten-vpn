@@ -34,187 +34,189 @@ const youtubeHtml = require('./youtube.html');
 const telegramHtml = require('./telegram.html');
 const businessesHtml = require('./businesses.html');
 
-export const windows = {
+import { Template } from '@core/interface';
+
+export const windows: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: windowsHtml
 };
 
-export const mac = {
+export const mac: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: macHtml
 };
 
-export const chrome = {
+export const chrome: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: chromeHtml
 };
 
-export const firefox = {
+export const firefox: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: firefoxHtml
 };
 
-export const android = {
+export const android: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: androidHtml
 };
 
-export const iphone = {
+export const iphone: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: iphoneHtml
 };
 
-export const ipadOrTablet = {
+export const ipadOrTablet: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: ipadOrTabletHtml
 };
 
-export const appletv = {
+export const appletv: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: appletvHtml
 };
 
-export const smarttv = {
+export const smarttv: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: smarttvHtml
 };
 
-export const router = {
+export const router: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: routerHtml
 };
 
-export const china = {
+export const china: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: chinaHtml
 };
 
-export const russia = {
+export const russia: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: russiaHtml
 };
 
-export const uk = {
+export const uk: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: ukHtml
 };
 
-export const australia = {
+export const australia: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: australiaHtml
 };
 
-export const france = {
+export const france: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: franceHtml
 };
 
-export const netflix = {
+export const netflix: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: netflixHtml
 };
 
-export const kodi = {
+export const kodi: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: kodiHtml
 };
 
-export const amazonPrime = {
+export const amazonPrime: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: amazonPrimeHtml
 };
 
-export const hulu = {
+export const hulu: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: huluHtml
 };
 
-export const bbcIPlayer = {
+export const bbcIPlayer: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: bbcIPlayerHtml
 };
 
-export const fubotv = {
+export const fubotv: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: fubotvHtml
 };
 
-export const directTvNow = {
+export const directTvNow: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: directTvNowHtml
 };
 
-export const onlineGaming = {
+export const onlineGaming: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: onlineGamingHtml
 };
 
-export const streaming = {
+export const streaming: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: streamingHtml
 };
 
-export const torrenting = {
+export const torrenting: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: torrentingHtml
 };
 
-export const sports = {
+export const sports: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: sportsHtml
 };
 
-export const facebook = {
+export const facebook: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: facebookHtml
 };
 
-export const twitter = {
+export const twitter: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: twitterHtml
 };
 
-export const youtube = {
+export const youtube: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: youtubeHtml
 };
 
-export const telegram = {
+export const telegram: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: telegramHtml
 };
 
-export const businesses = {
+export const businesses: Template = {
     title: 'The Best VPNs for Windows of 2019',
     date: 'July 1, 2019',
     main: businessesHtml

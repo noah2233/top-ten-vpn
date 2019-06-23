@@ -23,3 +23,9 @@ export interface ChildGroupPage {
     name?: string;
     pages: Page[];
 }
+
+export interface Template {
+    title: string;
+    date: string;
+    main: any;
+}
