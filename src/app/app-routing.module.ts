@@ -27,7 +27,7 @@ export class AppRoutingModule {
   createChildRoutes(parent: Page, component: any) {
 
     const that = this;
-    forEach(parent.ChildGroupPages, function (childGroupPage: ChildGroupPage) {
+    forEach(parent.childGroupPages, function (childGroupPage: ChildGroupPage) {
       forEach(childGroupPage.pages, function (childPage: Page) {
         that._router.config.unshift(
           { path: childPage.path, component: component },

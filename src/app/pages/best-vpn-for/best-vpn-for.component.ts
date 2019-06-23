@@ -32,7 +32,7 @@ export class BestVpnForComponent implements OnInit {
 
     const that = this;
     forEach(pages, function (page: Page) {
-      forEach(page.ChildGroupPages, function (childGroupPage: ChildGroupPage) {
+      forEach(page.childGroupPages, function (childGroupPage: ChildGroupPage) {
         forEach(childGroupPage.pages, function (childPage: Page) {
           if (childPage.path === that._commonService.removeBackSlashFromUrl(that._router.url)) {
             templateName = childPage.name;
