@@ -1,5 +1,41 @@
 import { Page } from '@core/interface';
 
+declare var require: any;
+const windowsHtml = require('@pages/best-vpn-for/templates/windows.html');
+const macHtml = require('@pages/best-vpn-for/templates//mac.html');
+const chromeHtml = require('@pages/best-vpn-for/templates//chrome.html');
+const firefoxHtml = require('@pages/best-vpn-for/templates//firefox.html');
+const androidHtml = require('@pages/best-vpn-for/templates//android.html');
+const iphoneHtml = require('@pages/best-vpn-for/templates//iphone.html');
+const ipadOrTabletHtml = require('@pages/best-vpn-for/templates//ipadOrTablet.html');
+const appletvHtml = require('@pages/best-vpn-for/templates//appletv.html');
+const smarttvHtml = require('@pages/best-vpn-for/templates//smarttv.html');
+const routerHtml = require('@pages/best-vpn-for/templates//router.html');
+
+const chinaHtml = require('@pages/best-vpn-for/templates//china.html');
+const russiaHtml = require('@pages/best-vpn-for/templates//russia.html');
+const ukHtml = require('@pages/best-vpn-for/templates//uk.html');
+const australiaHtml = require('@pages/best-vpn-for/templates//australia.html');
+const franceHtml = require('@pages/best-vpn-for/templates//france.html');
+
+const netflixHtml = require('@pages/best-vpn-for/templates//netflix.html');
+const kodiHtml = require('@pages/best-vpn-for/templates//kodi.html');
+const amazonPrimeHtml = require('@pages/best-vpn-for/templates//amazonPrime.html');
+const huluHtml = require('@pages/best-vpn-for/templates//hulu.html');
+const bbcIPlayerHtml = require('@pages/best-vpn-for/templates//bbcIPlayer.html');
+const fubotvHtml = require('@pages/best-vpn-for/templates//fubotv.html');
+const directTvNowHtml = require('@pages/best-vpn-for/templates//directTvNow.html');
+
+const onlineGamingHtml = require('@pages/best-vpn-for/templates//onlineGaming.html');
+const streamingHtml = require('@pages/best-vpn-for/templates//streaming.html');
+const torrentingHtml = require('@pages/best-vpn-for/templates//torrenting.html');
+const sportsHtml = require('@pages/best-vpn-for/templates//sports.html');
+const facebookHtml = require('@pages/best-vpn-for/templates//facebook.html');
+const twitterHtml = require('@pages/best-vpn-for/templates//twitter.html');
+const youtubeHtml = require('@pages/best-vpn-for/templates//youtube.html');
+const telegramHtml = require('@pages/best-vpn-for/templates//telegram.html');
+const businessesHtml = require('@pages/best-vpn-for/templates//businesses.html');
+
 export const topTenVpn: Page = { name: 'Top 10 VPN', path: '/' };
 export const bestVpnFor: Page = {
     name: 'Best VPN for...',
@@ -7,10 +43,34 @@ export const bestVpnFor: Page = {
         {
             name: 'Devices/OS',
             pages: [
-                { name: 'windows', path: 'best-vpns-for-windows' },
-                { name: 'mac', path: 'best-vpns-for-mac' },
-                { name: 'chrome', path: 'best-vpns-for-google-chrome' },
-                { name: 'firefox', path: 'best-vpns-for-firefox' },
+                {
+                    name: 'windows',
+                    path: 'best-vpns-for-windows',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: windowsHtml
+                    }
+                },
+                {
+                    name: 'mac',
+                    path: 'best-vpns-for-mac',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: macHtml
+                    }
+                },
+                {
+                    name: 'chrome',
+                    path: 'best-vpns-for-google-chrome',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: chromeHtml
+                    }
+                },
+                {
+                    name: 'firefox',
+                    path: 'best-vpns-for-firefox',
+                    template: null
+                },
                 { name: 'android', path: 'best-vpns-for-android' },
                 { name: 'iphone', path: 'best-vpns-for-iphone' },
                 { name: 'ipadOrTablet', path: 'best-vpns-for-iPad-or-tablet' },
