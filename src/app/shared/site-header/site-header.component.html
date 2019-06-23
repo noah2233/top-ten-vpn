@@ -13,8 +13,8 @@
                         <a href="javascript:void(0)" class="nav-link" *ngIf="page.path"
                             [routerLink]="[page.path]">{{page.name}}</a>
                         <a href="javascript:void(0)" class="nav-link" *ngIf="!page.path">{{page.name}}</a>
-                        <div class="childGroups" *ngIf="page.ChildGroupPages">
-                            <div class="childGroup" *ngFor="let childGroupPage of page.ChildGroupPages">
+                        <div class="childGroups" *ngIf="page.childGroupPages">
+                            <div class="childGroup" *ngFor="let childGroupPage of page.childGroupPages">
                                 <div *ngIf="childGroupPage.name" class="title">{{childGroupPage.name}}</div>
                                 <ul class="list-unstyled childPages">
                                     <li class="childPage" *ngFor="let childPage of childGroupPage.pages">
