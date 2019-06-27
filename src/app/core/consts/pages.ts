@@ -57,14 +57,14 @@ export const bestVpnFor: Page = {
                     name: 'mac',
                     path: 'best-vpns-for-mac',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The 4 Best VPNs for Mac Users of 2019',
                         date: 'July 1, 2019',
                         main: macHtml
                     }
                 },
                 {
                     name: 'chrome',
-                    path: 'best-vpns-for-google-chrome',
+                    path: 'The Best VPNs for Chrome of 2019',
                     template: {
                         title: 'The Best VPNs for Windows of 2019',
                         date: 'July 1, 2019',
@@ -75,7 +75,7 @@ export const bestVpnFor: Page = {
                     name: 'firefox',
                     path: 'best-vpns-for-firefox',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Mozilla Firefox of 2019',
                         date: 'July 1, 2019',
                         main: firefoxHtml
                     }
@@ -84,7 +84,7 @@ export const bestVpnFor: Page = {
                     name: 'android',
                     path: 'best-vpns-for-android',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Android of 2019',
                         date: 'July 1, 2019',
                         main: androidHtml
                     }
@@ -93,7 +93,7 @@ export const bestVpnFor: Page = {
                     name: 'iphone',
                     path: 'best-vpns-for-iphone',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Your iPhone of 2019',
                         date: 'July 1, 2019',
                         main: iphoneHtml
                     }
@@ -102,7 +102,7 @@ export const bestVpnFor: Page = {
                     name: 'ipadOrTablet',
                     path: 'best-vpns-for-iPad-or-tablet',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for iPad of 2019',
                         date: 'July 1, 2019',
                         main: ipadOrTabletHtml
                     }
@@ -111,7 +111,7 @@ export const bestVpnFor: Page = {
                     name: 'appletv',
                     path: 'best-vpns-for-apple-tv',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Streaming with Apple TV of 2019',
                         date: 'July 1, 2019',
                         main: appletvHtml
                     }
@@ -120,7 +120,7 @@ export const bestVpnFor: Page = {
                     name: 'smarttv',
                     path: 'best-vpns-for-smart-tv',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Smart TV of 2019',
                         date: 'July 1, 2019',
                         main: smarttvHtml
                     }
@@ -129,7 +129,7 @@ export const bestVpnFor: Page = {
                     name: 'router',
                     path: 'the-best-router-vpns',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The 5 Best VPNs for Routers',
                         date: 'July 1, 2019',
                         main: routerHtml
                     }
@@ -143,7 +143,7 @@ export const bestVpnFor: Page = {
                     name: 'china',
                     path: 'best-vpns-for-china',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for China of 2019',
                         date: 'July 1, 2019',
                         main: chinaHtml
                     }
@@ -152,7 +152,7 @@ export const bestVpnFor: Page = {
                     name: 'russia',
                     path: 'best-vpns-for-russia',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Russia of 2019',
                         date: 'July 1, 2019',
                         main: russiaHtml
                     }
@@ -161,7 +161,7 @@ export const bestVpnFor: Page = {
                     name: 'uk',
                     path: 'best-vpns-for-uk',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for UK of 2019',
                         date: 'July 1, 2019',
                         main: ukHtml
                     }
@@ -170,7 +170,7 @@ export const bestVpnFor: Page = {
                     name: 'australia',
                     path: 'best-vpns-for-australia',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Australia of 2019',
                         date: 'July 1, 2019',
                         main: australiaHtml
                     }
@@ -179,7 +179,7 @@ export const bestVpnFor: Page = {
                     name: 'france',
                     path: 'best-vpns-for-france',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for France of 2019',
                         date: 'July 1, 2019',
                         main: franceHtml
                     }
@@ -193,7 +193,7 @@ export const bestVpnFor: Page = {
                     name: 'netflix',
                     path: 'best-vpns-for-netflix',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Netflix of 2019',
                         date: 'July 1, 2019',
                         main: netflixHtml
                     }
@@ -202,7 +202,7 @@ export const bestVpnFor: Page = {
                     name: 'kodi',
                     path: 'best-vpns-for-kodi',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Kodi of 2019',
                         date: 'July 1, 2019',
                         main: kodiHtml
                     }
@@ -211,7 +211,7 @@ export const bestVpnFor: Page = {
                     name: 'amazonPrime',
                     path: 'best-vpns-for-amazon-prime',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Amazon Prime Video of 2019',
                         date: 'July 1, 2019',
                         main: amazonPrimeHtml
                     }
@@ -220,7 +220,7 @@ export const bestVpnFor: Page = {
                     name: 'hulu',
                     path: 'best-vpns-for-hulu',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Hulu of 2019',
                         date: 'July 1, 2019',
                         main: huluHtml
                     }
@@ -229,7 +229,7 @@ export const bestVpnFor: Page = {
                     name: 'bbcIPlayer',
                     path: 'best-vpns-for-bbc-iplayer',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for BBC iPlayer of 2019',
                         date: 'July 1, 2019',
                         main: bbcIPlayerHtml
                     }
@@ -238,7 +238,7 @@ export const bestVpnFor: Page = {
                     name: 'fubotv',
                     path: 'best-vpns-for-fubotv',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for fuboTV of 2019',
                         date: 'July 1, 2019',
                         main: fubotvHtml
                     }
@@ -247,7 +247,7 @@ export const bestVpnFor: Page = {
                     name: 'directTvNow',
                     path: 'best-vpns-for-directtv-now',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for DirecTV Now of 2019',
                         date: 'July 1, 2019',
                         main: directTvNowHtml
                     }
@@ -261,7 +261,7 @@ export const bestVpnFor: Page = {
                     name: 'onlineGaming',
                     path: 'best-vpns-for-online-gaming',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Online Gaming of 2019',
                         date: 'July 1, 2019',
                         main: onlineGamingHtml
                     }
@@ -270,7 +270,7 @@ export const bestVpnFor: Page = {
                     name: 'streaming',
                     path: 'best-vpns-for-streaming',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Streaming of 2019',
                         date: 'July 1, 2019',
                         main: streamingHtml
                     }
@@ -279,7 +279,7 @@ export const bestVpnFor: Page = {
                     name: 'torrenting',
                     path: 'best-vpns-for-torrenting',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Torrenting of 2019',
                         date: 'July 1, 2019',
                         main: torrentingHtml
                     }
@@ -288,7 +288,7 @@ export const bestVpnFor: Page = {
                     name: 'sports',
                     path: 'best-vpns-for-sports',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'Unblock Sporting Events With a VPN',
                         date: 'July 1, 2019',
                         main: sportsHtml
                     }
@@ -297,7 +297,7 @@ export const bestVpnFor: Page = {
                     name: 'facebook',
                     path: 'best-vpns-for-facebook',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Facebook of 2019',
                         date: 'July 1, 2019',
                         main: facebookHtml
                     }
@@ -306,7 +306,7 @@ export const bestVpnFor: Page = {
                     name: 'twitter',
                     path: 'best-vpns-for-twitter',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Twitter of 2019',
                         date: 'July 1, 2019',
                         main: twitterHtml
                     }
@@ -315,7 +315,7 @@ export const bestVpnFor: Page = {
                     name: 'youtube',
                     path: 'best-vpns-for-youtube',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for YouTube of 2019',
                         date: 'July 1, 2019',
                         main: youtubeHtml
                     }
@@ -324,7 +324,7 @@ export const bestVpnFor: Page = {
                     name: 'telegram',
                     path: 'best-vpns-for-telegram',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best VPNs for Telegram of 2019',
                         date: 'July 1, 2019',
                         main: telegramHtml
                     }
@@ -333,7 +333,7 @@ export const bestVpnFor: Page = {
                     name: 'businesses',
                     path: 'best-vpns-for-businesses',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019',
+                        title: 'The Best Business VPNs of 2019',
                         date: 'July 1, 2019',
                         main: businessesHtml
                     }
