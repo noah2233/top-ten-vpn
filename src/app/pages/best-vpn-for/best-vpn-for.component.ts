@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { forEach } from 'lodash';
-
-import * as pages from '@core/consts/pages';
-import { Page, ChildGroupPage } from '@core/interface';
+import { Page } from '@core/interface';
 
 import { CommonService } from '@services/common.service';
 
@@ -24,28 +21,9 @@ export class BestVpnForComponent implements OnInit {
   }
 
   initContent() {
-    const currentPage: Page = this.getCurrentPage();
+    const currentPage: Page = this._commonService.getPage(this._router.url);
     if (currentPage) {
       this.content = currentPage.template;
     }
-  }
-
-  getCurrentPage(): Page {
-    let currentPage: Page = null;
-
-    const that = this;
-    forEach(pages, function (page: Page) {
-      forEach(page.childGroupPages, function (childGroupPage: ChildGroupPage) {
-        forEach(childGroupPage.pages, function (childPage: Page) {
-          if (childPage.path === that._commonService.removeBackSlashFromUrl(that._router.url)) {
-            currentPage = childPage;
-            // end loop
-            return false;
-          }
-        });
-      });
-    });
-
-    return currentPage;
   }
 }

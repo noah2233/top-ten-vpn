@@ -1,8 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { forEach } from 'lodash';
 
 import { Page } from '@core/interface';
+
+import { CommonService } from '@services/common.service';
 
 @Component({
   selector: 'best-vpn-for-side-menu',
@@ -10,29 +13,35 @@ import { Page } from '@core/interface';
   styleUrls: ['./best-vpn-for-side-menu.component.css']
 })
 export class BestVpnForSideMenuComponent implements OnInit {
-  @Input() currentPage: Page;
-  bestVPNForItems = [];
+  bestVPNForItems: Page[] = [];
+  private templatesPathAarray = [
+    'best-vpns-for-windows',
+    'best-vpns-for-android',
+    'best-vpns-for-china',
+    'best-vpns-for-online-gaming',
+    'best-vpns-for-kodi',
+    'best-vpns-for-iphone',
+    'best-vpns-for-google-chrome',
+  ];
 
-  constructor() { }
+  constructor(
+    private _router: Router,
+    private _commonService: CommonService) { }
 
   ngOnInit() {
     this.initBestVPNForItems();
   }
 
   initBestVPNForItems() {
-    const templatesAarrayNames = [
-      'android',
-      'china',
-      'onlineGaming',
-      'kodi',
-      'iphone',
-      'chrome',
-    ];
+    const currentPage: Page = this._commonService.getPage(this._router.url);
 
     const that = this;
-    forEach(templatesAarrayNames, function (name) {
-      if (name !== that.currentPage.name) {
-        that.bestVPNForItems.push(that.currentPage);
+    forEach(that.templatesPathAarray, function (path) {
+      if (currentPage && (path !== currentPage.path)) {
+        const page: Page = that._commonService.getPage(path);
+        if (page) {
+          that.bestVPNForItems.push(page);
+        }
       }
     });
   }
