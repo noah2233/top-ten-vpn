@@ -50,7 +50,7 @@ export const bestVpnFor: Page = {
                         title: 'The Best VPNs for Windows of 2019',
                         date: 'July 1, 2019',
                         main: windowsHtml,
-                        mainImage: '/assets/images/pages/best-vpn-for/templates/Windows-4-image.jpg'
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-windows.jpg'
                     }
                 },
                 {
@@ -59,7 +59,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The 4 Best VPNs for Mac Users of 2019',
                         date: 'July 1, 2019',
-                        main: macHtml
+                        main: macHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-mac.jpg'
                     }
                 },
                 {
@@ -68,7 +69,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Google Chrome of 2019',
                         date: 'July 1, 2019',
-                        main: chromeHtml
+                        main: chromeHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-google-chrome.jpg'
                     }
                 },
                 {
@@ -77,7 +79,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Mozilla Firefox of 2019',
                         date: 'March 18, 2018',
-                        main: firefoxHtml
+                        main: firefoxHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-firefox.png'
                     }
                 },
                 {
@@ -86,7 +89,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Android of 2019',
                         date: 'May 8, 2019',
-                        main: androidHtml
+                        main: androidHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-android.jpg'
                     }
                 },
                 {
@@ -95,7 +99,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Your iPhone of 2019',
                         date: 'March 4, 2019',
-                        main: iphoneHtml
+                        main: iphoneHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-iphone.jpg'
                     }
                 },
                 {
@@ -104,7 +109,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for iPad of 2019',
                         date: 'March 5, 2018',
-                        main: ipadOrTabletHtml
+                        main: ipadOrTabletHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-iPad-or-tablet.jpg'
                     }
                 },
                 {
@@ -113,7 +119,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Streaming with Apple TV of 2019',
                         date: 'April 12, 2019',
-                        main: appletvHtml
+                        main: appletvHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-apple-tv.jpg'
                     }
                 },
                 {
@@ -122,16 +129,18 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Smart TV of 2019',
                         date: 'March 10, 2019',
-                        main: smarttvHtml
+                        main: smarttvHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-smart-tv.jpg'
                     }
                 },
                 {
                     name: 'router',
-                    path: 'the-best-router-vpns',
+                    path: 'best-vpns-for-router',
                     template: {
                         title: 'The 5 Best VPNs for Routers',
                         date: 'July 13, 2019',
-                        main: routerHtml
+                        main: routerHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-router.jpg'
                     }
                 }
             ]
@@ -145,7 +154,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for China of 2019',
                         date: 'February 21, 2019',
-                        main: chinaHtml
+                        main: chinaHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-china.jpg'
                     }
                 },
                 {
@@ -154,7 +164,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Russia of 2019',
                         date: 'April 16, 2019',
-                        main: russiaHtml
+                        main: russiaHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-russia.jpg'
                     }
                 },
                 {
@@ -163,7 +174,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for UK of 2019',
                         date: 'July 1, 2019',
-                        main: ukHtml
+                        main: ukHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-uk.jpg'
                     }
                 },
                 {
@@ -172,7 +184,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Australia of 2019',
                         date: 'May 17, 2019',
-                        main: australiaHtml
+                        main: australiaHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-australia.jpg'
                     }
                 },
                 {
@@ -181,7 +194,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for France of 2019',
                         date: 'June 12, 2019',
-                        main: franceHtml
+                        main: franceHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-france.jpg'
                     }
                 },
             ]
@@ -195,7 +209,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Netflix of 2019',
                         date: 'January 18, 2019',
-                        main: netflixHtml
+                        main: netflixHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-netflix.jpg'
                     }
                 },
                 {
@@ -222,7 +237,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Hulu of 2019',
                         date: 'April 23, 2019',
-                        main: huluHtml
+                        main: huluHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-hulu.jpg'
                     }
                 },
                 {
@@ -249,7 +265,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for DirecTV Now of 2019',
                         date: 'May 25, 2019',
-                        main: directTvNowHtml
+                        main: directTvNowHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-directtv-now.jpg'
                     }
                 },
             ]
@@ -272,7 +289,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Streaming of 2019',
                         date: 'April 3, 2019',
-                        main: streamingHtml
+                        main: streamingHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-streaming.jpg'
                     }
                 },
                 {
@@ -281,7 +299,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Torrenting of 2019',
                         date: 'January 1, 2019',
-                        main: torrentingHtml
+                        main: torrentingHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-torrenting.jpg'
                     }
                 },
                 {
@@ -290,7 +309,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'Unblock Sporting Events With a VPN',
                         date: 'April 24, 2019',
-                        main: sportsHtml
+                        main: sportsHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-sports.jpg'
                     }
                 },
                 {
@@ -299,7 +319,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Facebook of 2019',
                         date: 'April 12, 2019',
-                        main: facebookHtml
+                        main: facebookHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-facebook.jpg'
                     }
                 },
                 {
@@ -326,7 +347,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Telegram of 2019',
                         date: 'July 1, 2019',
-                        main: telegramHtml
+                        main: telegramHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-telegram.jpg'
                     }
                 },
                 {
@@ -335,7 +357,8 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best Business VPNs of 2019',
                         date: 'July 1, 2019',
-                        main: businessesHtml
+                        main: businessesHtml,
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/best-vpns-for-businesses.jpg'
                     }
                 }
             ]
