@@ -29,4 +29,5 @@ export interface Template {
     title: string;
     date: string;
     main: string;
+    mainImage?: string;
 }

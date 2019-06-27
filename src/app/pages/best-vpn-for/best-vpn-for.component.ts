@@ -25,9 +25,12 @@ export class BestVpnForComponent implements OnInit {
     if (currentPage) {
       const template: Template = currentPage.template;
       if (template) {
-        template.main = template.main.replace('{{mainTitle}}', template.title);
-        template.main = template.main.replace('{{mainDate}}', template.date);
-        this.content = template;
+        template.main = template.main
+          .replace('{{mainTitle}}', template.title)
+          .replace('{{mainDate}}', template.date)
+          .replace('{{mainImage}}', template.mainImage);
+
+        this.content = template.main;
       }
     }
   }
