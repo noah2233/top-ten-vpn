@@ -24,3 +24,16 @@ h2.main-title {
     display: block;
     padding: 20px 0;
 }
+
+.best-vpn-for-items .best-vpn-for-item a .best-vpn-for-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 115px;
+    height: 75px;
+    margin-right: 20px;
+}
+
+.best-vpn-for-items .best-vpn-for-item a .media-body {
+    color: #39393a;
+    font-size: 16px;
+}

@@ -45,4 +45,8 @@ export class BestVpnForSideMenuComponent implements OnInit {
       }
     });
   }
+
+  getBackgroundImageURL(bestVPNForItem: Page) {
+    return 'url(' + bestVPNForItem.template.mainImage + ')';
+  }
 }
