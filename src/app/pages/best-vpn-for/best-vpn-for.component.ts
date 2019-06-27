@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { Page } from '@core/interface';
+import { Page, Template } from '@core/interface';
 
 import { CommonService } from '@services/common.service';
 
@@ -23,7 +23,12 @@ export class BestVpnForComponent implements OnInit {
   initContent() {
     const currentPage: Page = this._commonService.getPage(this._router.url);
     if (currentPage) {
-      this.content = currentPage.template;
+      const template: Template = currentPage.template;
+      if (template) {
+        template.main = template.main.replace('{{mainTitle}}', template.title);
+        template.main = template.main.replace('{{mainDate}}', template.date);
+        this.content = template;
+      }
     }
   }
 }

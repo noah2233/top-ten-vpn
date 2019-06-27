@@ -28,5 +28,5 @@ export interface ChildGroupPage {
 export interface Template {
     title: string;
     date: string;
-    main: any;
+    main: string;
 }
