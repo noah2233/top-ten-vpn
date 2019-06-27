@@ -15,7 +15,6 @@ import { CommonService } from '@services/common.service';
 export class BestVpnForSideMenuComponent implements OnInit {
   bestVPNForItems: Page[] = [];
   private templatesPathAarray = [
-    'best-vpns-for-windows',
     'best-vpns-for-android',
     'best-vpns-for-china',
     'best-vpns-for-online-gaming',

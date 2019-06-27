@@ -1,7 +1,7 @@
 <h2 class="main-title">Best VPN For...</h2>
 <ul class="list-unstyled best-vpn-for-items">
     <li class="best-vpn-for-item" *ngFor="let bestVPNForItem of bestVPNForItems">
-        <a href="{{bestVPNForItem.path}}">
+        <a href="javascript:void(0)" [routerLink]="['/' + bestVPNForItem.path]">
             <div class="media">
                 <div class="best-vpn-for-image" [style.background-image]=getBackgroundImageURL(bestVPNForItem)></div>
                 <div class="media-body">
