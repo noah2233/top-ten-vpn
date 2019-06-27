@@ -47,75 +47,296 @@ export const bestVpnFor: Page = {
                     name: 'windows',
                     path: 'best-vpns-for-windows',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: windowsHtml
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: windowsHtml
                     }
                 },
                 {
                     name: 'mac',
                     path: 'best-vpns-for-mac',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: macHtml
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: macHtml
                     }
                 },
                 {
                     name: 'chrome',
                     path: 'best-vpns-for-google-chrome',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: chromeHtml
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: chromeHtml
                     }
                 },
                 {
                     name: 'firefox',
                     path: 'best-vpns-for-firefox',
                     template: {
-                        title: 'The Best VPNs for Windows of 2019', date: 'July 1, 2019', main: firefoxHtml
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: firefoxHtml
                     }
                 },
                 {
                     name: 'android',
-                    path: 'best-vpns-for-android'
+                    path: 'best-vpns-for-android',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: androidHtml
+                    }
                 },
-                { name: 'iphone', path: 'best-vpns-for-iphone' },
-                { name: 'ipadOrTablet', path: 'best-vpns-for-iPad-or-tablet' },
-                { name: 'appletv', path: 'best-vpns-for-apple-tv' },
-                { name: 'smarttv', path: 'best-vpns-for-smart-tv' },
-                { name: 'router', path: 'the-best-router-vpns' }
+                {
+                    name: 'iphone',
+                    path: 'best-vpns-for-iphone',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: iphoneHtml
+                    }
+                },
+                {
+                    name: 'ipadOrTablet',
+                    path: 'best-vpns-for-iPad-or-tablet',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: ipadOrTabletHtml
+                    }
+                },
+                {
+                    name: 'appletv',
+                    path: 'best-vpns-for-apple-tv',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: appletvHtml
+                    }
+                },
+                {
+                    name: 'smarttv',
+                    path: 'best-vpns-for-smart-tv',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: smarttvHtml
+                    }
+                },
+                {
+                    name: 'router',
+                    path: 'the-best-router-vpns',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: routerHtml
+                    }
+                }
             ]
         },
         {
             name: 'Countries',
             pages: [
-                { name: 'china', path: 'best-vpns-for-china' },
-                { name: 'russia', path: 'best-vpns-for-russia' },
-                { name: 'uk', path: 'best-vpns-for-uk' },
-                { name: 'australia', path: 'best-vpns-for-australia' },
-                { name: 'france', path: 'best-vpns-for-france' },
+                {
+                    name: 'china',
+                    path: 'best-vpns-for-china',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: chinaHtml
+                    }
+                },
+                {
+                    name: 'russia',
+                    path: 'best-vpns-for-russia',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: russiaHtml
+                    }
+                },
+                {
+                    name: 'uk',
+                    path: 'best-vpns-for-uk',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: ukHtml
+                    }
+                },
+                {
+                    name: 'australia',
+                    path: 'best-vpns-for-australia',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: australiaHtml
+                    }
+                },
+                {
+                    name: 'france',
+                    path: 'best-vpns-for-france',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: franceHtml
+                    }
+                },
             ]
         },
         {
             name: 'Popular Services',
             pages: [
-                { name: 'netflix', path: 'best-vpns-for-netflix' },
-                { name: 'kodi', path: 'best-vpns-for-kodi' },
-                { name: 'amazonPrime', path: 'best-vpns-for-amazon-prime' },
-                { name: 'hulu', path: 'best-vpns-for-hulu' },
-                { name: 'bbcIPlayer', path: 'best-vpns-for-bbc-iplayer' },
-                { name: 'fubotv', path: 'best-vpns-for-fubotv' },
-                { name: 'directTvNow', path: 'best-vpns-for-directtv-now' },
+                {
+                    name: 'netflix',
+                    path: 'best-vpns-for-netflix',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: netflixHtml
+                    }
+                },
+                {
+                    name: 'kodi',
+                    path: 'best-vpns-for-kodi',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: kodiHtml
+                    }
+                },
+                {
+                    name: 'amazonPrime',
+                    path: 'best-vpns-for-amazon-prime',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: amazonPrimeHtml
+                    }
+                },
+                {
+                    name: 'hulu',
+                    path: 'best-vpns-for-hulu',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: huluHtml
+                    }
+                },
+                {
+                    name: 'bbcIPlayer',
+                    path: 'best-vpns-for-bbc-iplayer',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: bbcIPlayerHtml
+                    }
+                },
+                {
+                    name: 'fubotv',
+                    path: 'best-vpns-for-fubotv',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: fubotvHtml
+                    }
+                },
+                {
+                    name: 'directTvNow',
+                    path: 'best-vpns-for-directtv-now',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: directTvNowHtml
+                    }
+                },
             ]
         },
         {
             name: 'Popular Usage',
             pages: [
-                { name: 'onlineGaming', path: 'best-vpns-for-online-gaming' },
-                { name: 'streaming', path: 'best-vpns-for-streaming' },
-                { name: 'torrenting', path: 'best-vpns-for-torrenting' },
-                { name: 'sports', path: 'best-vpns-for-sports' },
-                { name: 'facebook', path: 'best-vpns-for-facebook' },
-                { name: 'twitter', path: 'best-vpns-for-twitter' },
-                { name: 'youtube', path: 'best-vpns-for-youtube' },
-                { name: 'telegram', path: 'best-vpns-for-telegram' },
-                { name: 'businesses', path: 'best-vpns-for-businesses' }
+                {
+                    name: 'onlineGaming',
+                    path: 'best-vpns-for-online-gaming',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: onlineGamingHtml
+                    }
+                },
+                {
+                    name: 'streaming',
+                    path: 'best-vpns-for-streaming',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: streamingHtml
+                    }
+                },
+                {
+                    name: 'torrenting',
+                    path: 'best-vpns-for-torrenting',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: torrentingHtml
+                    }
+                },
+                {
+                    name: 'sports',
+                    path: 'best-vpns-for-sports',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: sportsHtml
+                    }
+                },
+                {
+                    name: 'facebook',
+                    path: 'best-vpns-for-facebook',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: facebookHtml
+                    }
+                },
+                {
+                    name: 'twitter',
+                    path: 'best-vpns-for-twitter',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: twitterHtml
+                    }
+                },
+                {
+                    name: 'youtube',
+                    path: 'best-vpns-for-youtube',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: youtubeHtml
+                    }
+                },
+                {
+                    name: 'telegram',
+                    path: 'best-vpns-for-telegram',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: telegramHtml
+                    }
+                },
+                {
+                    name: 'businesses',
+                    path: 'best-vpns-for-businesses',
+                    template: {
+                        title: 'The Best VPNs for Windows of 2019',
+                        date: 'July 1, 2019',
+                        main: businessesHtml
+                    }
+                }
             ]
         }
     ]
