@@ -70,7 +70,7 @@ export const bestVpnFor: Page = {
                         title: 'The Best VPNs for Google Chrome of 2019',
                         date: 'July 1, 2019',
                         main: chromeHtml,
-                        mainImage: '/assets/images/pages/best-vpn-for/templates/google-chrome/best-vpns-for-google-chrome.jpg'
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/google-chrome/best-vpns-for-google-chrome.png'
                     }
                 },
                 {
