@@ -209,8 +209,7 @@ export const bestVpnFor: Page = {
                     template: {
                         title: 'The Best VPNs for Netflix of 2019',
                         date: 'January 18, 2019',
-                        main: netflixHtml,
-                        mainImage: '/assets/images/pages/best-vpn-for/templates/netflix/best-vpns-for-netflix.jpg'
+                        main: netflixHtml
                     }
                 },
                 {
