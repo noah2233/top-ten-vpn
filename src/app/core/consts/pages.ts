@@ -44,7 +44,7 @@ export const bestVpnFor: Page = {
             name: 'Devices/OS',
             pages: [
                 {
-                    name: 'windows',
+                    name: 'Windows',
                     path: 'best-vpns-for-windows',
                     template: {
                         title: 'The Best VPNs for Windows of 2019',
@@ -54,7 +54,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'mac',
+                    name: 'Mac',
                     path: 'best-vpns-for-mac',
                     template: {
                         title: 'The 4 Best VPNs for Mac Users of 2019',
@@ -64,7 +64,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'chrome',
+                    name: 'Chrome',
                     path: 'best-vpns-for-google-chrome',
                     template: {
                         title: 'The Best VPNs for Google Chrome of 2019',
@@ -74,7 +74,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'firefox',
+                    name: 'Firefox',
                     path: 'best-vpns-for-firefox',
                     template: {
                         title: 'The Best VPNs for Mozilla Firefox of 2019',
@@ -84,7 +84,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'android',
+                    name: 'Android',
                     path: 'best-vpns-for-android',
                     template: {
                         title: 'The Best VPNs for Android of 2019',
@@ -94,7 +94,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'iphone',
+                    name: 'IPhone',
                     path: 'best-vpns-for-iphone',
                     template: {
                         title: 'The Best VPNs for Your iPhone of 2019',
@@ -104,7 +104,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'ipadOrTablet',
+                    name: 'Ipad / Tablet',
                     path: 'best-vpns-for-iPad-or-tablet',
                     template: {
                         title: 'The Best VPNs for iPad of 2019',
@@ -114,7 +114,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'appletv',
+                    name: 'Apple TV',
                     path: 'best-vpns-for-apple-tv',
                     template: {
                         title: 'The Best VPNs for Streaming with Apple TV of 2019',
@@ -124,7 +124,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'smarttv',
+                    name: 'Smart TV',
                     path: 'best-vpns-for-smart-tv',
                     template: {
                         title: 'The Best VPNs for Smart TV of 2019',
@@ -134,7 +134,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'router',
+                    name: 'Router',
                     path: 'best-vpns-for-router',
                     template: {
                         title: 'The 5 Best VPNs for Routers',
@@ -149,7 +149,7 @@ export const bestVpnFor: Page = {
             name: 'Countries',
             pages: [
                 {
-                    name: 'china',
+                    name: 'China',
                     path: 'best-vpns-for-china',
                     template: {
                         title: 'The Best VPNs for China of 2019',
@@ -159,7 +159,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'russia',
+                    name: 'Russia',
                     path: 'best-vpns-for-russia',
                     template: {
                         title: 'The Best VPNs for Russia of 2019',
@@ -169,7 +169,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'uk',
+                    name: 'UK',
                     path: 'best-vpns-for-uk',
                     template: {
                         title: 'The Best VPNs for UK of 2019',
@@ -179,7 +179,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'australia',
+                    name: 'Australia',
                     path: 'best-vpns-for-australia',
                     template: {
                         title: 'The Best VPNs for Australia of 2019',
@@ -189,7 +189,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'france',
+                    name: 'France',
                     path: 'best-vpns-for-france',
                     template: {
                         title: 'The Best VPNs for France of 2019',
@@ -204,7 +204,7 @@ export const bestVpnFor: Page = {
             name: 'Popular Services',
             pages: [
                 {
-                    name: 'netflix',
+                    name: 'Netflix',
                     path: 'best-vpns-for-netflix',
                     template: {
                         title: 'The Best VPNs for Netflix of 2019',
@@ -213,7 +213,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'kodi',
+                    name: 'Kodi',
                     path: 'best-vpns-for-kodi',
                     template: {
                         title: 'The Best VPNs for Kodi of 2019',
@@ -222,7 +222,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'amazonPrime',
+                    name: 'Amazon Prime',
                     path: 'best-vpns-for-amazon-prime',
                     template: {
                         title: 'The Best VPNs for Amazon Prime Video of 2019',
@@ -231,7 +231,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'hulu',
+                    name: 'Hulu',
                     path: 'best-vpns-for-hulu',
                     template: {
                         title: 'The Best VPNs for Hulu of 2019',
@@ -241,7 +241,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'bbcIPlayer',
+                    name: 'BBC IPlayer',
                     path: 'best-vpns-for-bbc-iplayer',
                     template: {
                         title: 'The Best VPNs for BBC iPlayer of 2019',
@@ -250,7 +250,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'fubotv',
+                    name: 'Fubo TV',
                     path: 'best-vpns-for-fubotv',
                     template: {
                         title: 'The Best VPNs for fuboTV of 2019',
@@ -259,7 +259,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'directTvNow',
+                    name: 'Direct TV Now',
                     path: 'best-vpns-for-directtv-now',
                     template: {
                         title: 'The Best VPNs for DirecTV Now of 2019',
@@ -274,7 +274,7 @@ export const bestVpnFor: Page = {
             name: 'Popular Usage',
             pages: [
                 {
-                    name: 'onlineGaming',
+                    name: 'Online Gaming',
                     path: 'best-vpns-for-online-gaming',
                     template: {
                         title: 'The Best VPNs for Online Gaming of 2019',
@@ -283,7 +283,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'streaming',
+                    name: 'Streaming',
                     path: 'best-vpns-for-streaming',
                     template: {
                         title: 'The Best VPNs for Streaming of 2019',
@@ -293,7 +293,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'torrenting',
+                    name: 'Torrenting',
                     path: 'best-vpns-for-torrenting',
                     template: {
                         title: 'The Best VPNs for Torrenting of 2019',
@@ -303,7 +303,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'sports',
+                    name: 'Sports',
                     path: 'best-vpns-for-sports',
                     template: {
                         title: 'Unblock Sporting Events With a VPN',
@@ -313,7 +313,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'facebook',
+                    name: 'Facebook',
                     path: 'best-vpns-for-facebook',
                     template: {
                         title: 'The Best VPNs for Facebook of 2019',
@@ -323,7 +323,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'twitter',
+                    name: 'Twitter',
                     path: 'best-vpns-for-twitter',
                     template: {
                         title: 'The Best VPNs for Twitter of 2019',
@@ -332,7 +332,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'youtube',
+                    name: 'Youtube',
                     path: 'best-vpns-for-youtube',
                     template: {
                         title: 'The Best VPNs for YouTube of 2019',
@@ -341,7 +341,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'telegram',
+                    name: 'Telegram',
                     path: 'best-vpns-for-telegram',
                     template: {
                         title: 'The Best VPNs for Telegram of 2019',
@@ -351,7 +351,7 @@ export const bestVpnFor: Page = {
                     }
                 },
                 {
-                    name: 'businesses',
+                    name: 'Businesses',
                     path: 'best-vpns-for-businesses',
                     template: {
                         title: 'The Best Business VPNs of 2019',
