@@ -20,7 +20,7 @@ export class BestVpnForSideMenuComponent implements OnInit {
     'best-vpns-for-mac',
     'best-vpns-for-router',
     'best-vpns-for-iphone',
-    'best-vpns-for-netflix',
+    'best-vpns-for-facebook',
   ];
 
   constructor(

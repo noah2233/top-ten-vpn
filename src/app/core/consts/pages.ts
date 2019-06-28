@@ -319,7 +319,7 @@ export const bestVpnFor: Page = {
                         title: 'The Best VPNs for Facebook of 2019',
                         date: 'April 12, 2019',
                         main: facebookHtml,
-                        mainImage: '/assets/images/pages/best-vpn-for/templates/facebook/best-vpns-for-facebook.jpg'
+                        mainImage: '/assets/images/pages/best-vpn-for/templates/facebook/best-vpns-for-fb.jpg'
                     }
                 },
                 {
