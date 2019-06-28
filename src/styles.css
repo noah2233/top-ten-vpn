@@ -78,6 +78,7 @@ router-outlet+* {
 
 .content p {
     line-height: 1.5;
+    margin-top: 1rem;
 }
 
 .content ul {
