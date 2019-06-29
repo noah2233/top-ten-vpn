@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopTenVpnService, ReadMoreVPNService } from '@core/interface';
+import { TopTenVPNItem, ReadMoreVPNService } from '@core/interface';
 
 import { orderBy } from 'lodash';
 
@@ -8,7 +8,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/advertising-disclosure.component';
 
-import { topTenVpns } from 'app/resources';
+import { topTenVpns } from '@DB/topTenVPNItemsDB';
 import { ReadMoreVPNServices } from '@pages/top-ten-vpn/db/resources';
 
 import { CommonService } from '@services/common.service';
@@ -18,7 +18,7 @@ import { CommonService } from '@services/common.service';
   styleUrls: ['./top-ten-vpn.component.css']
 })
 export class TopTenVpnComponent implements OnInit {
-  topTenVpns: TopTenVpnService[] = [];
+  topTenVpns: TopTenVPNItem[] = [];
   ReadMoreVPNServices: ReadMoreVPNService[] = [];
 
   constructor(
@@ -42,11 +42,11 @@ export class TopTenVpnComponent implements OnInit {
     const modalRef = this._ngbModal.open(AdvertisingDisclosureComponent);
   }
 
-  getTopTenVpnDesktopImage(topTenVpn: TopTenVpnService) {
+  getTopTenVpnDesktopImage(topTenVpn: TopTenVPNItem) {
     return 'url(/assets/images/vpn-services/desktop/' + topTenVpn.name + '.png)';
   }
 
-  getTopTenVpnMobileImage(topTenVpn: TopTenVpnService) {
+  getTopTenVpnMobileImage(topTenVpn: TopTenVPNItem) {
     return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
   }
 
@@ -54,7 +54,7 @@ export class TopTenVpnComponent implements OnInit {
     return this._commonService.initScroeClassArray(score);
   }
 
-  getNumberOfStars(topTenVpn: TopTenVpnService) {
+  getNumberOfStars(topTenVpn: TopTenVPNItem) {
     if (topTenVpn.score) {
       //
       const score = Math.floor(topTenVpn.score) % 2 !== 0 ?

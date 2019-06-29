@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import * as pages from '@core/consts/pages';
+import * as pages from '@DB/pages';
 import { Page, ChildGroupPage } from '@core/interface';
 
 import { forEach } from 'lodash';
@@ -11,6 +11,29 @@ import { forEach } from 'lodash';
 export class CommonService {
 
   constructor() { }
+
+  static getPage(pagePath: string): Page {
+    let page: Page = null;
+
+    const that = this;
+    forEach(pages, function (pageItem: Page) {
+      forEach(pageItem.childGroupPages, function (childGroupPage: ChildGroupPage) {
+        forEach(childGroupPage.pages, function (childPage: Page) {
+          if (childPage.path === pagePath.replace(/\//g, '')) {
+            page = childPage;
+            // end loop
+            return false;
+          }
+        });
+      });
+    });
+
+    return page;
+  }
+
+  // static removeBackSlashFromUrl(url: string) {
+  //   return url.replace(/\//g, '');
+  // }
 
   initScroeClassArray(score: number): string[] {
     const scroeClassArray = ['', '', '', '', ''];
@@ -25,28 +48,5 @@ export class CommonService {
       }
     }
     return scroeClassArray;
-  }
-
-  removeBackSlashFromUrl(url: string) {
-    return url.replace(/\//g, '');
-  }
-
-  getPage(pageName): Page {
-    let page: Page = null;
-
-    const that = this;
-    forEach(pages, function (pageItem: Page) {
-      forEach(pageItem.childGroupPages, function (childGroupPage: ChildGroupPage) {
-        forEach(childGroupPage.pages, function (childPage: Page) {
-          if (childPage.path === that.removeBackSlashFromUrl(pageName)) {
-            page = childPage;
-            // end loop
-            return false;
-          }
-        });
-      });
-    });
-
-    return page;
   }
 }

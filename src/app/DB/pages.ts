@@ -364,21 +364,27 @@ export const bestVpnFor: Page = {
         }
     ]
 };
-// export const vpnReviews: Page = {
-//     name: 'VPN Reviews',
-//     path: 'vpn-reviews',
-//     ChildGroupPages: [
-//         {
-//             pages: [
-//                 { name: 'Cyber Ghost', path: 'cyber-ghost' },
-//                 { name: 'NordVPN', path: 'nord-vpn' },
-//                 { name: 'PrivateVPN', path: 'private-vpn' },
-//                 { name: 'SurfShark', path: 'surfshark' },
-//                 { name: 'ZenMate', path: 'zenmate' }
-//             ]
-//         }
-//     ]
-// };
+export const vpnReviews: Page = {
+    name: 'VPN Reviews',
+    path: 'vpn-reviews',
+    childGroupPages: [
+        {
+            name: null,
+            pages: [
+                { name: 'CyberGhost', path: 'cyberghost', score: 9.9 },
+                { name: 'NordVPN', path: 'nordvpn', score: 9.5 },
+                { name: 'PrivateVPN', path: 'privatevpn', score: 9.1 },
+                { name: 'ZenMate', path: 'zenmate', score: 9.0 },
+                { name: 'SurfShark', path: 'surfshark', score: 8.8 },
+                { name: 'PureVPN', path: 'purevpn', score: 8.5 },
+                { name: 'BullGuard', path: 'bullguard', score: 8.3 },
+                { name: 'Panda', path: 'panda', score: 8.2 },
+                { name: 'HideMyAss', path: 'hidemyass', score: 8.0 },
+                { name: 'SaferVPN', path: 'safervpn', score: 7.9 },
+            ]
+        }
+    ]
+};
 // export const guides: Page = {
 //     name: 'Guides',
 //     path: 'guides',

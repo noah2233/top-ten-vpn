@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 
-import * as _pages from '@core/consts/pages';
+import * as _pages from '@DB/pages';
 import { Page } from '@core/interface';
 
 @Component({
@@ -28,7 +28,7 @@ export class SiteHeaderComponent implements OnInit {
   initNavBar() {
     this.pages.push(_pages.topTenVpn);
     this.pages.push(_pages.bestVpnFor);
-    // this.pages.push(_pages.vpnReviews);
+    this.pages.push(_pages.vpnReviews);
     // this.pages.push(_pages.guides);
     // this.pages.push(_pages.learn);
   }

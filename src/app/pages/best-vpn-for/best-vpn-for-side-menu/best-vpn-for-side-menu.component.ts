@@ -32,12 +32,12 @@ export class BestVpnForSideMenuComponent implements OnInit {
   }
 
   initBestVPNForItems() {
-    const currentPage: Page = this._commonService.getPage(this._router.url);
+    const currentPage: Page = CommonService.getPage(this._router.url);
 
     const that = this;
     forEach(that.templatesPathAarray, function (path) {
       if (currentPage && (path !== currentPage.path)) {
-        const page: Page = that._commonService.getPage(path);
+        const page: Page = CommonService.getPage(path);
         if (page) {
           that.bestVPNForItems.push(page);
         }

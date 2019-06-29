@@ -12,8 +12,8 @@
       "@shared/*": [
         "app/shared/*"
       ],
-      "@generalDB/*": [
-        "app/generalDB/*"
+      "@DB/*": [
+        "app/DB/*"
       ],
       "@services/*": [
         "app/services/*"

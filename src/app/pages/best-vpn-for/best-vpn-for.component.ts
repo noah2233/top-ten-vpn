@@ -13,15 +13,14 @@ import { CommonService } from '@services/common.service';
 export class BestVpnForComponent implements OnInit {
   content: any;
   constructor(
-    private _router: Router,
-    private _commonService: CommonService) { }
+    private _router: Router) { }
 
   ngOnInit() {
     this.initContent();
   }
 
   initContent() {
-    const currentPage: Page = this._commonService.getPage(this._router.url);
+    const currentPage: Page = CommonService.getPage(this._router.url);
     if (currentPage) {
       const template: Template = currentPage.template;
       if (template) {

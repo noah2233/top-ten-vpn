@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopTenVpnService } from '@core/interface';
+import { TopTenVPNItem } from '@core/interface';
 
-import { topTenVpns } from 'app/resources';
+import { topTenVpns } from '@DB/topTenVPNItemsDB';
 
 import { CommonService } from '@services/common.service';
 @Component({
@@ -11,7 +11,7 @@ import { CommonService } from '@services/common.service';
   styleUrls: ['./top-ranking.component.css']
 })
 export class TopRankingComponent implements OnInit {
-  topReankingItems: TopTenVpnService[] = [];
+  topReankingItems: TopTenVPNItem[] = [];
 
   constructor(private _commonService: CommonService) { }
 
@@ -23,7 +23,7 @@ export class TopRankingComponent implements OnInit {
     this.topReankingItems = topTenVpns.slice(0, 3);
   }
 
-  getTopReankingItemImage(topReankingItem: TopTenVpnService) {
+  getTopReankingItemImage(topReankingItem: TopTenVPNItem) {
     return 'url(/assets/images/vpn-services/mobile/' + topReankingItem.name + '.png)';
   }
 

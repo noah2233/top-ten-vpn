@@ -3,7 +3,7 @@ import { Routes, RouterModule, Router } from '@angular/router';
 
 import { forEach } from 'lodash';
 
-import * as pages from '@core/consts/pages';
+import * as pages from '@DB/pages';
 import { Page, ChildGroupPage } from '@core/interface';
 
 // pages
