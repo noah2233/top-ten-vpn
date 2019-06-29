@@ -24,7 +24,7 @@ export interface TopTenVPNItem {
     name: string;
     mainFeatures: { title: string, mainFeaturesList: string[] };
     score: number;
-    link: string;
+    offer: string;
 }
 
 export interface Template {

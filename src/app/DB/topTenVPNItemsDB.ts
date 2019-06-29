@@ -16,7 +16,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').score : 0,
-        link: 'https://www.cyberghostvpn.com'
+        offer: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').offer : ''
     }, {
         name: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').path : '',
         mainFeatures: {
@@ -28,7 +28,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').score : 0,
-        link: 'https://www.nordvpn.com'
+        offer: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').offer : ''
     }, {
         name: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').path : '',
         mainFeatures: {
@@ -42,7 +42,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').score : 0,
-        link: 'https://www.privatevpn.com'
+        offer: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').offer : ''
     }, {
         name: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').path : '',
         mainFeatures: {
@@ -54,7 +54,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').score : 0,
-        link: 'https://www.surfshark.com'
+        offer: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').offer : ''
     }, {
         name: CommonService.getPage('zenmate') ? CommonService.getPage('zenmate').path : '',
         mainFeatures: {
@@ -66,7 +66,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('zenmate') ? CommonService.getPage('zenmate').score : 0,
-        link: 'https://www.zenmate.com'
+        offer: CommonService.getPage('zenmate') ? CommonService.getPage('zenmate').offer : ''
     }, {
         name: CommonService.getPage('purevpn') ? CommonService.getPage('purevpn').path : '',
         mainFeatures: {
@@ -78,7 +78,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('purevpn') ? CommonService.getPage('purevpn').score : 0,
-        link: 'https://www.purevpn.com'
+        offer: CommonService.getPage('purevpn') ? CommonService.getPage('purevpn').offer : ''
     }, {
         name: CommonService.getPage('bullguard') ? CommonService.getPage('bullguard').path : '',
         mainFeatures: {
@@ -90,9 +90,9 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('bullguard') ? CommonService.getPage('bullguard').score : 0,
-        link: 'https://www.bullguard.com'
+        offer: CommonService.getPage('bullguard') ? CommonService.getPage('bullguard').offer : ''
     }, {
-        name: CommonService.getPage('panda') ? CommonService.getPage('panda').path : '',       
+        name: CommonService.getPage('panda') ? CommonService.getPage('panda').path : '',
         mainFeatures: {
             title: 'Unlimited bandwidth, eal antivirus protection',
             mainFeaturesList: [
@@ -102,7 +102,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('panda') ? CommonService.getPage('panda').score : 0,
-        link: 'https://www.pandasecurity.com'
+        offer: CommonService.getPage('panda') ? CommonService.getPage('panda').offer : ''
     }, {
         name: CommonService.getPage('hidemyass') ? CommonService.getPage('hidemyass').path : '',
         mainFeatures: {
@@ -117,7 +117,7 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('hidemyass') ? CommonService.getPage('hidemyass').score : 0,
-        link: 'https://www.hidemyass.com'
+        offer: CommonService.getPage('hidemyass') ? CommonService.getPage('hidemyass').offer : ''
     }, {
         name: CommonService.getPage('safervpn') ? CommonService.getPage('safervpn').path : '',
         mainFeatures: {
@@ -132,6 +132,6 @@ export let topTenVpns: TopTenVPNItem[] = [
             ]
         },
         score: CommonService.getPage('safervpn') ? CommonService.getPage('safervpn').score : 0,
-        link: 'https://www.safervpn.com'
+        offer: CommonService.getPage('safervpn') ? CommonService.getPage('safervpn').offer : ''
     }
 ];

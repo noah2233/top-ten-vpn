@@ -371,16 +371,16 @@ export const vpnReviews: Page = {
         {
             name: null,
             pages: [
-                { name: 'CyberGhost', path: 'cyberghost', score: 9.9 },
-                { name: 'NordVPN', path: 'nordvpn', score: 9.5 },
-                { name: 'PrivateVPN', path: 'privatevpn', score: 9.1 },
-                { name: 'ZenMate', path: 'zenmate', score: 9.0 },
-                { name: 'SurfShark', path: 'surfshark', score: 8.8 },
-                { name: 'PureVPN', path: 'purevpn', score: 8.5 },
-                { name: 'BullGuard', path: 'bullguard', score: 8.3 },
-                { name: 'Panda', path: 'panda', score: 8.2 },
-                { name: 'HideMyAss', path: 'hidemyass', score: 8.0 },
-                { name: 'SaferVPN', path: 'safervpn', score: 7.9 },
+                { name: 'CyberGhost', path: 'cyberghost', score: 9.9, offer: 'https://www.cyberghostvpn.com' },
+                { name: 'NordVPN', path: 'nordvpn', score: 9.5, offer: 'https://www.nordvpn.com' },
+                { name: 'PrivateVPN', path: 'privatevpn', score: 9.1, offer: 'https://www.privatevpn.com' },
+                { name: 'ZenMate', path: 'zenmate', score: 9.0, offer: 'https://www.zenmate.com' },
+                { name: 'SurfShark', path: 'surfshark', score: 8.8, offer: 'https://www.surfshark.com' },
+                { name: 'PureVPN', path: 'purevpn', score: 8.5, offer: 'https://www.purevpn.com' },
+                { name: 'BullGuard', path: 'bullguard', score: 8.3, offer: 'https://www.bullguard.com' },
+                { name: 'Panda', path: 'panda', score: 8.2, offer: 'https://www.pandasecurity.com' },
+                { name: 'HideMyAss', path: 'hidemyass', score: 8.0, offer: 'https://www.hidemyass.com' },
+                { name: 'SaferVPN', path: 'safervpn', score: 7.9, offer: 'https://www.safervpn.com' },
             ]
         }
     ]

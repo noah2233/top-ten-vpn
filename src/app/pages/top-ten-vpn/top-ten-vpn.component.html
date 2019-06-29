@@ -71,9 +71,9 @@
                                         Most Popular Choice
                                     </span>
                                 </span>
-                                <a target="_blank" href="{{item.link}}" class="service-image desktop"
+                                <a target="_blank" href="{{item.offer}}" class="service-image desktop"
                                     [ngStyle]="{'background-image': getTopTenVpnDesktopImage(item)}"></a>
-                                <a target="_blank" href="{{item.link}}" class="service-image mobile"
+                                <a target="_blank" href="{{item.offer}}" class="service-image mobile"
                                     [ngStyle]="{'background-image': getTopTenVpnMobileImage(item)}"></a>
                             </div>
                         </li>
@@ -106,7 +106,7 @@
                                 <span class="numaric-value">{{item.score | number : '1.1-1'}}</span>
                             </div>
                             <div class="visit">
-                                <a target="_blank" href="{{item.link}}" class="btn btn-prime">Visit Site »</a>
+                                <a target="_blank" href="{{item.offer}}" class="btn btn-prime">Visit Site »</a>
                             </div>
                         </li>
                     </ul>
