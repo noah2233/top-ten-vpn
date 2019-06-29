@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { Page, Template } from '@core/interface';
+import { BestVpnFor } from '@core/interface';
 
-import { CommonService } from '@services/common.service';
+import { forEach } from 'lodash';
 
+import { BestVpnsFor } from '@DB/bestVpnForDB';
 @Component({
   selector: 'best-vpn-for',
   templateUrl: './best-vpn-for.component.html',
@@ -20,17 +21,29 @@ export class BestVpnForComponent implements OnInit {
   }
 
   initContent() {
-    const currentPage: Page = CommonService.getPage(this._router.url);
-    if (currentPage) {
-      const template: Template = currentPage.template;
-      if (template) {
-        template.main = template.main
-          .replace('{{mainTitle}}', template.title)
-          .replace('{{mainDate}}', template.date)
-          .replace('{{mainImage}}', template.mainImage);
+    const currentBestVpnFor: BestVpnFor = this.getBestVpnFor(this._router.url.replace(/\//g, ''));
+    if (currentBestVpnFor) {
+      if (currentBestVpnFor) {
+        currentBestVpnFor.main = currentBestVpnFor.main
+          .replace('{{mainTitle}}', currentBestVpnFor.title)
+          .replace('{{mainDate}}', currentBestVpnFor.date)
+          .replace('{{mainImage}}', currentBestVpnFor.mainImage);
 
-        this.content = template.main;
+        this.content = currentBestVpnFor.main;
       }
     }
+  }
+
+  getBestVpnFor(path: string): BestVpnFor {
+    let bestVpnFor: BestVpnFor;
+    forEach(BestVpnsFor, function (item: BestVpnFor) {
+      if (item.path === path) {
+        bestVpnFor = item;
+        // stop foreach
+        return false;
+      }
+    });
+
+    return bestVpnFor;
   }
 }

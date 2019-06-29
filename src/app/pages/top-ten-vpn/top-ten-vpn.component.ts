@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TopTenVPNItem, ReadMoreVPNService } from '@core/interface';
+import { TopTenVPN, ReadMoreVPNService } from '@core/interface';
 
 import { orderBy } from 'lodash';
 
@@ -18,7 +18,7 @@ import { CommonService } from '@services/common.service';
   styleUrls: ['./top-ten-vpn.component.css']
 })
 export class TopTenVpnComponent implements OnInit {
-  topTenVpns: TopTenVPNItem[] = [];
+  topTenVpns: TopTenVPN[] = [];
   ReadMoreVPNServices: ReadMoreVPNService[] = [];
 
   constructor(
@@ -42,11 +42,11 @@ export class TopTenVpnComponent implements OnInit {
     const modalRef = this._ngbModal.open(AdvertisingDisclosureComponent);
   }
 
-  getTopTenVpnDesktopImage(topTenVpn: TopTenVPNItem) {
+  getTopTenVpnDesktopImage(topTenVpn: TopTenVPN) {
     return 'url(/assets/images/vpn-services/desktop/' + topTenVpn.name + '.png)';
   }
 
-  getTopTenVpnMobileImage(topTenVpn: TopTenVPNItem) {
+  getTopTenVpnMobileImage(topTenVpn: TopTenVPN) {
     return 'url(/assets/images/vpn-services/mobile/' + topTenVpn.name + '.png)';
   }
 
@@ -54,7 +54,7 @@ export class TopTenVpnComponent implements OnInit {
     return this._commonService.initScroeClassArray(score);
   }
 
-  getNumberOfStars(topTenVpn: TopTenVPNItem) {
+  getNumberOfStars(topTenVpn: TopTenVPN) {
     if (topTenVpn.score) {
       //
       const score = Math.floor(topTenVpn.score) % 2 !== 0 ?

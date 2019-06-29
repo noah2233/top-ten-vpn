@@ -12,7 +12,6 @@ export interface Page {
     childGroupPages?: ChildGroupPage[];
     score?: number;
     offer?: string;
-    template?: Template;
 }
 
 export interface ChildGroupPage {
@@ -20,16 +19,19 @@ export interface ChildGroupPage {
     pages: Page[];
 }
 
-export interface TopTenVPNItem {
+export interface TopTenVPN {
     name: string;
     mainFeatures: { title: string, mainFeaturesList: string[] };
     score: number;
     offer: string;
 }
 
-export interface Template {
+export interface BestVpnFor {
+    name: string;
+    path: string;
     title: string;
     date: string;
     main: string;
     mainImage?: string;
 }
+

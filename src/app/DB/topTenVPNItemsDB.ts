@@ -1,7 +1,7 @@
-import { TopTenVPNItem } from '@core/interface';
+import { TopTenVPN } from '@core/interface';
 import { CommonService } from '@services/common.service';
 
-export let topTenVpns: TopTenVPNItem[] = [
+export let topTenVpns: TopTenVPN[] = [
     {
         name: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').path : '',
         mainFeatures: {
