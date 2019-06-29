@@ -9,6 +9,7 @@ import { Page, ChildGroupPage } from '@core/interface';
 // pages
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from '@pages/best-vpn-for/best-vpn-for.component';
+import { ReviewsComponent } from '@pages/reviews/reviews.component';
 
 const routes: Routes = [
   { path: '', component: TopTenVpnComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
 export class AppRoutingModule {
   constructor(private _router: Router) {
     this.createChildRoutes(pages.bestVpnFor, BestVpnForComponent);
+    this.createChildRoutes(pages.vpnReviews, ReviewsComponent);
   }
 
   createChildRoutes(parent: Page, component: any) {

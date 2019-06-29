@@ -29,6 +29,7 @@ import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
 import { TopRankingComponent } from './pages/best-vpn-for/top-ranking/top-ranking.component';
 import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-side-menu/best-vpn-for-side-menu.component';
+import { ReviewsComponent } from './pages/reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-s
     AdvertisingDisclosureComponent,
     BestVpnForComponent,
     TopRankingComponent,
-    BestVpnForSideMenuComponent
+    BestVpnForSideMenuComponent,
+    ReviewsComponent
   ],
   imports: [
     CommonModule,
@@ -53,7 +55,7 @@ import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-s
     ResizableModule,
     ClickOutsideModule
   ],
-  entryComponents: [AdvertisingDisclosureComponent, BestVpnForComponent],
+  entryComponents: [AdvertisingDisclosureComponent, BestVpnForComponent, ReviewsComponent],
   providers: [CommonService],
 })
 export class AppModule {
