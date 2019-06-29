@@ -1,5 +1,4 @@
 import { TopTenVPNItem } from '@core/interface';
-import * as pages from '@DB/pages';
 import { CommonService } from '@services/common.service';
 
 export let topTenVpns: TopTenVPNItem[] = [
