@@ -7,8 +7,8 @@ import * as pages from '@DB/pages';
 import { Page, ChildGroupPage } from '@core/interface';
 
 // pages
-import { TopTenVpnComponent } from './pages/top-ten-vpn/top-ten-vpn.component';
-import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
+import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
+import { BestVpnForComponent } from '@pages/best-vpn-for/best-vpn-for.component';
 
 const routes: Routes = [
   { path: '', component: TopTenVpnComponent },
