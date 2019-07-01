@@ -30,6 +30,7 @@ import { CommonService } from '@services/common.service';
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
 import { ReviewsComponent } from './pages/reviews/reviews.component';
+import { TopTenReviewsComponent } from './shared/top-ten-reviews/top-ten-reviews.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ReviewsComponent } from './pages/reviews/reviews.component';
     BestVpnForComponent,
     TopRankingComponent,
     BestVpnForSideMenuComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    TopTenReviewsComponent
   ],
   imports: [
     CommonModule,
