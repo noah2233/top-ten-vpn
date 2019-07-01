@@ -35,3 +35,9 @@ export interface BestVpnFor {
     mainImage?: string;
 }
 
+export interface Review {
+    name: string;
+    path: string;
+    title: string;
+    nutshell: string;
+}

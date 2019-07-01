@@ -1,4 +1,5 @@
 import { BestVpnFor } from '@core/interface';
+
 import { CommonService } from '@services/common.service';
 
 declare var require: any;
