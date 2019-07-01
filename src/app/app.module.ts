@@ -20,6 +20,8 @@ import { AdvertisingDisclosureComponent } from '@core/advertising-disclosure/adv
 // shared
 import { SiteHeaderComponent } from '@shared/site-header/site-header.component';
 import { SiteFooterComponent } from '@shared/site-footer/site-footer.component';
+import { BestVpnForSideMenuComponent } from '@shared/best-vpn-for-side-menu/best-vpn-for-side-menu.component';
+import { TopRankingComponent } from '@shared/top-ranking/top-ranking.component';
 
 // services
 import { CommonService } from '@services/common.service';
@@ -27,8 +29,6 @@ import { CommonService } from '@services/common.service';
 // pages
 import { TopTenVpnComponent } from '@pages/top-ten-vpn/top-ten-vpn.component';
 import { BestVpnForComponent } from './pages/best-vpn-for/best-vpn-for.component';
-import { TopRankingComponent } from './pages/best-vpn-for/top-ranking/top-ranking.component';
-import { BestVpnForSideMenuComponent } from './pages/best-vpn-for/best-vpn-for-side-menu/best-vpn-for-side-menu.component';
 import { ReviewsComponent } from './pages/reviews/reviews.component';
 
 @NgModule({
