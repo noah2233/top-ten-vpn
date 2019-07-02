@@ -7,6 +7,11 @@
     margin-bottom: 15px;
 }
 
+.top-ten-reviews {
+    display: block;
+    margin-top: 30px;
+}
+
 /* #region CSS Media Queries */
 
 @media screen and (max-width: 1199px) {}
