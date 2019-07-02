@@ -40,4 +40,5 @@ export interface Review {
     path: string;
     title: string;
     nutshell: string;
+    score: number;
 }

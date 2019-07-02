@@ -17,7 +17,8 @@ export let Reviews: Review[] = [
              or stream comfortably. Add to that apps
              to fit all devices, Netflix streaming capabilities
              and a strict no logging policy, and this
-             industry-award-winning service has plenty to offer.`
+             industry-award-winning service has plenty to offer.`,
+        score: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').score : 0
     }, {
         name: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').name : '',
         path: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').path : '',
@@ -30,7 +31,8 @@ export let Reviews: Review[] = [
              strict no log policy, and up to 6 accounts supported
              with a single plan. Add to that an incredibly affordable
              monthly rate and solid reputation, and it's not hard
-             to understand why NordVPN is at the top of our list.`
+             to understand why NordVPN is at the top of our list.`,
+        score: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').score : 0
     }, {
         name: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').name : '',
         path: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').path : '',
@@ -45,7 +47,8 @@ export let Reviews: Review[] = [
              (unlike so many other VPN services).
              With professional and helpful customer support,
              remote setup, and a money-back guarantee,
-             PrivateVPN is making a good case for itself.`
+             PrivateVPN is making a good case for itself.`,
+        score: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').score : 0
     }, {
         name: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').name : '',
         path: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').path : '',
@@ -61,10 +64,11 @@ export let Reviews: Review[] = [
              service is a work in progress and needs
              further upgrades, such as its availability
              for Windows client, which is still in the
-             beta phase of testing.`
+             beta phase of testing.`,
+        score: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').score : 0
     }, {
-        name: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').name : '',
-        path: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').path : '',
+        name: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').name : '',
+        path: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').path : '',
         title: 'Ultravpn Review',
         nutshell:
             `Looking for a good VPN? PrivateVPN might
@@ -76,6 +80,7 @@ export let Reviews: Review[] = [
              (unlike so many other VPN services).
              With professional and helpful customer support,
              remote setup, and a money-back guarantee,
-             PrivateVPN is making a good case for itself.`
+             PrivateVPN is making a good case for itself.`,
+        score: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').score : 0
     }
 ];
