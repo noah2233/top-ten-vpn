@@ -46,5 +46,36 @@ export let Reviews: Review[] = [
              With professional and helpful customer support,
              remote setup, and a money-back guarantee,
              PrivateVPN is making a good case for itself.`
+    }, {
+        name: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').name : '',
+        path: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').path : '',
+        title: 'SurfShark Review',
+        nutshell:
+            `While Surfshark.com is still relatively
+             new on the market, the service has already
+             made a name for itself. It provides high
+             speeds for gaming, streaming and torrenting,
+             unblocks sites such as Hulu and Netflix,
+             blocks malware and ads, and protects your
+             data. However, since it is still new, the
+             service is a work in progress and needs
+             further upgrades, such as its availability
+             for Windows client, which is still in the
+             beta phase of testing.`
+    }, {
+        name: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').name : '',
+        path: CommonService.getPage('surfshark') ? CommonService.getPage('surfshark').path : '',
+        title: 'Ultravpn Review',
+        nutshell:
+            `Looking for a good VPN? PrivateVPN might
+             be your best choice. It’s got great features,
+             like 6 simultaneous connections, Mac, Windows,
+             and Linux clients, and a range of protocols.
+             What’s more, you really feel like PrivateVPN
+             has your back, like it was built to serve you
+             (unlike so many other VPN services).
+             With professional and helpful customer support,
+             remote setup, and a money-back guarantee,
+             PrivateVPN is making a good case for itself.`
     }
 ];

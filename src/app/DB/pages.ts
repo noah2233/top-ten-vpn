@@ -203,6 +203,7 @@ export const vpnReviews: Page = {
                 { name: 'Panda', path: 'panda', score: 8.2, offer: 'https://www.pandasecurity.com' },
                 { name: 'HideMyAss', path: 'hidemyass', score: 8.0, offer: 'https://www.hidemyass.com' },
                 { name: 'SaferVPN', path: 'safervpn', score: 7.9, offer: 'https://www.safervpn.com' },
+                { name: 'UltraVPN', path: 'ultravpn', score: 7.9, offer: 'https://www.ultravpn.com' },
             ]
         }
     ]
