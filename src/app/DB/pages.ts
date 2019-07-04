@@ -204,6 +204,26 @@ export const vpnReviews: Page = {
                 { name: 'HideMyAss', path: 'hidemyass', score: 8.0, offer: 'https://www.hidemyass.com' },
                 { name: 'SaferVPN', path: 'safervpn', score: 7.9, offer: 'https://www.safervpn.com' },
                 { name: 'UltraVPN', path: 'ultravpn', score: 8.6, offer: 'https://www.ultravpn.com' },
+                { name: 'TunnelBear', path: 'tunnelbear', score: 8.0, offer: 'https://www.tunnelbear.com' },
+                { name: 'Perimeter81', path: 'perimeter81', score: 7.0, offer: 'https://www.perimeter81.com' },
+                { name: 'AviraPhantomVPN', path: 'aviraphantomvpn', score: 6.9, offer: 'https://www.avira.com' },
+                { name: 'ExpressVPN', path: 'expressvpn', score: 6.6, offer: 'https://www.expressvpn.com' },
+                { name: 'McAfeeSafeConnect', path: 'mcafeesafeconnect', score: 6.4, offer: 'https://www.mcafee.hsselite.com' },
+                { name: 'AvastVPN', path: 'avastvpn', score: 6.3, offer: 'https://www.avast.com' },
+                {
+                    name: 'NortonWiFiPrivacyVPN', path: 'nortonwifiprivacyvpn', score: 6.1,
+                    offer: 'http://buy-static.norton.com/norton/ps/bb/wifi/tabs_nwp_us_en_nbnf.html'
+                },
+                { name: 'TigerVPN', path: 'tigervpn', score: 6.0, offer: 'https://www.tigervpn.com' },
+                { name: 'SurfEasy', path: 'surfeasy', score: 5.9, offer: 'https://www.surfeasy.com' },
+                { name: 'HideMe', path: 'hideme', score: 5.7, offer: 'https://www.hide.me' },
+                { name: 'StrongVPN', path: 'strongvpn', score: 5.6, offer: 'https://www.strongvpn.com' },
+                { name: 'OverPlay', path: 'overplay', score: 5.5, offer: 'https://www.overplay.net' },
+                {
+                    name: 'PrivateInternetAccess', path: 'privateinternetaccess', score: 5.4,
+                    offer: 'https://www.privateinternetaccess.com'
+                },
+                { name: 'PrivateInternetAccess', path: 'privateinternetaccess', score: 5.4, offer: 'https://www.privateinternetaccess.com' }
             ]
         }
     ]
