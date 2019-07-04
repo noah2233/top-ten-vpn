@@ -223,7 +223,10 @@ export const vpnReviews: Page = {
                     name: 'PrivateInternetAccess', path: 'privateinternetaccess', score: 5.4,
                     offer: 'https://www.privateinternetaccess.com'
                 },
-                { name: 'PrivateInternetAccess', path: 'privateinternetaccess', score: 5.4, offer: 'https://www.privateinternetaccess.com' }
+                {
+                    name: 'IBVPN', path: 'ibvpn', score: 5.3,
+                    offer: 'https://www.ibvpn.com'
+                }
             ]
         }
     ]
