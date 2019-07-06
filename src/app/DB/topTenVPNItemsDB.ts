@@ -132,5 +132,29 @@ export let topTenVpns: TopTenVPN[] = [
         },
         score: CommonService.getPage('safervpn') ? CommonService.getPage('safervpn').score : 0,
         offer: CommonService.getPage('safervpn') ? CommonService.getPage('safervpn').offer : ''
+    }, {
+        name: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').path : '',
+        mainFeatures: {
+            title: 'Access anything on the web, privately and securely',
+            mainFeaturesList: [
+                'Unlimited bandwidth',
+                '100+ worldwide servers',
+                '30-day money-back guarantee'
+            ]
+        },
+        score: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').score : 0,
+        offer: CommonService.getPage('ultravpn') ? CommonService.getPage('ultravpn').offer : ''
+    }, {
+        name: CommonService.getPage('tunnelbear') ? CommonService.getPage('tunnelbear').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Servers in 22 countries'
+            ]
+        },
+        score: CommonService.getPage('tunnelbear') ? CommonService.getPage('tunnelbear').score : 0,
+        offer: CommonService.getPage('tunnelbear') ? CommonService.getPage('tunnelbear').offer : ''
     }
 ];
