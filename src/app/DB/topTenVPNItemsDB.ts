@@ -156,5 +156,122 @@ export let topTenVpns: TopTenVPN[] = [
         },
         score: CommonService.getPage('tunnelbear') ? CommonService.getPage('tunnelbear').score : 0,
         offer: CommonService.getPage('tunnelbear') ? CommonService.getPage('tunnelbear').offer : ''
+    }, {
+        name: CommonService.getPage('perimeter81') ? CommonService.getPage('perimeter81').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('perimeter81') ? CommonService.getPage('perimeter81').score : 0,
+        offer: CommonService.getPage('perimeter81') ? CommonService.getPage('perimeter81').offer : ''
+    }, {
+        name: CommonService.getPage('avira-phantom-vpn') ? CommonService.getPage('avira-phantom-vpn').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('avira-phantom-vpn') ? CommonService.getPage('avira-phantom-vpn').score : 0,
+        offer: CommonService.getPage('avira-phantom-vpn') ? CommonService.getPage('avira-phantom-vpn').offer : ''
+    }, {
+        name: CommonService.getPage('hotspotshield') ? CommonService.getPage('hotspotshield').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('hotspotshield') ? CommonService.getPage('hotspotshield').score : 0,
+        offer: CommonService.getPage('hotspotshield') ? CommonService.getPage('hotspotshield').offer : ''
+    }, {
+        name: CommonService.getPage('expressvpn') ? CommonService.getPage('expressvpn').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('expressvpn') ? CommonService.getPage('expressvpn').score : 0,
+        offer: CommonService.getPage('expressvpn') ? CommonService.getPage('expressvpn').offer : ''
+    }, {
+        name: CommonService.getPage('mcafee-safe-connect') ? CommonService.getPage('mcafee-safe-connect').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('mcafee-safe-connect') ? CommonService.getPage('mcafee-safe-connect').score : 0,
+        offer: CommonService.getPage('mcafee-safe-connect') ? CommonService.getPage('mcafee-safe-connect').offer : ''
+    }, {
+        name: CommonService.getPage('spyoff') ? CommonService.getPage('spyoff').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('spyoff') ? CommonService.getPage('spyoff').score : 0,
+        offer: CommonService.getPage('spyoff') ? CommonService.getPage('spyoff').offer : ''
+    }, {
+        name: CommonService.getPage('avast') ? CommonService.getPage('avast').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('avast') ? CommonService.getPage('avast').score : 0,
+        offer: CommonService.getPage('avast') ? CommonService.getPage('avast').offer : ''
+    }, {
+        name: CommonService.getPage('nortonwifiprivacy') ? CommonService.getPage('nortonwifiprivacy').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('nortonwifiprivacy') ? CommonService.getPage('nortonwifiprivacy').score : 0,
+        offer: CommonService.getPage('nortonwifiprivacy') ? CommonService.getPage('nortonwifiprivacy').offer : ''
+    }, {
+        name: CommonService.getPage('vyprvpn') ? CommonService.getPage('vyprvpn').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('vyprvpn') ? CommonService.getPage('vyprvpn').score : 0,
+        offer: CommonService.getPage('vyprvpn') ? CommonService.getPage('vyprvpn').offer : ''
     }
 ];
