@@ -207,16 +207,20 @@ export const vpnReviews: Page = {
                 { name: 'TunnelBear', path: 'tunnelbear', score: 8.0, offer: 'https://www.tunnelbear.com' },
                 { name: 'Perimeter81', path: 'perimeter81', score: 7.0, offer: 'https://www.perimeter81.com' },
                 { name: 'AviraPhantomVPN', path: 'aviraphantomvpn', score: 6.9, offer: 'https://www.avira.com' },
+                { name: 'HotspotShieldElite', path: 'hotspotshieldelite', score: 6.7, offer: 'https://www.gethotspotshield.com' },
                 { name: 'ExpressVPN', path: 'expressvpn', score: 6.6, offer: 'https://www.expressvpn.com' },
                 { name: 'McAfeeSafeConnect', path: 'mcafeesafeconnect', score: 6.4, offer: 'https://www.mcafee.hsselite.com' },
+                { name: 'SpyOFF', path: 'spyoff', score: 6.4, offer: 'https://www.shop.spyoff.com' },
                 { name: 'AvastVPN', path: 'avastvpn', score: 6.3, offer: 'https://www.avast.com' },
                 {
                     name: 'NortonWiFiPrivacyVPN', path: 'nortonwifiprivacyvpn', score: 6.1,
                     offer: 'http://buy-static.norton.com/norton/ps/bb/wifi/tabs_nwp_us_en_nbnf.html'
                 },
+                { name: 'VyprVPN', path: 'vyprvpn', score: 6.1, offer: 'https://www.vyprvpn.com' },
                 { name: 'TigerVPN', path: 'tigervpn', score: 6.0, offer: 'https://www.tigervpn.com' },
                 { name: 'SurfEasy', path: 'surfeasy', score: 5.9, offer: 'https://www.surfeasy.com' },
                 { name: 'HideMe', path: 'hideme', score: 5.7, offer: 'https://www.hide.me' },
+                { name: 'IPVanish', path: 'ipvanish', score: 5.7, offer: 'https://www.ipvanish.me' },
                 { name: 'StrongVPN', path: 'strongvpn', score: 5.6, offer: 'https://www.strongvpn.com' },
                 { name: 'OverPlay', path: 'overplay', score: 5.5, offer: 'https://www.overplay.net' },
                 {
@@ -224,9 +228,32 @@ export const vpnReviews: Page = {
                     offer: 'https://www.privateinternetaccess.com'
                 },
                 {
-                    name: 'IBVPN', path: 'ibvpn', score: 5.3,
+                    name: 'InvisibleBrowsingVPN', path: 'invisiblebrowsingvpn', score: 5.3,
                     offer: 'https://www.ibvpn.com'
-                }
+                },
+                { name: 'GhostPath', path: 'ghostpath', score: 5.1, offer: 'https://www.ghostpath.com' },
+                { name: 'VPNOneClick', path: 'vpnoneclick', score: 5.0, offer: 'https://www.vpnoneclick.com' },
+                { name: 'WiTopia', path: 'witopia', score: 5.0, offer: 'https://www.witopia.com' },
+                { name: 'Barracuda', path: 'barracuda', score: 5.0, offer: 'https://www.barracuda.com' },
+                { name: 'ProXPN', path: 'proxpn', score: 5.0, offer: 'https://www.secure.proxpn.com' },
+                { name: 'VPN4All', path: 'vpn4all', score: 5.0, offer: 'https://www.vpn4all.com' },
+                { name: 'BoxPN', path: 'boxpn', score: 5.0, offer: 'https://www.boxpn.com' },
+                { name: 'TorGuard', path: 'torguard', score: 5.0, offer: 'https://www.torguard.net' },
+                { name: 'IronSocket', path: 'ironsocket', score: 5.0, offer: 'https://www.hmn.ironsocket.com' },
+                { name: 'VPNJack', path: 'vpnjack', score: 5.0, offer: 'https://www.vpnjack.com' },
+                { name: 'VPNTunnel', path: 'vpntunnel', score: 5.0, offer: 'https://www.vpntunnel.com' },
+                { name: 'Juniper', path: 'juniper', score: 5.0, offer: 'https://www.juniper.net' },
+                { name: 'Unblock-US', path: 'unblockus', score: 5.0, offer: 'https://www.unblock-us.com' },
+                { name: 'GoTrusted', path: 'gotrusted', score: 5.0, offer: 'https://www.gotrusted.com' },
+                { name: 'AirVPN', path: 'airvpn', score: 5.0, offer: 'https://www.airvpn.org' },
+                { name: 'MyPrivateNetwork', path: 'myprivatenetwork', score: 5.0, offer: 'https://www.my-private-network.co.uk' },
+                { name: 'BolehVPN', path: 'bolehvpn', score: 5.0, offer: 'https://www.bolehvpn.net' },
+                { name: 'LimeVPN', path: 'limevpn', score: 5.0, offer: 'https://www.limevpn.com' },
+                { name: 'SaferWeb', path: 'saferweb', score: 5.0, offer: 'https://www.saferweb.com' },
+                { name: 'SecureVPN', path: 'securevpn', score: 5.0, offer: 'https://www.securevpn.com' },
+                { name: 'OneVPN', path: 'onevpn', score: 5.0, offer: 'https://www.onevpn.com' },
+                { name: 'GeoSurf', path: 'geosurf', score: 5.0, offer: 'https://www.geosurf.com' },
+                { name: 'BetterNet', path: 'betternet', score: 5.0, offer: 'https://www.betternet.co' },
             ]
         }
     ]
