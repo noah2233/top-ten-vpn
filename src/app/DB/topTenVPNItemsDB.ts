@@ -3,7 +3,7 @@ import { CommonService } from '@services/common.service';
 
 export let topTenVpns: TopTenVPN[] = [
     {
-        name: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').path : '',
+        name: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').path : '',
         mainFeatures: {
             title: 'High-speed streaming, browsing, and gaming with complete security',
             mainFeaturesList: [
@@ -14,8 +14,8 @@ export let topTenVpns: TopTenVPN[] = [
                 '45-day money-back guarantee'
             ]
         },
-        score: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').score : 0,
-        offer: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').offer : ''
+        score: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').score : 0,
+        offer: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').offer : ''
     }, {
         name: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').path : '',
         mainFeatures: {

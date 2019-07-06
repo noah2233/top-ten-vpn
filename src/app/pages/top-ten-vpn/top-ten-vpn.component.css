@@ -145,15 +145,15 @@
     background-position: top center
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service.cyberGhost .vpn-service-header .vpn-service-header-image {
-    background-image: url('/assets/images/vpn-services/desktop/cyberghost.png');
+.read-more-vpn-services ul.vpn-services li.vpn-service.cyber-ghost .vpn-service-header .vpn-service-header-image {
+    background-image: url('/assets/images/vpn-services/desktop/cyber-ghost.png');
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service.nordVPN .vpn-service-header .vpn-service-header-image {
+.read-more-vpn-services ul.vpn-services li.vpn-service.nordvpn .vpn-service-header .vpn-service-header-image {
     background-image: url('/assets/images/vpn-services/desktop/nordvpn.png');
 }
 
-.read-more-vpn-services ul.vpn-services li.vpn-service.privateVPN .vpn-service-header .vpn-service-header-image {
+.read-more-vpn-services ul.vpn-services li.vpn-service.privatevpn .vpn-service-header .vpn-service-header-image {
     background-image: url('/assets/images/vpn-services/desktop/privatevpn.png');
 }
 

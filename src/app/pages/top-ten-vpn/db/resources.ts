@@ -4,8 +4,8 @@ import { CommonService } from '@services/common.service';
 
 export let ReadMoreVPNServices: ReadMoreVPNService[] = [
     {
-        name: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').name : '',
-        link: CommonService.getPage('cyberghost') ? CommonService.getPage('cyberghost').path : '',
+        name: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').name : '',
+        link: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').path : '',
         title: 'CyberGhost - Hide Your IP and Access an Open Internet',
         body: [
             `There’s a lot to say about CyberGhost’s VPN service. For starters, it’s got great speeds
