@@ -31,7 +31,7 @@ export class TopTenVpnComponent implements OnInit {
   }
 
   initTopTenVpns() {
-    this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']);
+    this.topTenVpns = orderBy(topTenVpns, ['score'], ['desc']).slice(0, 10);
   }
 
   initReadMoreVPNServices() {

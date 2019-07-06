@@ -5,6 +5,8 @@ import { TopTenVPN } from '@core/interface';
 import { topTenVpns } from '@DB/topTenVPNItemsDB';
 
 import { CommonService } from '@services/common.service';
+
+import { orderBy } from 'lodash';
 @Component({
   selector: 'top-ranking',
   templateUrl: './top-ranking.component.html',
@@ -20,7 +22,7 @@ export class TopRankingComponent implements OnInit {
   }
 
   initTopReankingItems() {
-    this.topReankingItems = topTenVpns.slice(0, 3);
+    this.topReankingItems = orderBy(topTenVpns, ['score'], ['desc']).slice(0, 3);
   }
 
   getTopReankingItemImage(topReankingItem: TopTenVPN) {
