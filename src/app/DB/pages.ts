@@ -7,12 +7,8 @@ export const bestVpnFor: Page = {
         {
             name: 'Devices/OS',
             pages: [
-                {
-                    name: 'Windows', path: 'best-vpns-for-windows'
-                },
-                {
-                    name: 'Mac', path: 'best-vpns-for-mac'
-                },
+                { name: 'Windows', path: 'best-vpns-for-windows' },
+                { name: 'Mac', path: 'best-vpns-for-mac' },
                 {
                     name: 'Chrome', path: 'best-vpns-for-google-chrome'
                 },
@@ -23,24 +19,19 @@ export const bestVpnFor: Page = {
                     name: 'Android', path: 'best-vpns-for-android'
                 },
                 {
-                    name: 'IPhone',
-                    path: 'best-vpns-for-iphone'
+                    name: 'IPhone', path: 'best-vpns-for-iphone'
                 },
                 {
-                    name: 'Ipad / Tablet',
-                    path: 'best-vpns-for-iPad-or-tablet'
+                    name: 'Ipad / Tablet', path: 'best-vpns-for-iPad-or-tablet'
                 },
                 {
-                    name: 'Apple TV',
-                    path: 'best-vpns-for-apple-tv'
+                    name: 'Apple TV', path: 'best-vpns-for-apple-tv'
                 },
                 {
-                    name: 'Smart TV',
-                    path: 'best-vpns-for-smart-tv'
+                    name: 'Smart TV', path: 'best-vpns-for-smart-tv'
                 },
                 {
-                    name: 'Router',
-                    path: 'best-vpns-for-router'
+                    name: 'Router', path: 'best-vpns-for-router'
                 }
             ]
         },
@@ -48,24 +39,19 @@ export const bestVpnFor: Page = {
             name: 'Countries',
             pages: [
                 {
-                    name: 'China',
-                    path: 'best-vpns-for-china'
+                    name: 'China', path: 'best-vpns-for-china'
                 },
                 {
-                    name: 'Russia',
-                    path: 'best-vpns-for-russia'
+                    name: 'Russia', path: 'best-vpns-for-russia'
                 },
                 {
-                    name: 'UK',
-                    path: 'best-vpns-for-uk'
+                    name: 'UK', path: 'best-vpns-for-uk'
                 },
                 {
-                    name: 'Australia',
-                    path: 'best-vpns-for-australia'
+                    name: 'Australia', path: 'best-vpns-for-australia'
                 },
                 {
-                    name: 'France',
-                    path: 'best-vpns-for-france'
+                    name: 'France', path: 'best-vpns-for-france'
                 },
             ]
         },
@@ -73,32 +59,25 @@ export const bestVpnFor: Page = {
             name: 'Popular Services',
             pages: [
                 {
-                    name: 'Netflix',
-                    path: 'best-vpns-for-netflix'
+                    name: 'Netflix', path: 'best-vpns-for-netflix'
                 },
                 {
-                    name: 'Kodi',
-                    path: 'best-vpns-for-kodi'
+                    name: 'Kodi', path: 'best-vpns-for-kodi'
                 },
                 {
-                    name: 'Amazon Prime',
-                    path: 'best-vpns-for-amazon-prime'
+                    name: 'Amazon Prime', path: 'best-vpns-for-amazon-prime'
                 },
                 {
-                    name: 'Hulu',
-                    path: 'best-vpns-for-hulu'
+                    name: 'Hulu', path: 'best-vpns-for-hulu'
                 },
                 {
-                    name: 'BBC IPlayer',
-                    path: 'best-vpns-for-bbc-iplayer'
+                    name: 'BBC IPlayer', path: 'best-vpns-for-bbc-iplayer'
                 },
                 {
-                    name: 'Fubo TV',
-                    path: 'best-vpns-for-fubotv'
+                    name: 'Fubo TV', path: 'best-vpns-for-fubotv'
                 },
                 {
-                    name: 'Direct TV Now',
-                    path: 'best-vpns-for-directtv-now'
+                    name: 'Direct TV Now', path: 'best-vpns-for-directtv-now'
                 },
             ]
         },
@@ -106,40 +85,31 @@ export const bestVpnFor: Page = {
             name: 'Popular Usage',
             pages: [
                 {
-                    name: 'Online Gaming',
-                    path: 'best-vpns-for-online-gaming'
+                    name: 'Online Gaming', path: 'best-vpns-for-online-gaming'
                 },
                 {
-                    name: 'Streaming',
-                    path: 'best-vpns-for-streaming'
+                    name: 'Streaming', path: 'best-vpns-for-streaming'
                 },
                 {
-                    name: 'Torrenting',
-                    path: 'best-vpns-for-torrenting'
+                    name: 'Torrenting', path: 'best-vpns-for-torrenting'
                 },
                 {
-                    name: 'Sports',
-                    path: 'best-vpns-for-sports'
+                    name: 'Sports', path: 'best-vpns-for-sports'
                 },
                 {
-                    name: 'Facebook',
-                    path: 'best-vpns-for-facebook'
+                    name: 'Facebook', path: 'best-vpns-for-facebook'
                 },
                 {
-                    name: 'Twitter',
-                    path: 'best-vpns-for-twitter'
+                    name: 'Twitter', path: 'best-vpns-for-twitter'
                 },
                 {
-                    name: 'Youtube',
-                    path: 'best-vpns-for-youtube'
+                    name: 'Youtube', path: 'best-vpns-for-youtube'
                 },
                 {
-                    name: 'Telegram',
-                    path: 'best-vpns-for-telegram'
+                    name: 'Telegram', path: 'best-vpns-for-telegram'
                 },
                 {
-                    name: 'Businesses',
-                    path: 'best-vpns-for-businesses'
+                    name: 'Businesses', path: 'best-vpns-for-businesses'
                 }
             ]
         }
