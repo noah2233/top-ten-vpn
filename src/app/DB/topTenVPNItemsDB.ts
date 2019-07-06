@@ -273,5 +273,57 @@ export let topTenVpns: TopTenVPN[] = [
         },
         score: CommonService.getPage('vyprvpn') ? CommonService.getPage('vyprvpn').score : 0,
         offer: CommonService.getPage('vyprvpn') ? CommonService.getPage('vyprvpn').offer : ''
+    }, {
+        name: CommonService.getPage('tigervpn') ? CommonService.getPage('tigervpn').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('tigervpn') ? CommonService.getPage('tigervpn').score : 0,
+        offer: CommonService.getPage('tigervpn') ? CommonService.getPage('tigervpn').offer : ''
+    }, {
+        name: CommonService.getPage('surfeasy') ? CommonService.getPage('surfeasy').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('surfeasy') ? CommonService.getPage('surfeasy').score : 0,
+        offer: CommonService.getPage('surfeasy') ? CommonService.getPage('surfeasy').offer : ''
+    }, {
+        name: CommonService.getPage('private-internet-access') ? CommonService.getPage('private-internet-access').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('private-internet-access') ? CommonService.getPage('private-internet-access').score : 0,
+        offer: CommonService.getPage('private-internet-access') ? CommonService.getPage('private-internet-access').offer : ''
+    }, {
+        name: CommonService.getPage('ibvpn') ? CommonService.getPage('ibvpn').path : '',
+        mainFeatures: {
+            title: 'A simple way to protect your online privacy',
+            mainFeaturesList: [
+                'Unlimited data',
+                'Straightforward mobile app',
+                'Smooth, easy-to-use interface',
+                '2,000+ servers in 140 locations'
+            ]
+        },
+        score: CommonService.getPage('ibvpn') ? CommonService.getPage('ibvpn').score : 0,
+        offer: CommonService.getPage('ibvpn') ? CommonService.getPage('ibvpn').offer : ''
     }
 ];
