@@ -1,9 +1,11 @@
 import { ReadMoreVPNService } from '@core/interface';
 
+import { CommonService } from '@services/common.service';
+
 export let ReadMoreVPNServices: ReadMoreVPNService[] = [
     {
-        name: 'cyberGhost',
-        link: 'https://www.cyberghostvpn.com',
+        name: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').name : '',
+        link: CommonService.getPage('cyber-ghost') ? CommonService.getPage('cyber-ghost').path : '',
         title: 'CyberGhost - Hide Your IP and Access an Open Internet',
         body: [
             `There’s a lot to say about CyberGhost’s VPN service. For starters, it’s got great speeds
@@ -27,8 +29,8 @@ export let ReadMoreVPNServices: ReadMoreVPNService[] = [
         }
     },
     {
-        name: 'nordVPN',
-        link: 'https://www.nordvpn.com',
+        name: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').name : '',
+        link: CommonService.getPage('nordvpn') ? CommonService.getPage('nordvpn').path : '',
         title: 'NordVPN - Complete Privacy Plus Advanced Security',
         body: [
             `NordVPN may not have the number one spot, but it is a very close second. In fact, there
@@ -60,8 +62,8 @@ export let ReadMoreVPNServices: ReadMoreVPNService[] = [
         }
     },
     {
-        name: 'privateVPN',
-        link: 'https://www.privatevpn.com',
+        name: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').name : '',
+        link: CommonService.getPage('privatevpn') ? CommonService.getPage('privatevpn').path : '',
         title: 'PrivateVPN - Unblock Geo-Restricted Content',
         body: [`PrivateVPN is all about keeping your internet behavior open and easy. It's great for
       anonymous torrenting, being very peer-to-peer friendly. PrivateVPN has strong and simple
